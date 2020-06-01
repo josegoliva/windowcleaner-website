@@ -14,20 +14,12 @@
 </head>
 
 <body>
-    <header class="site-header">
-        <h1>RCA Window Cleaner Society</h1>
-        <nav class="site-nav">
-            <a href="/">Home</a>
-            <a href="/references">References</a>
-            <a href="/writing">Writing</a>
-            <a href="/news">News</a>
-            <a href="/about">About</a>
-        </nav>
+    <header class="site-header" markdown="">
+    {% include intro %}
     </header>
     <main class="site-main">
         {{ content | safe }}
     </main>
- 
     <script src="{{'/dist/main.js' | url}}"></script>
 </body>
 

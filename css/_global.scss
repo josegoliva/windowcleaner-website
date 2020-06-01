@@ -6,7 +6,12 @@
     font-weight: inherit;
 }
 
+a {
+    color: inherit;
+}
+
 body {
     padding: 1rem;
-    font-family: sans-serif;
+    font-family: var(--font-text);
+    color: rgb(2, 86, 221);
 }
