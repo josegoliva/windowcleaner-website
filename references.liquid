@@ -2,4 +2,45 @@
 layout: base
 ---
 
-<ul class="references"></ul>
+<header class="section-header">
+    <h2 class="section-title">References</h2>
+    <a href="https://docs.google.com/spreadsheets/d/1-QQNlh1FwsTEmwdYni0hfT4HMzutPspM9pTVR4VDZlE/edit?usp=sharing" class="btn">Add a Reference</a>
+</header>
+
+<section class="references-container">
+    <div class="references-search">
+        <input type="text" class="search" placeholder="Search..." />
+    </div>
+    <table class="references">
+        <thead>
+            <tr>
+                <th><button class='sort' data-sort='reference-title'>Title</button></th>
+                <th><button class='sort' data-sort='reference-date'>Year</button></th>
+                <th><button class='sort' data-sort='reference-location'>Location</button></th>
+                <th><button class='sort' data-sort='reference-name'>Artist</button></th>
+                <th>Link</th>
+                <th>Tags</th>
+            </tr>
+        </thead>
+        <tbody class="list">
+            {% for ref in references %}
+            <tr class="references-row">
+                <td class='reference-title'>{{ref.Title}}</td>
+                <td class='reference-date'>{{ref.Date}}</td>
+                <td class='reference-location'>{{ref.Location}}</td>
+                <td class='reference-name'>{{ref.Name}}</td>
+                <td class='reference'>
+                    <a href="{{ref.Link}}">
+                        {{ref.Link | replace: 'https://', '' | replace: 'http://', '' | replace: 'www.', '' | truncate: 80, '...'}}
+                    </a>
+                </td>
+                <td>
+                    {% for tag in ref.tags %}
+                    <span class="reference-tag">{{tag}}</span>
+                    {% endfor %}
+                </td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</section>

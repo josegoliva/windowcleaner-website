@@ -1,9 +1,19 @@
 .site-header {
-    margin-bottom: 5em;
+    margin-bottom: 1em;
 }
 
 .site-intro {
-    font-size: var(--ms-0);
+    font-size: var(--ms-1);
     letter-spacing: .01em;
-    max-width: 35em;
+}
+
+.section-header {
+    margin-top: 10rem;
+    margin-bottom: 12rem;
+    text-align: center;
+}
+.section-title {
+    font-size: var(--ms-4);
+    font-weight: bold;
+    margin-bottom: 1em;
 }

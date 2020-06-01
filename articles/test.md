@@ -3,6 +3,7 @@ layout: post
 author: Jose Garcia Olivia
 tags: articles
 title: This is where the title goes
+date: 2020-06-01
 ---
 
 

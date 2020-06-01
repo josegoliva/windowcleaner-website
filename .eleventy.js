@@ -44,12 +44,14 @@ module.exports = function (eleventyConfig) {
         return content;
     });
 
-    eleventyConfig.addPassthroughCopy("dist");
+    eleventyConfig.addPassthroughCopy("./dist");
     eleventyConfig.addPassthroughCopy("assets");
     eleventyConfig.addPassthroughCopy("/*.png");
     eleventyConfig.addPassthroughCopy("/*.png");
     eleventyConfig.addPassthroughCopy("/*.xml");
     eleventyConfig.addPassthroughCopy("favicon.ico");
+    
+    eleventyConfig.addWatchTarget("./dist/");
 
     eleventyConfig.addPlugin(pluginSass, {});
 };

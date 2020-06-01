@@ -1,11 +1,52 @@
 .references {
     font-size: var(--ms-0);
+    border: 2px solid var(--blue);
+    border-radius: 2px;
+    width: 100%;
+    td, th {
+        padding: .5em;
+        vertical-align: top;
+    }
+    thead {
+        border-bottom: 1px solid var(--blue);
+    }
+    th {
+        text-align: left;
+    }
+    button {
+        appearance: none;
+        background: none;
+        border: 0;
+        text-decoration: underline;
+        color: blue;
+        cursor: pointer;
+        &:hover {
+            text-decoration: none;
+        }
+    }
 }
 
 .references-row {
-    display: grid;
     grid-template-columns: 15rem 4rem 10rem 1fr 1fr 1fr;
-    border-bottom: 1px solid black;
-    padding-bottom: .5em;
-    margin-bottom: .5em;
+    border-bottom: 1px solid lightgray;
+}
+
+.reference-title {
+    font-weight: bold;
+    min-width: 10em;
+}
+
+.references-search {
+    margin-bottom: 1rem;
+    input {
+        padding: .2em;
+        border-radius: 3px;
+        border: 2px solid var(--blue);
+        font-size: var(--ms-0);
+        &::placeholder {
+            opacity: 1;
+            color: var(--blue);
+        }
+
+    }
 }
