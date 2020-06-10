@@ -1,19 +1,30 @@
 .site-header {
-    margin-bottom: 1em;
+    border: 1px solid var(--blue);
+    border-radius: 1em;
+    margin-bottom: -1px;
+    text-align: center;
+    padding: .5em;
+    font-weight: 500;
+    font-size: var(--ms-0);
+    grid-column: 1 / 13;
+    @include bp(l){
+        grid-column: 1 / 13;
+    }
 }
 
 .site-intro {
-    font-size: var(--ms-1);
     letter-spacing: .01em;
 }
 
 .section-header {
-    margin-top: 10rem;
-    margin-bottom: 12rem;
+    padding-top: 10rem;
+    padding-bottom: 12rem;
     text-align: center;
+    border: 1px solid var(--blue);
+    border-radius: 2em;
 }
+
 .section-title {
     font-size: var(--ms-4);
     font-weight: bold;
-    margin-bottom: 1em;
 }

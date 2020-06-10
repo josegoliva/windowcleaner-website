@@ -1,16 +1,21 @@
 
 @mixin bp($point) {
     @if $point==xl {
-        @media (min-width: 85rem) {
+        @media (min-width: 115rem) {
             @content;
         }
     }
     @if $point==l {
-        @media (min-width: 70rem) {
+        @media (min-width: 95rem) {
             @content;
         }
     }
     @else if $point==m {
+        @media (min-width: 75rem) {
+            @content;
+        }
+    }
+    @else if $point==sm {
         @media (min-width: 45rem) {
             @content;
         }
@@ -23,13 +28,18 @@
     }
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,500;0,700;1,500&display=swap');
-
 :root {
-    --font-text: 'Work Sans', Helvetica, sans-serif;
-    --blue: rgb(29, 6, 236);
-    --ratio: 1.33;
-    --ms-0: 1.18rem;
+    --font-text: 'Untitled Sans', Helvetica, sans-serif;
+    --blue: rgb(245, 37, 0);
+    --black: rgb(0, 0, 0);
+    --ratio: 1.25;
+    --ms-0: 1.15rem;
+    @include bp(s){
+        --ms-0: 1.2rem;
+    }
+    @include bp(m){
+        --ms-0: 1.4rem;
+    }
     --ms--1: calc(var(--ms-0) / var(--ratio));
     --ms-1: calc(var(--ms-0) * var(--ratio));
     --ms-2: calc(var(--ms-1) * var(--ratio));

@@ -15,11 +15,9 @@
 
 <body>
     <header class="site-header" markdown="">
-    {% include intro %}
+        {% include intro %}
     </header>
-    <main class="site-main">
-        {{ content | safe }}
-    </main>
+    {{ content | safe }}
     <script src="{{'/dist/main.js' | url}}"></script>
 </body>
 
