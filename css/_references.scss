@@ -1,6 +1,10 @@
+.references-container {
+    grid-column: 1 / 13;
+    overflow-x: scroll;
+}
 .references {
     font-size: var(--ms-0);
-    border: 2px solid var(--blue);
+    border: 1px solid var(--blue);
     border-radius: 2px;
     width: 100%;
     td, th {
@@ -18,7 +22,7 @@
         background: none;
         border: 0;
         text-decoration: underline;
-        color: blue;
+        color: var(--blue);
         cursor: pointer;
         &:hover {
             text-decoration: none;
@@ -29,6 +33,7 @@
 .references-row {
     grid-template-columns: 15rem 4rem 10rem 1fr 1fr 1fr;
     border-bottom: 1px solid lightgray;
+    line-height: 1.1;
 }
 
 .reference-title {

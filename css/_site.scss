@@ -4,15 +4,17 @@
     margin-bottom: -1px;
     text-align: center;
     padding: .5em;
-    font-weight: 500;
+    font-weight: 600;
     font-size: var(--ms-0);
     grid-column: 1 / 13;
+    background-color: white;
     @include bp(l){
         grid-column: 1 / 13;
     }
 }
 
 .site-intro {
+    line-height: 1.2;
     letter-spacing: .01em;
 }
 
@@ -22,6 +24,7 @@
     text-align: center;
     border: 1px solid var(--blue);
     border-radius: 2em;
+    grid-column: 1 / 13;
 }
 
 .section-title {
