@@ -5,18 +5,19 @@ layout: base
 <article class="post">
     <header class="post-header">
         <h2 class="post-title">{{title}}</h2>
-        {% if intro %}
-        <p class="post-intro">{{intro}}</p>
-        {% endif %}
         <ul class="post-meta">
+            <li>{{date | date: "%B %d, %Y"}}</li>
             <li>
                 Words by {% include author with author %}
             </li>
-            <li>{{date | date: "%B %d, %Y"}}</li>
             <li>{% for tag in tags %}<a href="/tags/{{tag | slug}}/" class='tag'>#{{tag}}</a>{% endfor %}</li>
         </ul>
     </header>
     <main class="post-content">
+        {% if intro %}
+        <p class="post-intro">{{intro}}</p>
+        {% endif %}
+
         {{ content | safe }}
     </main>
     <footer class="post-footnotes">

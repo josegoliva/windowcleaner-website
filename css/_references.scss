@@ -3,6 +3,7 @@
     overflow-x: scroll;
 }
 .references {
+    grid-column: 1 / 13;
     font-size: var(--ms--1);
     border: 1px solid var(--black);
     border-radius: 2px;

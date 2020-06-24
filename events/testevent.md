@@ -2,17 +2,19 @@
 layout: post
 author: jose-olivia
 tags:
-    - articles
+    - events
     - labour
     - performance
-title: Latinos are Very Serviceable, and People Here Like That.
+title: This is a test event.
 intro: When I came to the RCA, what I realised is that the first contact I had with people from South America in London were the cleaners working at the College (Julian, Jorge and Diego from Colombia – and Javier from Bolivia)
 date: 2020-06-01
 ---
 
 To give a bit of context: My name is Jose Garcia Olivia, and I was born in Caracas, Venezuela. When I came to the RCA, what I realised is that the first contact I had with people from South America in London were the cleaners working at the College (Julian, Jorge and Diego from Colombia – and Javier from Bolivia).
 
-The first thing I thought was, why are they all South American? Isn't this another portrait of post-colonialism in front of us? South Americans cleaning, Africans guarding, Europeans teaching. I started talking to one of them for hours about types of South American dishes (mainly arguing if arepas are Colombian or Venezuelan), gossiping about people passing by, migration policies, EU settlement, Brexit and so on. Between those conversations, I asked Javier – why do you think you are all from South America? He said: Latinos are very serviceable, and people here like that. Since I heard that answer, I felt ashes of colonialism. One of them said, “Latinos are proud to be working, even in a hole”.The problem is that a hole will allow them to bury you, and after the hole is covered up, everyone can ![asd](/assets/lacleaning.jpg) step on you.
+The first thing I thought was, why are they all South American? Isn't this another portrait of post-colonialism in front of us? South Americans cleaning, Africans guarding, Europeans teaching. I started talking to one of them for hours about types of South American dishes (mainly arguing if arepas are Colombian or Venezuelan), gossiping about people passing by, migration policies, EU settlement, Brexit and so on. Between those conversations, I asked Javier – why do you think you are all from South America? He said: Latinos are very serviceable, and people here like that. Since I heard that answer, I felt ashes of colonialism. One of them said, “Latinos are proud to be working, even in a hole”.The problem is that a hole will allow them to bury you, and after the hole is covered up, everyone can step on you.
+
+{% fig "/assets/lacleaning.jpg" "Caption goes here" %}
 
 In another conversation with Jorge, he said, “Latinos bow their heads a lot, and when people look at us like that, they begin to abuse us.” It’s a side effect of long-term feelings of inferiority, imposed on us by the ones who are and have been served. “The past is never dead; it’s not even past,” William Faulkner said once. Unconsciously, Latinos are still carrying an old astonishment by the conquerors, and the conquerors have an instinctive and errant mistrust of our capabilities. Viciously, these absurd theatricalities still persist, and the obscure the real hierarchy of colonised and coloniser. “The lack of individuality. The first and most serious mutilation suffered by man when they become a wage earner”{% fn "Paz, Octavio: *Labyrinth of Solitude*. (London, 2010) p. 15" %} Octavio Paz said. ‘Latinos are very serviceable’: even if it is an honourable fact, the socio-economic and political context build a camouflaged label that intensifies their invisibility, making them more vulnerable to manipulation. As one of them said to me, “We are willing to do everything”. This neediness sadly opens up a wound for the vultures to gorge themselves upon. One of the many consequences is stopping them from achieving their life goals by consuming their hours with an overload of work. . Many of them would like to learn English, but how are you supposed to study after more than 10 hours of cleaning? And then, how can you find another job if you cannot speak the English required? Suddenly, it becomes a vicious cycle. In a five minute break, Diego told me, “I feel trapped in time, nothing happens, I’m always cleaning the same.”Sisyphus’s punishment – cutting their liberty, time, energy and motivation.
 

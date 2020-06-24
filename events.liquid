@@ -1,3 +1,11 @@
 ---
 layout: base
 ---
+
+<header class="section-header">
+    <h2 class="section-title">Events</h2>
+</header>
+
+{% for post in collections.events %}
+    {% include post-card with post %}
+{% endfor %}

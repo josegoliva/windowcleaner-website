@@ -9,8 +9,10 @@
         </a>
     </td>
     <td>
+        {% if ref.tags[1] %}
         {% for tag in ref.tags %}
-        <span class="reference-tag">#{{tag}}</span>
+            <a href='/tags/{{tag}}' class="reference-tag">#{{tag}}</a>
         {% endfor %}
+        {% endif %}
     </td>
 </tr>

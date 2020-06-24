@@ -11,21 +11,35 @@ layout: base
     <h2 class="section-title">Tag: {{ tag }}</h2>
 </header>
 
-<h2>Articles</h2>
-{% assign ps = collections[tag] %}
-
-{% for post in ps %}
+<section class="archive-section">
+    <h2 class="archive-section-title">Articles</h2>
+    {% assign ps = collections[tag] %}
+    {% for post in ps %}
+    {% if post.data.tags contains "articles" %}
     {% include post-card with post %}
-{% endfor %}
+    {% endif %}
+    {% endfor %}
+</section>
 
-<h2>Events</h2>
-<h2>References</h2>
-<table class="references">
-    <tbody class="list">
-        {% for ref in references %}
+<section class="archive-section">
+    <h2 class="archive-section-title">Events</h2>
+    {% assign ps = collections[tag] %}
+    {% for post in ps %}
+    {% if post.data.tags contains "events" %}
+        {% include post-card with post %}
+    {% endif %}
+    {% endfor %}
+</section>
+
+<section class="archive-section">
+    <h2 class="archive-section-title">References</h2>
+    <table class="references">
+        <tbody class="list">
+            {% for ref in references %}
             {% if ref.tags contains tag %}
-                {% include reference-row with ref %}
+            {% include reference-row with ref %}
             {% endif %}
-        {% endfor %}
-    </tbody>
+            {% endfor %}
+        </tbody>
     </table>
+</section>
