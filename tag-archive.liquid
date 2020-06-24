@@ -1,0 +1,31 @@
+---
+pagination:
+    data: collections
+    size: 1
+    alias: tag
+permalink: "/tags/{{ tag | slug }}/"
+layout: base
+---
+
+<header class="section-header">
+    <h2 class="section-title">Tag: {{ tag }}</h2>
+</header>
+
+<h2>Articles</h2>
+{% assign ps = collections[tag] %}
+
+{% for post in ps %}
+    {% include post-card with post %}
+{% endfor %}
+
+<h2>Events</h2>
+<h2>References</h2>
+<table class="references">
+    <tbody class="list">
+        {% for ref in references %}
+            {% if ref.tags contains tag %}
+                {% include reference-row with ref %}
+            {% endif %}
+        {% endfor %}
+    </tbody>
+    </table>

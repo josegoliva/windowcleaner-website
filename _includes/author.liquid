@@ -1,0 +1,7 @@
+{% for a in author %}
+{% for au in authors %}
+{% if au.id == a %}
+<a href="/author/{{a}}">{{au.name}}</a>
+{% endif %}
+{%endfor%}
+{%endfor%}

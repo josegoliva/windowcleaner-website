@@ -1,0 +1,21 @@
+---
+pagination:
+    data: authors
+    size: 1
+    alias: a
+permalink: "/author/{{ a.id }}/"
+layout: base
+---
+
+<header class="section-header">
+    <h2 class="section-title">Articles by {{ a.name }}</h2>
+    <p class="section-description">{{a.bio}}</p>
+</header>
+
+{% for post in collections.articles %}
+
+{% if post.data.author == a.id %}
+{% include post-card with post %}
+{% endif %}
+
+{% endfor %}

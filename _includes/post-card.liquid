@@ -5,8 +5,7 @@
             {{ post.data.title }}
         </a>    
     </h2>
-    <span class="post-card-author">{{post.data.author}}</span>
+    <span class="post-card-author">{% include author with post.data.author %}</span>
     <p class="post-card-intro">
-        {{post.templateContent | truncatewords: 50, '...'}}
     </p>
 </article>

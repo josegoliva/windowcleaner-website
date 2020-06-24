@@ -10,9 +10,10 @@ layout: base
         {% endif %}
         <ul class="post-meta">
             <li>
-                By {{author}}
+                Words by {% include author with author %}
             </li>
             <li>{{date | date: "%B %d, %Y"}}</li>
+            <li>{% for tag in tags %}<a href="/tags/{{tag | slug}}/" class='tag'>#{{tag}}</a>{% endfor %}</li>
         </ul>
     </header>
     <main class="post-content">
@@ -20,5 +21,19 @@ layout: base
     </main>
     <footer class="post-footnotes">
         <h2>Notes</h2>
+    </footer>
+    <footer class="post-related-references">
+        <h2>Related References</h2>
+        <table class="references">
+        <tbody class="list">
+            {% for ref in references %}
+                {% for tag in tags %}
+                {% if ref.tags contains tag %}
+                    {% include reference-row with ref %}
+                    {% endif %}
+                {% endfor %}
+            {% endfor %}
+        </tbody>
+        </table>
     </footer>
 </article>

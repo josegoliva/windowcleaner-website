@@ -1,33 +1,37 @@
 .site-header {
-    border: 1px solid var(--blue);
-    border-radius: 1em;
-    margin-bottom: -1px;
-    text-align: center;
-    padding: .5em;
-    font-weight: 600;
-    font-size: var(--ms-0);
+    text-align: left;
+    padding: 0em .2em;
+    margin-bottom: 2em;
+    .home & {
+        color: white;
+    }
+    font-weight: 500;
+    font-size: var(--ms-1);
     grid-column: 1 / 13;
-    background-color: white;
     @include bp(l){
         grid-column: 1 / 13;
     }
 }
 
 .site-intro {
-    line-height: 1.2;
+    line-height: 1.15;
     letter-spacing: .01em;
 }
 
 .section-header {
-    padding-top: 10rem;
-    padding-bottom: 12rem;
-    text-align: center;
-    border: 1px solid var(--blue);
-    border-radius: 2em;
-    grid-column: 1 / 13;
+    padding: 2rem;
+    padding-top: 6rem;
+    grid-column: 1 / 10;
+    color: var(--red);
+    background-color: rgb(250, 245, 241);
 }
 
 .section-title {
     font-size: var(--ms-4);
     font-weight: bold;
+}
+.section-description {
+    font-size: var(--ms-1);
+    line-height: 1.15;
+    max-width: 30em;
 }

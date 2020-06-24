@@ -5,8 +5,6 @@ const markdownIt = require("markdown-it");
 const md = new markdownIt();
 
 module.exports = function (eleventyConfig) {
-
-
     eleventyConfig.addShortcode("fig", function (url, caption) {
         return (
             `<figure>
@@ -50,7 +48,7 @@ module.exports = function (eleventyConfig) {
     eleventyConfig.addPassthroughCopy("/*.png");
     eleventyConfig.addPassthroughCopy("/*.xml");
     eleventyConfig.addPassthroughCopy("favicon.ico");
-    
+
     eleventyConfig.addWatchTarget("./dist/");
 
     eleventyConfig.addPlugin(pluginSass, {});

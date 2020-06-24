@@ -1,8 +1,11 @@
 ---
 layout: post
-author: Jose Garcia Olivia
-tags: articles
-title: This is where the title goes
+author: jose-olivia
+tags:
+    - articles
+    - labour
+    - performance
+title: Latinos are Very Serviceable, and People Here Like That.
 intro: When I came to the RCA, what I realised is that the first contact I had with people from South America in London were the cleaners working at the College (Julian, Jorge and Diego from Colombia – and Javier from Bolivia)
 date: 2020-06-01
 ---

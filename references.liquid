@@ -24,22 +24,7 @@ layout: base
         </thead>
         <tbody class="list">
             {% for ref in references %}
-            <tr class="references-row">
-                <td class='reference-title'>{{ref.Title}}</td>
-                <td class='reference-date'>{{ref.Date}}</td>
-                <td class='reference-location'>{{ref.Location}}</td>
-                <td class='reference-name'>{{ref.Name}}</td>
-                <td class='reference'>
-                    <a href="{{ref.Link}}">
-                        {{ref.Link | replace: 'https://', '' | replace: 'http://', '' | replace: 'www.', '' | truncate: 80, '...'}}
-                    </a>
-                </td>
-                <td>
-                    {% for tag in ref.tags %}
-                    <span class="reference-tag">{{tag}}</span>
-                    {% endfor %}
-                </td>
-            </tr>
+                {% include reference-row with ref %}
             {% endfor %}
         </tbody>
     </table>
