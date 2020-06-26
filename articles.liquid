@@ -6,6 +6,8 @@ layout: base
     <h2 class="section-title">Writing</h2>
 </header>
 
-{% for post in collections.articles %}
+<main class="post-list">
+    {% for post in collections.articles %}
     {% include post-card with post %}
-{% endfor %}
+    {% endfor %}
+</main>

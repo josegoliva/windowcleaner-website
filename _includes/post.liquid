@@ -1,9 +1,11 @@
 ---
 layout: base
 ---
-
 <article class="post">
     <header class="post-header">
+        {% if thumb %}
+        <img class='post-thumb' src="{{thumb}}" alt="">
+        {% endif %}
         <h2 class="post-title">{{title}}</h2>
         <ul class="post-meta">
             <li>{{date | date: "%B %d, %Y"}}</li>
@@ -21,20 +23,29 @@ layout: base
         {{ content | safe }}
     </main>
     <footer class="post-footnotes">
-        <h2>Notes</h2>
     </footer>
-    <footer class="post-related-references">
+    <footer class="post-related-references references-container">
         <h2>Related References</h2>
         <table class="references">
-        <tbody class="list">
-            {% for ref in references %}
+            <thead>
+                <tr>
+                    <th><button class='sort' data-sort='reference-title'>Title</button></th>
+                    <th><button class='sort' data-sort='reference-date'>Year</button></th>
+                    <th><button class='sort' data-sort='reference-location'>Location</button></th>
+                    <th><button class='sort' data-sort='reference-name'>Artist</button></th>
+                    <th>Link</th>
+                    <th>Tags</th>
+                </tr>
+            </thead>
+            <tbody class="list">
+                {% for ref in references %}
                 {% for tag in tags %}
                 {% if ref.tags contains tag %}
-                    {% include reference-row with ref %}
-                    {% endif %}
+                {% include reference-row with ref %}
+                {% endif %}
                 {% endfor %}
-            {% endfor %}
-        </tbody>
+                {% endfor %}
+            </tbody>
         </table>
     </footer>
 </article>

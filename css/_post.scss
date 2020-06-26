@@ -1,13 +1,42 @@
 .post-card {
-    grid-column: span 12;
+    padding: 2rem;
+    border: 1px solid var(--red);
+    border-left: 10px solid var(--red);
+    margin-bottom: 1rem;
 }
 
+.post-card-meta {
+    font-size: var(--ms--1);
+    color: var(--red);
+    font-weight: bold;
+    justify-content: space-between;
+    a {
+        text-decoration: none;
+    }
+}
+
+.post-list {
+    padding-top: 10vh;
+    grid-column: 1 / 13;
+}
+
+.post-card-thumb {
+    width: 100%;
+}
+.post-card-intro {
+    color: var(--red);
+    max-width: 30em;
+    font-size: var(--ms-0);
+    line-height: 1.1;
+}
 .post-card-title {
-    font-size: var(--ms-6);
+    color: var(--red);
+    font-size: var(--ms-4);
     text-decoration: none;
     font-weight: 600;
-    margin-bottom: .5em;
+    margin-bottom: .25em;
     line-height: 1;
+    max-width: 15em;
     letter-spacing: -.02em;
     a {
         text-decoration: none;
@@ -18,27 +47,23 @@
     display: contents;
 }
 
-.post-header {
-    grid-column: 1 / 13;
-    padding: 6rem 2em;
-    text-align: center;
-    margin-bottom: 2rem;
-    display: flex;
-    flex-flow: column;
-    justify-content: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    grid-row: 1 / 2;
-}
-
 .post-title {
     color: black;
-    font-size: 10vw;
-    font-weight: 400;
+    font-size: var(--ms-5);
+    font-weight: 600;
     line-height: .9;
-    letter-spacing: -.04em;
+    letter-spacing: -.01em;
 }
 
+.post-header {
+    grid-column: 2 / 12;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
+
+.post-thumb {
+    max-height: 20vh;
+}
 
 .post-intro {
     line-height: 1.2;
@@ -62,6 +87,7 @@
     letter-spacing: .01em;
     font-weight: 500;
     line-height: 1.28;
+    padding-top: 2em;
 
     p {
         margin-bottom: .8em;
@@ -114,13 +140,15 @@
 .post-footnotes {
     color: var(--red);
     grid-column: 1 / 13;
+    font-size: var(--ms-0);
+
     
     @include bp(sm) {
         grid-column: 2 / 11;
     }
 
     @include bp(m) {
-        grid-column: 3 / 10;
+        grid-column: 2 / 8;
     }
     @include bp(l) {
         grid-column: 4 / 6;
@@ -135,12 +163,6 @@
     ol {
         padding-left: 1em;
         counter-reset: li;
-        @include bp(m) {
-            columns: 2;
-        }
-        @include bp(l) {
-            columns: 1;
-        }
     }
 
     a {
@@ -151,7 +173,6 @@
         display: inline-block;
         list-style: none;
         line-height: 1.15;
-        font-size: var(--ms--1);
         counter-increment: li;
         position: relative;
         margin-bottom: .5em;
@@ -166,7 +187,6 @@
 
 .post-meta {
     display: flex;
-    justify-content: center;
     padding-top: 3rem;
     li {
         font-size: var(--ms-0);
@@ -181,7 +201,7 @@
 .post-related-references {
     padding-top: 10rem;
     padding-bottom: 5rem;
-    grid-column: 3 / 11;
+    grid-column: 2 / 12;
     h2 {
         font-size: var(--ms-2);
         margin-bottom: .5em;

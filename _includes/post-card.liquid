@@ -1,11 +1,17 @@
 <article class="post-card">
-    <span class="post-card-date">{{post.data.date | date: "%B %d, %Y"}}</span>
+    <aside class="post-card-meta">
+        <span class="post-card-author">{% include author with post.data.author %}</span>
+        <span class="post-card-date">{{post.data.date | date: "%B %d, %Y"}}</span>
+    </aside>
+    {% if post.data.thumb %}
+    <!--<img class='post-card-thumb' src="{{post.data.thumb}}" alt="">-->
+    {% endif %}
     <h2 class="post-card-title">
         <a href="{{ post.url }}">
             {{ post.data.title }}
         </a>    
     </h2>
-    <span class="post-card-author">{% include author with post.data.author %}</span>
-    <p class="post-card-intro">
+    <p class='post-card-intro'>
+        {{post.data.intro}}
     </p>
 </article>

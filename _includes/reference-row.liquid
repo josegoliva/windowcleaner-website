@@ -1,14 +1,21 @@
 <tr class="references-row">
+    <td aria-hidden class="tags-hidden">
+        {% if ref.tags[1] %}
+        {% for tag in ref.tags %}
+            {{tag}} 
+        {% endfor %}
+        {% endif %}
+    </td>
     <td class='reference-title'>{{ref.Title}}</td>
     <td class='reference-date'>{{ref.Date}}</td>
     <td class='reference-location'>{{ref.Location}}</td>
     <td class='reference-name'>{{ref.Name}}</td>
-    <td class='reference'>
+    <td class='reference-url'>
         <a href="{{ref.Link}}">
             {{ref.Link | replace: 'https://', '' | replace: 'http://', '' | replace: 'www.', '' | truncate: 80, '...'}}
         </a>
     </td>
-    <td>
+    <td class='reference-tags'>
         {% if ref.tags[1] %}
         {% for tag in ref.tags %}
             <a href='/tags/{{tag}}' class="reference-tag">#{{tag}}</a>

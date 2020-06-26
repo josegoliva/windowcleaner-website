@@ -7,7 +7,8 @@ window.addEventListener('DOMContentLoaded', () => {
             'reference-title',
             'reference-date',
             'reference-location',
-            'reference-name'
+            'reference-name',
+            'tags-hidden'
         ]
     };
     let sortableList = new List(referenceList, options);

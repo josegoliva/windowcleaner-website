@@ -6,24 +6,33 @@
     grid-column: 1 / 13;
     font-size: var(--ms--1);
     border: 1px solid var(--black);
-    border-radius: 2px;
     width: 100%;
+    position: relative;
+
+    .tags-hidden {
+        display: none;
+    }
+    
     td, th {
         padding: .5em;
         vertical-align: top;
     }
     thead {
+        border: 2px solid var(--black);
         border-bottom: 2px solid var(--black);
         font-weight: bold;
     }
     th {
+        top: 0;
+        color: white;
+        background: black;
         text-align: left;
     }
     button {
         appearance: none;
         background: none;
         border: 0;
-        color: var(--black);
+        color: inherit;
         cursor: pointer;
         &:hover {
             text-decoration: underline;
@@ -38,6 +47,11 @@
     &:last-of-type {
         border-bottom: 0;
     }
+    a {
+        &:hover, &:focus {
+            text-decoration: none;
+        }   
+    }
 }
 
 .reference-title {
@@ -46,15 +60,16 @@
 }
 
 .references-search {
-    margin-bottom: 1rem;
     input {
-        padding: .2em;
-        border-radius: 3px;
-        border: 2px solid var(--blue);
-        font-size: var(--ms-0);
+        padding: .5em;
+        width: 100%;
+        border: 1px solid black;
+        border-bottom: 0;
+        font-size: var(--ms--1);
+        font-family: var(--font-text);
         &::placeholder {
             opacity: 1;
-            color: var(--blue);
+            color: gray;
         }
 
     }

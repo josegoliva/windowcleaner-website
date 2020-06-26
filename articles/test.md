@@ -7,7 +7,8 @@ tags:
     - performance
 title: Latinos are Very Serviceable, and People Here Like That.
 intro: When I came to the RCA, what I realised is that the first contact I had with people from South America in London were the cleaners working at the College (Julian, Jorge and Diego from Colombia – and Javier from Bolivia)
-date: 2020-06-01
+date: 2020-03-01
+thumb: /assets/lacleaning.jpg
 ---
 
 To give a bit of context: My name is Jose Garcia Olivia, and I was born in Caracas, Venezuela. When I came to the RCA, what I realised is that the first contact I had with people from South America in London were the cleaners working at the College (Julian, Jorge and Diego from Colombia – and Javier from Bolivia).
