@@ -1,13 +1,11 @@
 .post-card {
     padding: 2rem;
-    border: 1px solid var(--red);
-    border-left: 10px solid var(--red);
+    border-bottom: 1px solid lightgray;
     margin-bottom: 1rem;
 }
 
 .post-card-meta {
     font-size: var(--ms--1);
-    color: var(--red);
     font-weight: bold;
     justify-content: space-between;
     a {
@@ -24,13 +22,11 @@
     width: 100%;
 }
 .post-card-intro {
-    color: var(--red);
     max-width: 30em;
     font-size: var(--ms-0);
     line-height: 1.1;
 }
 .post-card-title {
-    color: var(--red);
     font-size: var(--ms-4);
     text-decoration: none;
     font-weight: 600;
@@ -48,17 +44,19 @@
 }
 
 .post-title {
-    color: black;
-    font-size: var(--ms-5);
+    color: var(--red);
+    font-size: var(--ms-4);
     font-weight: 600;
-    line-height: .9;
+    line-height: 1;
+    max-width: 15em;
     letter-spacing: -.01em;
 }
 
 .post-header {
-    grid-column: 2 / 12;
-    padding-top: 10vh;
+    grid-column: 3 / 11;
+    padding-top: 30vh;
     padding-bottom: 10vh;
+    border-radius: 500px;
 }
 
 .post-thumb {
@@ -141,19 +139,9 @@
     color: var(--red);
     grid-column: 1 / 13;
     font-size: var(--ms-0);
-
     
-    @include bp(sm) {
-        grid-column: 2 / 11;
-    }
-
     @include bp(m) {
-        grid-column: 2 / 8;
-    }
-    @include bp(l) {
-        grid-column: 4 / 6;
-        align-self: flex-end;
-        padding-bottom: 2rem;
+        grid-column: 3 / 8;
     }
     
     h2 {
@@ -187,7 +175,8 @@
 
 .post-meta {
     display: flex;
-    padding-top: 3rem;
+    color: var(--red);
+    padding-top: 1rem;
     li {
         font-size: var(--ms-0);
         list-style: none;
@@ -202,6 +191,9 @@
     padding-top: 10rem;
     padding-bottom: 5rem;
     grid-column: 2 / 12;
+    @include bp(m){
+        grid-column: 3 / 11;
+    }
     h2 {
         font-size: var(--ms-2);
         margin-bottom: .5em;
