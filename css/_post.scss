@@ -1,9 +1,9 @@
 .post-card {
-    padding-bottom: 2rem;
+    padding: 1rem;
     color: var(--red);
-    border-bottom: 1px solid currentColor;
-
-    .events-list & {
+    border: 1px solid currentColor;
+    
+    &.event-card {
         color: var(--blue)
     }
 }
@@ -93,12 +93,14 @@
 
 .post-content {
     grid-column: 1 / 13;
-
+    margin-bottom: 4em;
+    
     @include bp(m) {
         grid-column: 2 / 11;
     }
-
+    
     @include bp(l) {
+        margin-bottom: 0;
         grid-column: 6 / 12;
     }
 
@@ -162,26 +164,26 @@
     }
 }
 
-.post-footnotes {
-    font-weight: bold;
-    grid-column: 1 / 13;
+.post-footer {
+    grid-column: 7 / 11;
     font-size: var(--ms--1);
-    padding-top: 1em;
-    grid-column: 2 / 6;
-
+    line-height: 1.1;
+    letter-spacing: .01em;
+    font-weight: bold;
+    section + section {
+        padding-top: 2rem;
+    }
     @include bp(l) {
+        font-weight: normal;
         grid-column: 3 / 5;
         grid-row: 2 / 3;
         align-self: flex-end;
     }
+}
 
-    h2 {
-        font-weight: 600;
-        margin-bottom: .5em;
-    }
-
+.post-footnotes {
+    font-size: var(--ms--1);
     ol {
-        padding-left: 1em;
         counter-reset: li;
     }
 

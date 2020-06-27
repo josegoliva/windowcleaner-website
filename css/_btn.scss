@@ -1,6 +1,7 @@
 .btn {
-    font-size: var(--ms-0);
-    padding: .5em .8em;
+    font-size: var(--ms--1);
+    padding: .2em .4em;
     text-decoration: none;
     border-radius: 1px;
+    border: 1px solid currentColor;
 }

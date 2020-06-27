@@ -1,19 +1,36 @@
 ---
 layout: base
 ---
+
+{% assign dateFormat = "%B %d %Y, %H:%M"%}
+{% assign df = "%Y%m%dT%H%M00Z"%}
+
 <a class='section-link' href="/events/">Events</a>
-<article class="event">
+<article class="event" data-start="{{event.start}}" data-end="{{event.end}}">
     <header class="post-header">
+        <header class="event-status">
+            <span class="upcoming">Upcoming Event</span>
+            <span class="ongoing">In Progress</span>
+            <span class="past">Past Event</span>
+        </header>
         {% if thumb %}
         <img class='post-thumb' src="{{thumb}}" alt="">
         {% endif %}
         <h2 class="post-title">{{title}}</h2>
+        <span class="event-date">
+            {{event.start | date: dateFormat}}–{{event.end|date:"%H:%M" }}
+            <a class='btn' target='_blank'
+                href="https://calendar.google.com/calendar/r/eventedit?text={{title | url_encode}}&dates={{event.start | date: df}}/{{event.end | date: df}}&details={{content | url_encode}}">Add
+                to Google Calendar</a>
+        </span>
         <ul class="post-meta">
-            <li>{{date | date: "%B %d, %Y"}}</li>
             <li>
-                Words by {% include author with author %}
+                {% for tag in tags %}
+                {% if tag != "events" %}
+                <a href="/tags/{{tag | slug}}/" class='tag'>#{{tag}}</a>
+                {% endif %}
+                {% endfor %}
             </li>
-            <li>{% for tag in tags %}<a href="/tags/{{tag | slug}}/" class='tag'>#{{tag}}</a>{% endfor %}</li>
         </ul>
     </header>
     <main class="post-content">

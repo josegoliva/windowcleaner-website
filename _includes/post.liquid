@@ -13,14 +13,25 @@ layout: base
             <li>
                 Words by {% include author with author %}
             </li>
-            <li>{% for tag in tags %}<a href="/tags/{{tag | slug}}/" class='tag'>#{{tag}}</a>{% endfor %}</li>
+            <li>
+                {% for tag in tags %}
+                {% if tag != "articles" %}
+                <a href="/tags/{{tag | slug}}/" class='tag'>#{{tag}}</a>
+                {% endif %}
+                {% endfor %}
+            </li>
         </ul>
     </header>
     <main class="post-content">
         {{ content | safe }}
     </main>
-    <footer class="post-footnotes">
-    </footer>
+    <aside class="post-footer">
+        <section class="post-bio">
+            {% include bio with author %}
+        </section>
+        <section class="post-footnotes">
+        </section>
+    </aside>
     <footer class="post-related-references references-container">
         <h3>Related References (<a href="/references/">View All</a>)</h2>
         <table class="references">

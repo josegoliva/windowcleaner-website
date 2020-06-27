@@ -1,5 +1,6 @@
 import List from 'list.js';
-import {gra, gri} from './util.js';
+import dayjs from 'dayjs'
+import { gra, gri } from './util.js';
 
 window.addEventListener('DOMContentLoaded', () => {
     const referenceList = document.querySelector(".references-container")
@@ -17,4 +18,21 @@ window.addEventListener('DOMContentLoaded', () => {
         ]
     };
     let sortableList = new List(referenceList, options);
+
+    const events = document.querySelectorAll('.event, .event-card')
+
+    events.forEach(event => {
+        const now = dayjs();
+        const startDate = dayjs(event.getAttribute('data-start'));
+        const endDate = dayjs(event.getAttribute('data-end'));
+        console.log(startDate)
+        if (startDate.isAfter(now)) {
+            event.setAttribute('data-status', 'upcoming')
+        } else if (startDate.isBefore(now) && endDate.isAfter(now)) {
+            event.setAttribute('data-status', 'ongoing')
+        } else {
+            event.setAttribute('data-status', 'past')
+        }
+    })
+
 })

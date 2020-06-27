@@ -2,3 +2,37 @@
     display: contents;
     color: var(--blue);
 }
+
+.event-status {
+    font-size: var(--ms--1);
+    margin-bottom: .5em;
+    span {
+        display: none;
+    }
+
+    [data-status=upcoming] & {
+        .upcoming {
+            display: block;
+        }
+    }
+    [data-status=ongoing] & {
+        .ongoing {
+            display: block;
+        }
+    }
+    [data-status=past] & {
+        .past {
+            display: block;
+        }
+    }
+}
+
+.event-date {
+    font-size: var(--ms-4);
+    .btn {
+        vertical-align: middle;
+        position: relative;
+        margin-left: 1em;
+        top: -.2em;
+    }
+}

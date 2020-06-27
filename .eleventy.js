@@ -3,13 +3,14 @@ const jsdom = require("jsdom");
 const { JSDOM } = jsdom;
 const markdownIt = require("markdown-it");
 const md = new markdownIt();
+const pluginRss = require("@11ty/eleventy-plugin-rss");
 
 module.exports = function (eleventyConfig) {
     eleventyConfig.addShortcode("fig", function (url, caption) {
         return (
             `<figure>
-                <img loading="lazy" src='${url}'/>
-                <figcaption>${md.render(caption)}</figcaption>
+            <img loading="lazy" src='${url}'/>
+            <figcaption>${md.render(caption)}</figcaption>
             </figure>
             `
         );
@@ -51,5 +52,6 @@ module.exports = function (eleventyConfig) {
 
     eleventyConfig.addWatchTarget("./dist/main.js");
 
+    eleventyConfig.addPlugin(pluginRss);
     eleventyConfig.addPlugin(pluginSass, {});
 };

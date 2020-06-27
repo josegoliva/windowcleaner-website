@@ -24,10 +24,10 @@ layout: base
 <section class="archive-section">
     <h2 class="archive-section-title">Events</h2>
     {% assign ps = collections[tag] %}
-    <main class="post-list">
+    <main class="events-list">
         {% for post in ps %}
         {% if post.data.tags contains "events" %}
-        {% include post-card with post %}
+        {% include event-card with post %}
         {% endif %}
         {% endfor %}
     </main>

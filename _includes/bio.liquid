@@ -1,0 +1,7 @@
+{% for a in author %}
+{% for au in authors %}
+{% if au.id == a %}
+{{au.bio}}
+{% endif %}
+{%endfor%}
+{%endfor%}
