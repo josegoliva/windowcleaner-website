@@ -8,14 +8,15 @@ layout: base
 ---
 
 <header class="section-header">
-    <h2 class="section-title">{{ a.name }}</h2>
+    <h2 class="section-title">Author: {{ a.name }}</h2>
     <p class="section-description">{{a.bio}}</p>
 </header>
 
-{% for post in collections.articles %}
+<main class="post-list">
 
-{% if post.data.author == a.id %}
-{% include post-card with post %}
-{% endif %}
-
-{% endfor %}
+    {% for post in collections.articles %}
+    {% if post.data.author == a.id %}
+    {% include post-card with post %}
+    {% endif %}
+    {% endfor %}
+</main>

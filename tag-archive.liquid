@@ -7,39 +7,43 @@ permalink: "/tags/{{ tag | slug }}/"
 layout: base
 ---
 
-<header class="section-header">
-    <h2 class="section-title">Tag: {{ tag }}</h2>
-</header>
+<h2 class="section-link">#{{ tag }}</h2>
 
 <section class="archive-section">
     <h2 class="archive-section-title">Articles</h2>
     {% assign ps = collections[tag] %}
-    {% for post in ps %}
-    {% if post.data.tags contains "articles" %}
-    {% include post-card with post %}
-    {% endif %}
-    {% endfor %}
+    <main class="post-list">
+        {% for post in ps %}
+        {% if post.data.tags contains "articles" %}
+        {% include post-card with post %}
+        {% endif %}
+        {% endfor %}
+    </main>
 </section>
 
 <section class="archive-section">
     <h2 class="archive-section-title">Events</h2>
     {% assign ps = collections[tag] %}
-    {% for post in ps %}
-    {% if post.data.tags contains "events" %}
+    <main class="post-list">
+        {% for post in ps %}
+        {% if post.data.tags contains "events" %}
         {% include post-card with post %}
-    {% endif %}
-    {% endfor %}
+        {% endif %}
+        {% endfor %}
+    </main>
 </section>
 
 <section class="archive-section">
     <h2 class="archive-section-title">References</h2>
-    <table class="references">
-        <tbody class="list">
-            {% for ref in references %}
-            {% if ref.tags contains tag %}
-            {% include reference-row with ref %}
-            {% endif %}
-            {% endfor %}
-        </tbody>
-    </table>
+    <section class="references-container">
+        <table class="references">
+            <tbody class="list">
+                {% for ref in references %}
+                {% if ref.tags contains tag %}
+                {% include reference-row with ref %}
+                {% endif %}
+                {% endfor %}
+            </tbody>
+        </table>
+    </section>
 </section>

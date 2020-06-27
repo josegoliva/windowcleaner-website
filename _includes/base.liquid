@@ -14,10 +14,23 @@
 </head>
 
 <body class='{{class}}'>
+    <img src="/assets/logo.png" alt="" class="site-logo">
     <header class="site-header" markdown="">
         {% include intro %}
     </header>
     {{ content | safe }}
+    <footer class="site-footer">
+        <nav class="footer-nav-primary">
+            <a href='/'>Home</a>
+            <a href='/references/'>References</a>
+            <a href='/writing/'>Writing</a>
+            <a href='/events/'>Events</a>
+        </nav>
+        <nav class="footer-nav-secondary">
+            <a href='/references/'>Instagram</a>
+            <a href='/writing/'>Email Newsletter</a>
+        </nav>
+    </footer>
     <script src="{{'/dist/main.js' | url}}"></script>
 </body>
 

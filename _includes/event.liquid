@@ -1,8 +1,8 @@
 ---
 layout: base
 ---
-<a class='section-link' href="/articles/">Writing</a>
-<article class="post">
+<a class='section-link' href="/events/">Events</a>
+<article class="event">
     <header class="post-header">
         {% if thumb %}
         <img class='post-thumb' src="{{thumb}}" alt="">
@@ -21,8 +21,21 @@ layout: base
     </main>
     <footer class="post-footnotes">
     </footer>
+    <footer class="post-related-posts">
+        <h3>Related Articles (<a href="/articles/">View All</a>)</h3>
+        <main class="post-list">
+            {% for tag in tags %}
+            {% assign ps = collections[tag] %}
+            {% for post in ps %}
+            {% if post.data.tags contains "articles" %}
+            {% include post-card with post %}
+            {% endif %}
+            {% endfor %}
+            {% endfor %}
+        </main>
+    </footer>
     <footer class="post-related-references references-container">
-        <h3>Related References (<a href="/references/">View All</a>)</h2>
+        <h3>Related References (<a href="/references/">View All</a>)</h3>
         <table class="references">
             <thead>
                 <tr>

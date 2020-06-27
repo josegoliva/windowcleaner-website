@@ -8,8 +8,7 @@
         </a>    
     </h2>
     <aside class="post-card-meta">
-        <span class="post-card-author">{% include author with post.data.author %}</span>
-        <span class="post-card-date">{{post.data.date | date: "%B %d, %Y"}}</span>
+        <span class="post-card-date">{{post.data.event.start | date: "%B %d %Y, %H:%M GMT%z"}} – {{post.data.event.end | date: "%B %d %Y, %H:%M GMT%z"}}</span>
         <span>{% for tag in tags %}<a href="/tags/{{tag | slug}}/" class='tag'>#{{tag}}</a>{% endfor %}</span>
     </aside>
 </article>

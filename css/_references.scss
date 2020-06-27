@@ -1,13 +1,16 @@
 .references-container {
     grid-column: 1 / 13;
-    overflow-x: scroll;
+    @include bp(l){
+        grid-column: 5 / 13;
+    }
+    overflow-x: auto;
 }
 .references {
-    grid-column: 1 / 13;
     font-size: var(--ms--1);
-    border: 1px solid var(--black);
     width: 100%;
     position: relative;
+    color: var(--black);
+    border: 1px solid currentColor;
 
     .tags-hidden {
         display: none;
@@ -18,14 +21,12 @@
         vertical-align: top;
     }
     thead {
-        border: 2px solid var(--black);
-        border-bottom: 2px solid var(--black);
         font-weight: bold;
     }
     th {
         top: 0;
         color: white;
-        background: black;
+        background: var(--black);
         text-align: left;
     }
     button {
@@ -63,13 +64,14 @@
     input {
         padding: .5em;
         width: 100%;
-        border: 1px solid black;
+        border: 1px solid var(--black);
+        background: transparent;
         border-bottom: 0;
         font-size: var(--ms--1);
         font-family: var(--font-text);
         &::placeholder {
-            opacity: 1;
-            color: gray;
+            opacity: .8;
+            color: var(--black);
         }
 
     }

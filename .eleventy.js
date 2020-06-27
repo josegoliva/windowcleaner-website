@@ -49,7 +49,7 @@ module.exports = function (eleventyConfig) {
     eleventyConfig.addPassthroughCopy("/*.xml");
     eleventyConfig.addPassthroughCopy("favicon.ico");
 
-    eleventyConfig.addWatchTarget("./dist/");
+    eleventyConfig.addWatchTarget("./dist/main.js");
 
     eleventyConfig.addPlugin(pluginSass, {});
 };
