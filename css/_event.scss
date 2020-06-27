@@ -5,9 +5,18 @@
 
 .event-status {
     font-size: var(--ms--1);
-    margin-bottom: .5em;
+    margin-bottom: 1em;
     span {
         display: none;
+    }
+    svg {
+        vertical-align: middle;
+        position: relative;
+        top: -.1em;
+        margin-right: .2em;
+    }
+    circle {
+        fill: var(--blue)
     }
 
     [data-status=upcoming] & {
@@ -26,7 +35,6 @@
         }
     }
 }
-
 .event-date {
     font-size: var(--ms-4);
     .btn {

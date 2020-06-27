@@ -8,11 +8,7 @@ layout: base
 <a class='section-link' href="/events/">Events</a>
 <article class="event" data-start="{{event.start}}" data-end="{{event.end}}">
     <header class="post-header">
-        <header class="event-status">
-            <span class="upcoming">Upcoming Event</span>
-            <span class="ongoing">In Progress</span>
-            <span class="past">Past Event</span>
-        </header>
+        {% include event-status %}
         {% if thumb %}
         <img class='post-thumb' src="{{thumb}}" alt="">
         {% endif %}

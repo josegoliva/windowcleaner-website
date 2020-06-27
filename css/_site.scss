@@ -23,8 +23,6 @@
     hyphens: auto;
     margin-bottom: 5rem;
     em {
-        font-style: normal;
-        text-transform: uppercase;
     }
     a {
         text-decoration: underline;
@@ -40,12 +38,12 @@
         font-size: var(--ms--1);
         grid-column: 1 / 3;
     }
-    font-weight: 600;
 }
 
 .site-intro {
     line-height: 1;
     letter-spacing: .01em;
+    font-weight: 600;
     p + p {
         text-indent: 2em;
     }

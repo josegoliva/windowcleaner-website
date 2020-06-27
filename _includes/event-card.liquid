@@ -1,16 +1,12 @@
 <article class="post-card event-card" data-start="{{post.data.event.start}}" data-end="{{post.data.event.end}}">
-    <header class="event-status">
-        <span class="upcoming">Upcoming</span>
-        <span class="ongoing">In Progress</span>
-        <span class="past">Past</span>
-    </header>
+    {% include event-status %}
     {% if post.data.thumb %}
     <img class='post-card-thumb' src="{{post.data.thumb}}" alt="">
     {% endif %}
     <h2 class="post-card-title">
         <a href="{{ post.url }}">
             {{ post.data.title }}
-        </a>    
+        </a>
     </h2>
     <aside class="post-card-meta">
         {% assign dateFormat = "%B %d %Y, %H:%M"%}
