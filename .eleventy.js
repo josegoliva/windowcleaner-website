@@ -17,8 +17,10 @@ module.exports = function (eleventyConfig) {
     });
 
     eleventyConfig.addShortcode("fn", function (content) {
-        return (`<span class="fn" data-content="${content}"></span>`
-        );
+        return (`
+            <span class="fn" data-content='${md.render(content)}'>
+            </span>
+        `);
     });
 
     eleventyConfig.addTransform("resolveFootnotes", function (content, outputPath) {
@@ -32,7 +34,7 @@ module.exports = function (eleventyConfig) {
                 footnotes.forEach((fn, i) => {
                     const fnItem = dom.window.document.createElement('li')
                     fn.textContent = i + 1
-                    fnItem.innerHTML = md.render(fn.getAttribute('data-content'))
+                    fnItem.innerHTML = fn.getAttribute('data-content')
                     footnoteList.appendChild(fnItem)
                 })
                 footnoteContainer.appendChild(footnoteList)

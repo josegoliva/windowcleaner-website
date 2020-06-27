@@ -2,7 +2,7 @@
     padding: 1rem;
     color: var(--red);
     border: 1px solid currentColor;
-    
+
     &.event-card {
         color: var(--blue)
     }
@@ -11,14 +11,20 @@
 .post-card-meta {
     font-size: var(--ms--1);
     margin-top: 1em;
+
     span {
         margin-right: 1em;
     }
-    
+
     a {
         margin-right: .2em;
         text-decoration: none;
         text-decoration: underline;
+
+        &:hover,
+        &:focus {
+            text-decoration: none;
+        }
     }
 }
 
@@ -40,12 +46,6 @@
     max-width: 35em;
 }
 
-.section-link {
-    font-size: var(--ms--1);
-    font-weight: 600;
-    line-height: 1;
-}
-
 .post-card-title {
     font-size: var(--ms-5);
     text-decoration: none;
@@ -55,6 +55,11 @@
 
     a {
         text-decoration: none;
+
+        &:hover,
+        &:focus {
+            text-decoration: underline;
+        }
     }
 }
 
@@ -91,14 +96,42 @@
     font-weight: 400;
 }
 
+.fn-modal {
+    background: white;
+    position: fixed;
+    line-height: 1.1;
+    hyphens: auto;
+    width: 18em;
+    padding: .5rem;
+    cursor: pointer;
+    color: var(--red);
+    font-weight: 500;
+    border: 1px solid var(--red);
+    font-size: var(--ms-0);
+    transform: translateX(-50%) translateY(-50%);
+    opacity: 0;
+    transition: opacity 200ms;
+    pointer-events: none;
+    a {
+        &:hover, &:focus {
+            text-decoration: none;
+        }
+    }
+    &.active {
+        pointer-events: all;
+        transform: translateX(-50%) translateY(-50%);
+        opacity: 1;
+    }
+}
+
 .post-content {
     grid-column: 1 / 13;
     margin-bottom: 4em;
-    
+
     @include bp(m) {
         grid-column: 2 / 11;
     }
-    
+
     @include bp(l) {
         margin-bottom: 0;
         grid-column: 6 / 12;
@@ -125,14 +158,17 @@
     .fn {
         font-weight: bold;
         font-size: var(--ms--1);
+        background: var(--red);
+        color: white;
+        display: inline-block;
+        text-indent: 0;
+        padding: .1em .3em;
+        border-radius: 1px;
+        vertical-align: middle;
+        line-height: 1;
+        font-feature-settings: "tnum";
+        cursor: pointer;
 
-        &:before {
-            content: "[";
-        }
-
-        &:after {
-            content: "]";
-        }
     }
 
     blockquote {
@@ -170,9 +206,11 @@
     line-height: 1.1;
     letter-spacing: .01em;
     font-weight: bold;
-    section + section {
+
+    section+section {
         padding-top: 2rem;
     }
+
     @include bp(l) {
         font-weight: normal;
         grid-column: 3 / 5;
@@ -183,6 +221,7 @@
 
 .post-footnotes {
     font-size: var(--ms--1);
+
     ol {
         counter-reset: li;
     }
@@ -219,6 +258,14 @@
 
     .tag {
         margin-right: .2em;
+    }
+
+    a {
+
+        &:hover,
+        &:focus {
+            text-decoration: none;
+        }
     }
 }
 

@@ -1,7 +1,8 @@
 {% for a in author %}
 {% for au in authors %}
 {% if au.id == a %}
-{{au.bio}}
+{% capture nameLink %}<a href='/author/{{au.id}}/'>{{au.name}}</a>{% endcapture %}
+{{ au.bio | replace: au.name, nameLink }}
 {% endif %}
 {%endfor%}
 {%endfor%}
