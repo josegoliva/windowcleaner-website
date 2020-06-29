@@ -6,7 +6,9 @@ const md = new markdownIt();
 const pluginRss = require("@11ty/eleventy-plugin-rss");
 
 module.exports = function (eleventyConfig) {
-    eleventyConfig.addShortcode("fig", function (url, caption) {
+
+    eleventyConfig.addShortcode("bigImage", function (url, caption) {
+        if (!caption) { caption = '' }
         return (
             `<figure>
             <img loading="lazy" src='${url}'/>
@@ -16,7 +18,18 @@ module.exports = function (eleventyConfig) {
         );
     });
 
-    eleventyConfig.addShortcode("fn", function (content) {
+    eleventyConfig.addShortcode("inlineImage", function (url, caption) {
+        if (!caption) { caption = '' }
+        return (
+            `<figure class='inlineImage'>
+            <img loading="lazy" src='${url}'/>
+            <figcaption>${md.render(caption)}</figcaption>
+            </figure>
+            `
+        );
+    });
+
+    eleventyConfig.addShortcode("footnote", function (content) {
         return (`
             <span class="fn" data-content='${md.render(content)}'>
             </span>
