@@ -112,9 +112,9 @@
     padding: .5rem;
     cursor: pointer;
     color: var(--red);
-    font-weight: 500;
+    font-weight: 600;
     border: 1px solid var(--red);
-    font-size: var(--ms-0);
+    font-size: var(--ms--1);
     transform: translateX(-50%) translateY(-50%);
     opacity: 0;
     transition: opacity 200ms;

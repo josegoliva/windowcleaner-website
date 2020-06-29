@@ -7,6 +7,7 @@ window.addEventListener('DOMContentLoaded', () => {
     const logo = document.querySelector(".site-logo")
     logo.style.left = `${gri(0, 30)}%`
     logo.style.top = `${gri(30, 80)}%`
+    logo.setAttribute('src', `/assets/logo-${gri(0,3)}.png`)
     const options = {
 
         valueNames: [
