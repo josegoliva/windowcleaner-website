@@ -2,7 +2,6 @@
 layout: event
 author: jose-olivia
 tags:
-    - events
     - labour
 title: This is a test event
 date: 2020-06-01

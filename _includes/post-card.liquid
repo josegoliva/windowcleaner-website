@@ -12,9 +12,7 @@
         <span class="post-card-date">{{post.data.date | date: "%B %d, %Y"}}</span>
         <span>
             {% for tag in post.data.tags %}
-            {% if tag != "articles" %}
             <a href="/tags/{{tag | slug}}/" class='tag'>#{{tag}}</a>
-            {% endif %}
             {% endfor %}</span>
     </aside>
 </article>

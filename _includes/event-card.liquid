@@ -13,6 +13,8 @@
         <span class="post-card-date">
             {{post.data.event.start | date: dateFormat}} – {{post.data.event.end | date: dateFormat }}
         </span>
-        <span>{% for tag in tags %}<a href="/tags/{{tag | slug}}/" class='tag'>#{{tag}}</a>{% endfor %}</span>
+        <span>{% for tag in post.data.tags %}
+            <a href="/tags/{{tag | slug}}/" class='tag'>#{{tag}}</a>
+            {% endfor %}</span>
     </aside>
 </article>

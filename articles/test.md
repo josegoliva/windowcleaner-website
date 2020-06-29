@@ -2,10 +2,9 @@
 layout: post
 author: jose-olivia
 tags:
-    - articles
     - labour
     - performance
-    - something
+    - intervention
 title: Latinos are Very Serviceable, and People Here Like That.
 date: 2020-03-01
 ---

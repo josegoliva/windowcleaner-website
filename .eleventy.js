@@ -1,12 +1,13 @@
+const fs = require('fs')
 const pluginSass = require("eleventy-plugin-sass");
 const jsdom = require("jsdom");
 const { JSDOM } = jsdom;
 const markdownIt = require("markdown-it");
 const md = new markdownIt();
 const pluginRss = require("@11ty/eleventy-plugin-rss");
+const referenceTags = JSON.parse(fs.readFileSync('./_data/referenceTags.json'))
 
 module.exports = function (eleventyConfig) {
-
     eleventyConfig.addShortcode("bigImage", function (url, caption) {
         if (!caption) { caption = '' }
         return (
@@ -53,6 +54,21 @@ module.exports = function (eleventyConfig) {
         }
         return content;
     });
+
+    eleventyConfig.addCollection("articles", function (collectionApi) {
+        return collectionApi.getFilteredByGlob(["./articles/*.md"]);
+    });
+
+    eleventyConfig.addCollection("events", function (collectionApi) {
+        return collectionApi.getFilteredByGlob(["./events/*.md"]);
+    });
+
+    referenceTags.forEach(t => {
+        eleventyConfig.addCollection(t, function (collectionApi) {
+            return true;
+        });
+    })
+
 
     eleventyConfig.addPassthroughCopy("./dist");
     eleventyConfig.addPassthroughCopy("assets");

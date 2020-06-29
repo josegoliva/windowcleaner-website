@@ -22,9 +22,7 @@ layout: base
         <ul class="post-meta">
             <li>
                 {% for tag in tags %}
-                {% if tag != "events" %}
                 <a href="/tags/{{tag | slug}}/" class='tag'>#{{tag}}</a>
-                {% endif %}
                 {% endfor %}
             </li>
         </ul>

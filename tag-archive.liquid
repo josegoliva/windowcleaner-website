@@ -11,10 +11,10 @@ layout: base
 
 <section class="archive-section">
     <h2 class="archive-section-title">Articles</h2>
-    {% assign ps = collections[tag] %}
+    {% assign ps = collections["articles"] %}
     <main class="post-list">
         {% for post in ps %}
-        {% if post.data.tags contains "articles" %}
+        {% if post.data.tags contains tag %}
         {% include post-card with post %}
         {% endif %}
         {% endfor %}
@@ -23,11 +23,11 @@ layout: base
 
 <section class="archive-section">
     <h2 class="archive-section-title">Events</h2>
-    {% assign ps = collections[tag] %}
+    {% assign ps = collections["events"] %}
     {% assign eventsFound = false %}
     <main class="events-list">
         {% for post in ps %}
-        {% if post.data.tags contains "events" %}
+        {% if post.data.tags contains tag %}
             {% include event-card with post %}
             {% assign eventsFound = true %}
         {% endif %}
