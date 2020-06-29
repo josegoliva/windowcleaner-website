@@ -38,7 +38,6 @@ Articles live in the `/articles` folder. Each article is a text file that looks 
     layout: post
     author: jose-olivia
     tags:
-        - articles
         - labour
         - performance
     title: Latinos are Very Serviceable, and People Here Like That.
@@ -47,7 +46,7 @@ Articles live in the `/articles` folder. Each article is a text file that looks 
     
     *To give a bit of context*: My name is Jose Garcia Olivia, and I was born in Caracas, Venezuela. When I came to the RCA, what I realised is that the first contact I had with people from South America in London were the cleaners working at the College (Julian, Jorge and Diego from Colombia – and Javier from Bolivia)...
 
-Everything between the dashes at the top of the file is meta-information. Note that you have to set `layout: post` for the article to render correctly, and add the special tag `articles` so it shows up in the right places.
+Everything between the dashes at the top of the file is meta-information. Note that you have to set `layout: post` for the article to render correctly.
 
 The main text of the article lives under the meta-information. Here, you can use markdown to apply basic formatting. See [this guide for the syntax](https://guides.github.com/features/mastering-markdown/).
 
