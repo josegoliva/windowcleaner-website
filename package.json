@@ -6,6 +6,7 @@
   "main": "index.js",
   "scripts": {
     "build:fetch": "node getReferences.js",
+    "build:extractTags": "node extractTags.js",
     "build:webpack": "webpack --mode production",
     "build:eleventy": "eleventy",
     "build": "run-s build:*",
