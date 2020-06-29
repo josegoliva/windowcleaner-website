@@ -10,7 +10,7 @@ module.exports = function (eleventyConfig) {
     eleventyConfig.addShortcode("bigImage", function (url, caption) {
         if (!caption) { caption = '' }
         return (
-            `<figure>
+            `<figure class='bigImage'>
             <img loading="lazy" src='${url}'/>
             <figcaption>${md.render(caption)}</figcaption>
             </figure>
@@ -21,11 +21,7 @@ module.exports = function (eleventyConfig) {
     eleventyConfig.addShortcode("inlineImage", function (url, caption) {
         if (!caption) { caption = '' }
         return (
-            `<figure class='inlineImage'>
-            <img loading="lazy" src='${url}'/>
-            <figcaption>${md.render(caption)}</figcaption>
-            </figure>
-            `
+            `<img loading="lazy" data-caption='${md.render(caption)}' class='inline-image' src='${url}'/>`
         );
     });
 

@@ -52,4 +52,22 @@ window.addEventListener('DOMContentLoaded', () => {
         fnModal.classList.remove('active')
     })
 
+    const inlineImages = document.querySelectorAll(".inline-image")
+    const imageModal = document.querySelector(".image-modal")
+
+    inlineImages.forEach(img => {
+        img.addEventListener('mouseover', () => {
+            console.log('hi')
+            imageModal.classList.add('active')
+            const imgEl = imageModal.querySelector('img')
+            const imgCaption = imageModal.querySelector('figcaption')
+            imgEl.setAttribute('src', img.getAttribute('src'))
+            imgCaption.innerHTML = img.getAttribute('data-caption')
+        })
+    })
+
+    imageModal.addEventListener('click', () => {
+        imageModal.classList.remove('active')
+    })
+
 })
