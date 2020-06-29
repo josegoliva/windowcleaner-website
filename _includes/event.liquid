@@ -15,9 +15,9 @@ layout: base
         <h2 class="post-title">{{title}}</h2>
         <span class="event-date">
             {{event.start | date: dateFormat}}–{{event.end|date:"%H:%M" }}
-            <a class='btn' target='_blank'
-                href="https://calendar.google.com/calendar/r/eventedit?text={{title | url_encode}}&dates={{event.start | date: df}}/{{event.end | date: df}}&details={{content | url_encode}}">Add
-                to Google Calendar</a>
+        </span>
+        <span class='addToCalendar'>
+            <a class='btn' target='_blank' href="https://calendar.google.com/calendar/r/eventedit?text={{title | url_encode}}&dates={{event.start | date: df}}/{{event.end | date: df}}&details={{content | url_encode}}">Add to Google Calendar</a>
         </span>
         <ul class="post-meta">
             <li>

@@ -36,7 +36,10 @@
     }
 }
 .event-date {
-    font-size: var(--ms-4);
+    font-size: var(--ms-3);
+    @include bp(xl){
+        font-size: var(--ms-4);
+    }
     .btn {
         vertical-align: middle;
         position: relative;
