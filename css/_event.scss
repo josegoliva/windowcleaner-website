@@ -36,8 +36,11 @@
     }
 }
 .event-date {
-    font-size: var(--ms-4);
-    @include bp(xl){
+    font-size: var(--ms-2);
+    @include bp(m){
+        font-size: var(--ms-4);
+    }
+    @include bp(l){
         font-size: var(--ms-5);
     }
     .btn {

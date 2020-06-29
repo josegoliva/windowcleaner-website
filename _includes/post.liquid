@@ -15,7 +15,7 @@ layout: base
             <li>
                 Words by {% include author with author %}
             </li>
-            <li>
+            <li class='post-tags'>
                 {% for tag in tags %}
                 {% if tag != "articles" %}
                 <a href="/tags/{{tag | slug}}/" class='tag'>#{{tag}}</a>

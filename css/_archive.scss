@@ -1,13 +1,14 @@
 .archive-section {
     grid-column: 1 / 13;
+    margin-bottom: 2em;
     @include bp(l){
         grid-column: 6 / 13;
+        margin-bottom: 4em;
     }
-    margin-bottom: 4em;
 }
 
 .archive-section-title {
-    margin-bottom: 2rem;
+    margin-bottom: 1em;
     width: 100%;
     line-height: 1;
     font-size: var(--ms--1);
