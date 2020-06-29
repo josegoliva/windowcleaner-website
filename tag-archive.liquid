@@ -24,15 +24,23 @@ layout: base
 <section class="archive-section">
     <h2 class="archive-section-title">Events</h2>
     {% assign ps = collections[tag] %}
+    {% assign eventsFound = false %}
     <main class="events-list">
         {% for post in ps %}
         {% if post.data.tags contains "events" %}
-        {% include event-card with post %}
+            {% include event-card with post %}
+            {% assign eventsFound = true %}
         {% endif %}
         {% endfor %}
+        {% if eventsFound == false %}
+            <span class='emptyState'>
+                No events found.
+            </span>
+        {% endif %}
     </main>
 </section>
 
+{% assign referenceFound = false %}
 <section class="archive-section">
     <h2 class="archive-section-title">References</h2>
     <section class="references-container">
@@ -41,9 +49,14 @@ layout: base
                 {% for ref in references %}
                 {% if ref.tags contains tag %}
                 {% include reference-row with ref %}
+                {% assign referenceFound = true %}
                 {% endif %}
                 {% endfor %}
             </tbody>
         </table>
+        {% if referenceFound == false %}
+            <span class="emptyState">No references found.<br>
+                <a class='btn' href="https://docs.google.com/spreadsheets/d/1-QQNlh1FwsTEmwdYni0hfT4HMzutPspM9pTVR4VDZlE/edit?usp=sharing">Add a Reference</a>
+        {% endif %}
     </section>
 </section>

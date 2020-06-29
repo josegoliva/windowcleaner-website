@@ -2,7 +2,7 @@
 
 The website is built with a static site generator, which means that all the pages and content exist as text documents which get processed into HTML pages by a command line program.
 
-This can happen in two ways:
+This can happen in three ways:
 
 - You do it locally on your own machine
 - You push to the github repository, and netlify will notice, run the build for you and publish the new version of the site.

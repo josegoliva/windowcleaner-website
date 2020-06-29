@@ -5,6 +5,7 @@ tags:
     - articles
     - labour
     - performance
+    - something
 title: Latinos are Very Serviceable, and People Here Like That.
 date: 2020-03-01
 ---

@@ -3,5 +3,11 @@
     padding: .2em .4em;
     text-decoration: none;
     border-radius: 1px;
+    font-weight: 400;
+    border-radius: var(--borderRadius);
     border: 1px solid currentColor;
+    display: inline-block;
+    &:focus, &:hover {
+        text-decoration: underline !important;
+    }
 }
