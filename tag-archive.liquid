@@ -12,12 +12,20 @@ layout: base
 <section class="archive-section">
     <h2 class="archive-section-title">Articles</h2>
     {% assign ps = collections["articles"] %}
+    {% assign articleFound = false %}
     <main class="post-list">
         {% for post in ps %}
         {% if post.data.tags contains tag %}
         {% include post-card with post %}
+        {% assign articleFound = true %}
         {% endif %}
         {% endfor %}
+
+        {% if articleFound == false %}
+        <span class='emptyState'>
+            No articles found.
+        </span>
+    {% endif %}
     </main>
 </section>
 
