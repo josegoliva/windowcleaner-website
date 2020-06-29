@@ -10,7 +10,7 @@
     <link rel="shortcut icon" href='{{"/assets/favicon.ico" | url }}'>
     <meta name="theme-color" content="#fcf8d3">
     <link rel="stylesheet" href=" {{'/css/style.css' | url}}">
-
+    <link href="//cdn-images.mailchimp.com/embedcode/slim-10_7.css" rel="stylesheet" type="text/css">
 </head>
 
 <body class='{{class}}'>
@@ -20,15 +20,27 @@
     </header>
     {{ content | safe }}
     <footer class="site-footer">
+<div id="mc_embed_signup" class='site-newsletter'>
+<form action="https://gmail.us18.list-manage.com/subscribe/post?u=03f88b1dffb7e326f3e6a1e0c&amp;id=1f24e5ccd2" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+	<label for="mce-EMAIL">Subscribe to our newsletter</label>
+    <div id="mc_embed_signup_scroll" class='scroll'>
+	<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="you@gmail.com" required>
+    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_03f88b1dffb7e326f3e6a1e0c_1f24e5ccd2" tabindex="-1" value=""></div>
+    <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+    </div>
+</form>
+</div>
+
         <nav class="footer-nav-primary">
             <a href='/'>Home</a>
-            <a href='/references/'>References</a>
-            <a href='/writing/'>Writing</a>
+            <a href='/articles/'>Articles</a>
             <a href='/events/'>Events</a>
+            <a href='/references/'>References</a>
         </nav>
         <nav class="footer-nav-secondary">
-            <a href='/references/'>Instagram</a>
+            <a href='https://www.instagram.com/rcartivism/'>Instagram</a>
             <a href='/writing/'>Email Newsletter</a>
+            © Window Cleaner {{"now" | date: "%Y"}}
         </nav>
     </footer>
     <script src="{{'/dist/main.js' | url}}"></script>
