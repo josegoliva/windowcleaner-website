@@ -40,9 +40,6 @@
     @include bp(m){
         font-size: var(--ms-4);
     }
-    @include bp(l){
-        font-size: var(--ms-5);
-    }
     .btn {
         vertical-align: middle;
         position: relative;
