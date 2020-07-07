@@ -3,7 +3,7 @@ layout: event
 tags:
     - public sphere
     - participatory art
-title: Is This Artivism?
+title: Is this community art?
 date: 2019-10-16
 thumb: /assets/windowcleanerposter_insta.jpg
 event:
