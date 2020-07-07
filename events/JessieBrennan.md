@@ -3,14 +3,14 @@ layout: event
 tags:
     - climate change
     - fashion designer
-title: Is This Artivism? – Laura Krarup & Károly Tendl 
+title: Is This Community Art? – Jessie Brennan
 date: 2019-10-16
-thumb: /assets/windowcleanerposter_2.jpg
+thumb: /assets/JessieBrennan_Artivismsociety.jpg
 event:
-    start: 2019-10-16 18:00:00
-    end:   2019-10-16 20:00:00
+    start: 2019-12-09 15:00:00
+    end:   2019-12-09 17:00:00
 ---
-Two alumni from RCA – one activist and fashion designer, Laura Krarup & artist and writer, Károly Tendl. This lecture was our first event when we tried to bring up the broader question of what does it mean art and activism? We looked at different references from the activist perspective and the contemporary art discourses. At the end of this session, we had an open debate amongst us where we talked about the boundaries of both practices and the intersection ground.  
+Jessie Brennan is an artist based in London where her practice is looking at the liminal space between identity and places. Her work takes shape in a variety of formats such as public interventions, writing, drawing and participatory performance. She explained in this lecture her methodologies, key references and her experience in collaboration thorough working for commissioned projects where the local community were the collaborators. 
 
 
-{% bigImage "/assets/windowcleanerposter.jpg" "designed by Jose Garcia Oliva"%}
+{% bigImage "/assets/JessieBrennan_Artivismsociety.jpg" "poster designed by Jose Garcia Oliva"%}
