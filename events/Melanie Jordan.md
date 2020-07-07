@@ -4,16 +4,14 @@ tags:
     - public sphere
     - participatory art
     - socially engaged art
-title: Is This Artivism? – Dr Melanie Jordan (Freee Art Collective)
-date: 2019-10-16
-thumb: /assets/windowcleanerposter.jpg
+title: Is This Public Sphere? – Dr Melanie Jordan (Freee Art Collective)
+date: 2019-11-20
+thumb: /assets/windowcleanerposter_2.jpg
 event:
-    start: 2019-10-16 18:00:00
-    end:   2019-10-16 20:00:00
+    start: 2019-11-20 18:00:00
+    end:   2019-11-20 20:00:00
 ---
+In this lecture, Dr Melanie Jordan gave us a tour to her experience at working/challenging/agitating public spaces and looking at antagonism as the engine and key tool to create public sphere between participants and to activate dialogue. She clarifies to many of us the differences between the types of public: public realm, public space and public sphere through lens of contemporary art. Melanie is the third part of the trio art collective Freee. She is head of the Contemporary Art Practice (CAP) at the Royal College of Art. 
 
 
-{% bigImage "/assets/windowcleanerposter.jpg" "Poster to promote the event within the RCA"%}
-
-
-Knowing these people’s names and gratefully acknowledging the importance of their work for the well-being of our community, are stepping stones towards inclusiveness. “Don’t forget in doing something for others that you have what you have because of others. Don’t forget that.” Martin Luther King said it one day. To end I would like to clarify that my intention is not to generalise a whole continent. Whenever I reference South America as a whole, it is only to unify the historical similarities of colonialism. I would also especially like to thank Jorge (known as ‘the lawyer of the poorest’ in the London Latin American community) for his history lessons about Colombian migration, Javier for his lesson about positivism, encouragement and more importantly his spectacular sweet-corn arepas recipe, Diego for his humour, and Julian for being a friend.
+{% bigImage "/assets/windowcleanerposter_2.jpg" "designed by Jose Garcia Oliva"%}
