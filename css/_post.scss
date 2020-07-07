@@ -76,10 +76,10 @@
 
 
 .post-title {
-    font-size: var(--ms-3);
+    font-size: var(--ms-4);
     font-weight: 900;
-    line-height: .95;
-    letter-spacing: -.02em;
+    line-height: .9;
+    letter-spacing: -.01em;
     @include bp(l) {
         font-size: var(--ms-5);
     }
