@@ -1,7 +1,7 @@
 ---
 layout: event
 tags:
-    - labour
+    - migration
 title: This is a test event
 date: 2020-06-01
 thumb: /assets/lf.jpeg
