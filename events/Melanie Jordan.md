@@ -6,7 +6,7 @@ tags:
     - socially engaged art
 title: Is This Public Sphere? – Dr Melanie Jordan (Freee Art Collective)
 date: 2019-11-20
-thumb: /assets/windowcleanerposter_2.jpg
+thumb: /assets/windowcleanerposter_2insta.jpg
 event:
     start: 2019-11-20 18:00:00
     end:   2019-11-20 20:00:00
