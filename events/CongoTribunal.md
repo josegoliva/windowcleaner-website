@@ -11,6 +11,6 @@ event:
     end:   2020-01-22 20:00:00
 ---
 
-http://www.the-congo-tribunal.com
+Congo Tribunal
 
 {% bigImage "/assets/windowcleanerposter_MiloRau.jpg" "poster designed by Jose Garcia Oliva"%}
