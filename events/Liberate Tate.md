@@ -3,9 +3,9 @@ layout: event
 tags:
     - climate change
     - fashion designer
-title: Is This Docufiction? – Screening The Congo Tribunal by Milo Rau
+title: Creative Interventions For Social Change – Liberate Tate
 date: 2020-07-18
-thumb: /assets/instafinal2_Luketurner-15.jpg
+thumb: /assets/windowcleanerposter_Liberatetateinsta-07.jpg
 event:
     start: 2020-07-18 18:00:00
     end:   2020-07-18 20:00:00
@@ -13,4 +13,4 @@ event:
 
 
 
-{% bigImage "/assets/windowcleanerposter_Liberatetateinsta-07.jpg" "poster designed by Jose Garcia Oliva"%}
+{% bigImage "/assets/windowcleanerposter_Luketurner-05.jpg" "poster designed by Jose Garcia Oliva"%}

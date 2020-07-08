@@ -5,7 +5,7 @@ tags:
     - fashion designer
 title: Actions Speak Louder – Luke Turner
 date: 2020-07-25
-thumb: /assets/windowcleanerposter_LuketurnerInsta-13.jpg
+thumb: /assets/instafinal2_Luketurner-15.jpg
 event:
     start: 2020-07-25 18:00:00
     end:   2020-07-25 20:00:00
@@ -13,4 +13,4 @@ event:
 
 
 
-{% bigImage "/assets/windowcleanerposter_Luketurner-05.jpg" "poster designed by Jose Garcia Oliva"%}
+{% bigImage "/assets/windowcleanerposter_LuketurnerInsta-13.jpg" "poster designed by Jose Garcia Oliva"%}
