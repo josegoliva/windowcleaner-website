@@ -1,8 +1,10 @@
 ---
 layout: event
 tags:
-    - climate change
-    - fashion designer
+    - community
+    - participation
+    - publichousing
+    - redevelopment
 title: Is This Community Art? – Jessie Brennan
 date: 2019-10-16
 thumb: /assets/JessieBrennan_Artivismsociety.jpg
