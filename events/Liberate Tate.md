@@ -1,8 +1,11 @@
 ---
 layout: event
 tags:
-    - climate change
-    - fashion designer
+    - climatechange
+    - institution
+    - participatory
+    - collective
+    - creativedisobedience
 title: Creative Interventions For Social Change – Liberate Tate
 date: 2020-06-18
 thumb: /assets/windowcleanerposter_Liberatetateinsta-07.jpg

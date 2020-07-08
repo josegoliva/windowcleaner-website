@@ -1,8 +1,8 @@
 ---
 layout: event
 tags:
-    - climate change
-    - fashion designer
+    - climatechange
+    - fashiondesigner
 title: Is This Artivism? – Laura Krarup & Károly Tendl 
 date: 2019-10-16
 thumb: /assets/windowcleanerposter_insta.jpg
