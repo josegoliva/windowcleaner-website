@@ -5,7 +5,7 @@ tags:
     - fashiondesigner
 title: Is This Artivism? – Laura Krarup & Károly Tendl 
 date: 2019-10-16
-thumb: /assets/windowcleanerposter_insta.jpg
+thumb: /assets/
 event:
     start: 2019-10-16 18:00:00
     end:   2019-10-16 20:00:00

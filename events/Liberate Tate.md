@@ -8,7 +8,7 @@ tags:
     - creativedisobedience
 title: Creative Interventions For Social Change – Liberate Tate
 date: 2020-06-18
-thumb: /assets/windowcleanerposter_Liberatetateinsta-07.jpg
+thumb: /assets/
 event:
     start: 2020-06-18 18:00:00
     end:   2020-06-18 20:00:00

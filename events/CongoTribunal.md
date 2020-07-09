@@ -8,7 +8,7 @@ tags:
     - documentary
 title: Is This Docufiction? – Screening The Congo Tribunal by Milo Rau
 date: 2020-01-22
-thumb: /assets/windowcleanerposter_MiloRau_insta-06.jpg
+thumb: /assets/
 event:
     start: 2020-01-22 18:00:00
     end:   2020-01-22 20:00:00
