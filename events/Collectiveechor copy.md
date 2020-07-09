@@ -6,7 +6,7 @@ tags:
     - collaboration
     - musicactivism
     - online
-title: Collective e-Choir – RCA2020 with Tellervo Kalleinen & Oliver Kochta-Kallleinen
+title: Washing the Screen – RCA2020 with Paolo Cirio
 date: 2020-07-30
 thumb: /assets/
 event:
