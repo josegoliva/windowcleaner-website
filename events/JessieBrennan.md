@@ -5,9 +5,9 @@ tags:
     - participation
     - publichousing
     - redevelopment
-title: Jessie Brennan
+title: Is This Community Art? – Jessie Brennan
 date: 2019-10-16
-thumb: /assets/JessieBrennan_Artivismsociety.jpg
+thumb: /assets/
 event:
     start: 2019-12-09 15:00:00
     end:   2019-12-09 17:00:00
