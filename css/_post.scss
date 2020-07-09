@@ -2,6 +2,8 @@
     padding: 1rem;
     color: var(--red);
     border: 1px solid currentColor;
+    margin-bottom: 1rem;
+    border-radius: 2px;
 
     &.event-card {
         color: var(--blue)
