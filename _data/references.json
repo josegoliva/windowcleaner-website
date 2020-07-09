@@ -10,7 +10,8 @@
       "luxuryart",
       "labour",
       "artinstitution",
-      "projection"
+      "projection",
+      "collective"
     ]
   },
   {
@@ -23,7 +24,8 @@
       "artinstitutions",
       "artsponsors",
       "performance",
-      "intervention"
+      "intervention",
+      "collective"
     ]
   },
   {
@@ -33,7 +35,11 @@
     "Name": "Guerrilla Girls",
     "Link": "https://www.guerrillagirls.com/naked-through-the-ages",
     "tags": [
-      ""
+      "feministart",
+      "billboard",
+      "womansright",
+      "advertisingspace",
+      "collective"
     ]
   },
   {
@@ -43,7 +49,13 @@
     "Name": "Gran Fury",
     "Link": "https://www.granfury.org/the-pope-and-the-penis/",
     "tags": [
-      ""
+      "religion",
+      "aids",
+      "billboard",
+      "lgtb",
+      "ads",
+      "advertisingspace",
+      "collective"
     ]
   },
   {
@@ -53,7 +65,11 @@
     "Name": "Group Material",
     "Link": "http://www.dougashford.info/?p=595",
     "tags": [
-      ""
+      "poster",
+      "advertisingspace",
+      "ads",
+      "billboard",
+      "collective"
     ]
   },
   {
@@ -63,7 +79,11 @@
     "Name": "Women's Action Coalition",
     "Link": "https://artsandculture.google.com/asset/women-s-action-coalition-pace-protest-flyer/TwH4BK9rGIv0LQ",
     "tags": [
-      ""
+      "feministart",
+      "womenright",
+      "advertisingspace",
+      "protestart",
+      "collective"
     ]
   },
   {
@@ -73,7 +93,11 @@
     "Name": "Art's Workers Coalition",
     "Link": "https://en.wikipedia.org/wiki/And_babies",
     "tags": [
-      ""
+      "anti-war",
+      "poster",
+      "propagandaart",
+      "photograph",
+      "collective"
     ]
   },
   {
@@ -83,7 +107,10 @@
     "Name": "Rodolfo Aguerreberry, Julio Flores y Guillermo Kexel",
     "Link": "https://www.macba.cat/en/exhibitions-activities/activities/creative-strategies-human-rights-movement-argentina-and-chile",
     "tags": [
-      ""
+      "latino",
+      "publicintervention",
+      "participation",
+      "collective"
     ]
   },
   {
@@ -93,7 +120,10 @@
     "Name": "Gustave Courbet ",
     "Link": "https://www.musee-orsay.fr/en/events/exhibitions/in-the-museums/exhibitions-in-the-musee-dorsay-more/article/courbet-et-la-commune-4001.html?tx_ttnews%5BbackPid%5D=649&cHash=6db55b0211",
     "tags": [
-      ""
+      "pariscommune",
+      "politicalarthistory",
+      "publicintervention",
+      "publicmonument"
     ]
   },
   {
@@ -103,7 +133,10 @@
     "Name": "Public Movement",
     "Link": "http://www.publicmovement.org/old/positions/",
     "tags": [
-      ""
+      "participation",
+      "participatoryperformance",
+      "publicintervention",
+      "collective"
     ]
   },
   {
@@ -113,7 +146,10 @@
     "Name": "Femen",
     "Link": "https://femen.org/2020-2/",
     "tags": [
-      ""
+      "collective",
+      "feministart",
+      "womenright",
+      "protestart"
     ]
   },
   {
@@ -123,7 +159,11 @@
     "Name": "Yes Men ",
     "Link": "https://theyesmen.org/movie/yes-men-2004",
     "tags": [
-      ""
+      "ads",
+      "advertisingspace",
+      "humour",
+      "movingimage",
+      "laughtivism"
     ]
   },
   {
@@ -133,7 +173,10 @@
     "Name": "Jeremy Deller",
     "Link": "https://www.jeremydeller.org/TheBattleOfOrgreave/TheBattleOfOrgreave.php",
     "tags": [
-      ""
+      "reenactment",
+      "participation",
+      "communityart",
+      "participatoryperformance"
     ]
   },
   {
@@ -143,7 +186,10 @@
     "Name": "Voina",
     "Link": "http://www.artnet.com/magazineus/reviews/brown/voina4-29-11_detail.asp?picnum=1",
     "tags": [
-      ""
+      "publicintervention",
+      "performance",
+      "collective",
+      "radicalart"
     ]
   },
   {
@@ -153,7 +199,10 @@
     "Name": "Spy",
     "Link": "http://spy-urbanart.com/work/crisis/",
     "tags": [
-      ""
+      "publicintervention",
+      "installation",
+      "participation",
+      "graffiti"
     ]
   },
   {
@@ -163,7 +212,9 @@
     "Name": "Krzysztof Wodiczko ",
     "Link": "https://www.youtube.com/watch?v=QSsXLHB9Pd8",
     "tags": [
-      ""
+      "homeless",
+      "movingimage",
+      "videoprojection"
     ]
   },
   {
@@ -173,7 +224,8 @@
     "Name": "Boris Hoppek",
     "Link": "http://www.borishoppek.de/exhibition-and-event-listing/this-is-not-a-copy-of-a-church/",
     "tags": [
-      ""
+      "gallerybased",
+      "participation"
     ]
   },
   {
@@ -183,7 +235,9 @@
     "Name": "ChimPom",
     "Link": "http://chimpom.jp/project/mexico.html",
     "tags": [
-      ""
+      "borders",
+      "collective",
+      "usmex"
     ]
   },
   {
@@ -193,7 +247,12 @@
     "Name": "Wafaa Bilal",
     "Link": "https://wafaabilal.com/domestic-tension/",
     "tags": [
-      ""
+      "online",
+      "participation",
+      "movingimage",
+      "anti-war",
+      "internet",
+      "interactivevideo"
     ]
   },
   {
@@ -203,7 +262,9 @@
     "Name": "Marianne Jorgensen ",
     "Link": "https://www.researchgate.net/figure/Pink-M24-Chaffee-Tank-Copyright-permission-granted-by-Marianne-Jorgenson_fig1_324907301",
     "tags": [
-      ""
+      "anti-war",
+      "publicintervention",
+      "publicmonument"
     ]
   },
   {
@@ -213,7 +274,11 @@
     "Name": "Ai Weiwei",
     "Link": "https://www.youtube.com/watch?v=g3dIiVfgt-I",
     "tags": [
-      ""
+      "participation",
+      "identity",
+      "borders",
+      "community",
+      "migration"
     ]
   },
   {
@@ -223,7 +288,10 @@
     "Name": "Jennifer Allora and Guillermo Calzadilla",
     "Link": "https://www.youtube.com/watch?v=U_mvkkx22Fk",
     "tags": [
-      ""
+      "publicintervention",
+      "participatoryperformance",
+      "freedomofspeech",
+      "latino"
     ]
   },
   {
@@ -233,7 +301,11 @@
     "Name": "Francis Alÿs ",
     "Link": "http://francisalys.com/when-faith-moves-mountains/",
     "tags": [
-      ""
+      "participation",
+      "participatoryperformance",
+      "community",
+      "latino",
+      "collaboration"
     ]
   },
   {
@@ -243,7 +315,12 @@
     "Name": "Tania Bruguera ",
     "Link": "http://www.taniabruguera.com/cms/486-0-Immigrant+Movement+International.htm",
     "tags": [
-      ""
+      "socialservice",
+      "community",
+      "arteutil",
+      "immigrant",
+      "migration",
+      "language"
     ]
   },
   {
@@ -253,7 +330,11 @@
     "Name": "Suzanne Lacy",
     "Link": "https://www.suzannelacy.com/the-oakland-projects/",
     "tags": [
-      ""
+      "diversity",
+      "workshop",
+      "community",
+      "publicpolicy",
+      "anti-racism"
     ]
   },
   {
@@ -263,7 +344,10 @@
     "Name": "Pedro Reyes",
     "Link": "http://pedroreyes.net/palasporpistolas.php",
     "tags": [
-      ""
+      "gunshot",
+      "community",
+      "latino",
+      "ecofriendly"
     ]
   },
   {
@@ -273,7 +357,12 @@
     "Name": "Christoph Schlingensief",
     "Link": "https://www.schlingensief.com/projekt_eng.php?id=t033",
     "tags": [
-      ""
+      "racism",
+      "anti-racism",
+      "politicalparty",
+      "refugee",
+      "migration",
+      "immigrant"
     ]
   },
   {
@@ -283,7 +372,13 @@
     "Name": "Mierle Laderman Ukeles",
     "Link": "https://www.nytimes.com/2016/09/22/arts/design/mierle-laderman-ukeles-new-york-city-sanitation-department.html",
     "tags": [
-      ""
+      "maintenance",
+      "sanitation",
+      "labour",
+      "feministart",
+      "mother",
+      "womenright",
+      "cleaning"
     ]
   },
   {
@@ -293,7 +388,10 @@
     "Name": "Rebecca Gomperts ",
     "Link": "https://www.womenonwaves.org",
     "tags": [
-      ""
+      "womenright",
+      "abortion",
+      "socialservice",
+      "borders"
     ]
   },
   {
@@ -303,7 +401,13 @@
     "Name": "Judi Werthein ",
     "Link": "https://www.tate.org.uk/art/artworks/werthein-brinco-t14770",
     "tags": [
-      ""
+      "borders",
+      "usmex",
+      "crossingborders",
+      "migration",
+      "immigrant",
+      "refugee",
+      "latino"
     ]
   },
   {
@@ -313,7 +417,9 @@
     "Name": "Alfredo Jaar",
     "Link": "https://alfredojaar.net/projects/1995/test/",
     "tags": [
-      ""
+      "nationalism",
+      "migration",
+      "borders"
     ]
   },
   {
@@ -323,7 +429,11 @@
     "Name": "Women's Suffrage ",
     "Link": "https://www.britishmuseum.org/collection/object/C_1991-0733-1",
     "tags": [
-      ""
+      "womenright",
+      "feministart",
+      "protestart",
+      "vote",
+      "womenssuffrage"
     ]
   },
   {
@@ -333,7 +443,12 @@
     "Name": "Doris Salcedo",
     "Link": "https://www.museoreinasofia.es/en/exhibitions/doris-salcedo",
     "tags": [
-      ""
+      "refugee",
+      "migration",
+      "immigrant",
+      "crossingborders",
+      "borders",
+      "monument"
     ]
   },
   {
@@ -343,7 +458,10 @@
     "Name": "Freee ",
     "Link": "https://www.freee.org.uk/works/the-economic-function-of-public-art-is-to-increase-the-value-of-private-property/",
     "tags": [
-      ""
+      "publicart",
+      "artmarket",
+      "gentrification",
+      "collective"
     ]
   },
   {
@@ -353,7 +471,10 @@
     "Name": "Postcommodity",
     "Link": "http://postcommodity.com/Repellent_Fence.html",
     "tags": [
-      ""
+      "borders",
+      "latino",
+      "usmex",
+      "crossingborders"
     ]
   },
   {
@@ -363,7 +484,10 @@
     "Name": "Extinction Rebellion's member",
     "Link": "https://hyperallergic.com/528091/extinction-rebellion-sends-a-sinking-home-along-the-river-thames-warning-of-climate-disaster/",
     "tags": [
-      ""
+      "climatechange",
+      "publicintervention",
+      "climateinaction",
+      "flood"
     ]
   },
   {
@@ -373,7 +497,10 @@
     "Name": "Barbara Kruger ",
     "Link": "https://publicdelivery.org/barbara-kruger-art-matters-bus/",
     "tags": [
-      ""
+      "poster",
+      "advertisingspace",
+      "ads",
+      "collective"
     ]
   },
   {
@@ -383,7 +510,10 @@
     "Name": "Max Willinger ",
     "Link": "https://www.tate.org.uk/art/artworks/wallinger-state-britain-t14844",
     "tags": [
-      ""
+      "gallerybased",
+      "documentation",
+      "publicpolicy",
+      "protestart"
     ]
   },
   {
@@ -393,7 +523,11 @@
     "Name": "The Illuminator ",
     "Link": "http://theilluminator.org/what-does-student-debt-mean-to-you/",
     "tags": [
-      ""
+      "videoprojection",
+      "lightintervention",
+      "collective",
+      "projectionintervention",
+      "textbased"
     ]
   },
   {
@@ -403,7 +537,12 @@
     "Name": "Jessie Brennan ",
     "Link": "http://www.jessiebrennan.co.uk/we-are-here",
     "tags": [
-      ""
+      "community",
+      "conversation",
+      "textinstallation",
+      "councilhousing",
+      "redevelopment",
+      "texbased"
     ]
   },
   {
@@ -413,7 +552,12 @@
     "Name": "Banu Cennetoglu",
     "Link": "http://www.list-e.info/liste-londra-liverpool.php?l=en",
     "tags": [
-      ""
+      "migration",
+      "refugee",
+      "crossingborders",
+      "borders",
+      "monument",
+      "intervention"
     ]
   },
   {
@@ -423,7 +567,12 @@
     "Name": "Javier Téllez",
     "Link": "https://www.youtube.com/watch?v=qkbLCBZCvKM",
     "tags": [
-      ""
+      "crossingborders",
+      "borders",
+      "usmex",
+      "community",
+      "mentalhealth",
+      "latino"
     ]
   },
   {
@@ -433,7 +582,300 @@
     "Name": "Hi Red Center",
     "Link": "https://www.moma.org/collection/works/127372?association=associatedworks&locale=ja&page=1&parent_id=196412&sov_referrer=association",
     "tags": [
+      "cleaning",
+      "participatoryperformance",
+      "collective",
       ""
+    ]
+  },
+  {
+    "Title": "Die in at the V&A",
+    "Date": "2019",
+    "Location": "London",
+    "Name": "Nan Goldin ",
+    "Link": "https://www.theguardian.com/artanddesign/2019/nov/16/nan-goldin-die-in-v-and-a--sackler-courtyard-opiods",
+    "tags": [
+      "protestart",
+      "participatoryperformance",
+      "publicintervention",
+      "drugs"
+    ]
+  },
+  {
+    "Title": "Xenon for Bregenz",
+    "Date": "2004",
+    "Location": "New York",
+    "Name": "Jenny Holzer",
+    "Link": "https://nsarchive2.gwu.edu/news/20040617/index.htm",
+    "tags": [
+      "projectionintervention",
+      "textinstallation",
+      "videoprojection",
+      "archive"
+    ]
+  },
+  {
+    "Title": "Fons Americanus",
+    "Date": "2019",
+    "Location": "London",
+    "Name": "Kara Walker",
+    "Link": "https://www.tate.org.uk/art/artists/kara-walker-2674/kara-walkers-fons-americanus",
+    "tags": [
+      "gallerybased",
+      "anti-racism",
+      "slavery",
+      "monument"
+    ]
+  },
+  {
+    "Title": "An Incaculable Loss",
+    "Date": "2020",
+    "Location": "New York",
+    "Name": "Simone Landon",
+    "Link": "https://www.nytimes.com/2020/05/23/reader-center/coronavirus-new-york-times-front-page.html",
+    "tags": [
+      "textbased",
+      "covid-19",
+      "monument",
+      "newspaper",
+      "ads"
+    ]
+  },
+  {
+    "Title": "The Audition",
+    "Date": "1997",
+    "Location": "Brescia",
+    "Name": "Sonia Boyce",
+    "Link": "https://frieze.com/fair-programme/sonia-boyce",
+    "tags": [
+      "anti-racism",
+      "participation",
+      "photography",
+      "wig",
+      "blackculture",
+      "identity"
+    ]
+  },
+  {
+    "Title": "Presioner of Love #1",
+    "Date": "1992",
+    "Location": "New York",
+    "Name": "Glen Ligon",
+    "Link": "https://www.guggenheim.org/artwork/10379",
+    "tags": [
+      "anti-racism",
+      "textbased",
+      "identity",
+      "print"
+    ]
+  },
+  {
+    "Title": "Wigs",
+    "Date": "1994",
+    "Location": "New York",
+    "Name": "Lorna Simpson",
+    "Link": "https://www.moma.org/learn/moma_learning/lorna-simpson-wigs-1994/",
+    "tags": [
+      "wig",
+      "black",
+      "identity",
+      "print",
+      "lithography",
+      "slavery",
+      "anti-racism"
+    ]
+  },
+  {
+    "Title": " Edward Colston statue toppled",
+    "Date": "2020",
+    "Location": "Bristol",
+    "Name": "BLM protesters",
+    "Link": "https://www.youtube.com/watch?v=4GpP8r9mzNA",
+    "tags": [
+      "monument",
+      "publicintervention",
+      "slavery",
+      "anti-racism",
+      "racism",
+      "colony"
+    ]
+  },
+  {
+    "Title": "How Ya Like Me Know?",
+    "Date": "1988",
+    "Location": "Maryland",
+    "Name": "David Hammons",
+    "Link": "https://www.artsy.net/article/artsy-editorial-painting-jesse-jackson-white-man-provoked-sledgehammer-attack",
+    "tags": [
+      "black",
+      "identity",
+      "anti-racism",
+      "whiteman",
+      "racism",
+      "painting"
+    ]
+  },
+  {
+    "Title": "Higher Goals",
+    "Date": "1986",
+    "Location": "New York",
+    "Name": "David Hammons",
+    "Link": "https://www.publicartfund.org/exhibitions/view/higher-goals/",
+    "tags": [
+      "basketball",
+      "identity",
+      "blackculture",
+      "publicintervention"
+    ]
+  },
+  {
+    "Title": "Vanishing Points",
+    "Date": "2019",
+    "Location": "Birmingham",
+    "Name": "Barbara Walker",
+    "Link": "https://www.barbarawalker.co.uk/index.php/works/vanishing-point/",
+    "tags": [
+      "drawing",
+      "colony",
+      "racism",
+      "slavery",
+      "blackhistory"
+    ]
+  },
+  {
+    "Title": "I am Here",
+    "Date": "2004",
+    "Location": "London",
+    "Name": "Fugitive Images",
+    "Link": "https://www.fugitiveimages.org.uk/projects/i-am-here/",
+    "tags": [
+      "community",
+      "visible",
+      "gentrification",
+      "redevelopment",
+      "window"
+    ]
+  },
+  {
+    "Title": "Hewillnotdevide.us",
+    "Date": "2017",
+    "Location": "New York",
+    "Name": "LaBeouf, Rönkko & Turner",
+    "Link": "http://labeoufronkkoturner.com/projects/hewillnotdivideus/",
+    "tags": [
+      "anti-racism",
+      "publicinstallation",
+      "movingimage",
+      "flag",
+      "union"
+    ]
+  },
+  {
+    "Title": "Avenge But One of My Two Eyes",
+    "Date": "2005",
+    "Location": "Jerusalem, East Jerusalem",
+    "Name": "Avi Mograbi",
+    "Link": "https://dafilms.com/film/8062-avenge-but-one-of-my-two-eyes",
+    "tags": [
+      "palestineisrael",
+      "war",
+      "borders",
+      "oppression",
+      "violence"
+    ]
+  },
+  {
+    "Title": "The Day I Will Never Forget ",
+    "Date": "2002",
+    "Location": "Nairobi",
+    "Name": "Kim Longinotto",
+    "Link": "https://www.channel4.com/programmes/the-day-i-will-never-forget",
+    "tags": [
+      "femalecircumcision",
+      "documentary",
+      "womenrights"
+    ]
+  },
+  {
+    "Title": "The Congo Tribunal",
+    "Date": "2017",
+    "Location": "Bukavu",
+    "Name": "Milo Rau",
+    "Link": "http://www.the-congo-tribunal.com",
+    "tags": [
+      "postreecactment",
+      "docufiction",
+      "corruption",
+      "postcolony",
+      "justice",
+      "participation",
+      "documentary",
+      "colony"
+    ]
+  },
+  {
+    "Title": "Borderxing Guide",
+    "Date": "2001",
+    "Location": "Europe",
+    "Name": "Heath Bunting",
+    "Link": "http://www.irational.org/heath/borderxing/",
+    "tags": [
+      "borders",
+      "online",
+      "crossingborders",
+      "internet"
+    ]
+  },
+  {
+    "Title": "Borders",
+    "Date": "2016",
+    "Location": "(Unknown city) India",
+    "Name": "M.I.A, Sugu Arulpragasam & Tom Manaton",
+    "Link": "https://www.youtube.com/watch?v=r-Nw7HbaeWY",
+    "tags": [
+      "borders",
+      "movingimage",
+      "crossingborders",
+      "music"
+    ]
+  },
+  {
+    "Title": "Artists in politics ",
+    "Date": "2019",
+    "Location": "Hong Kong ",
+    "Name": "Wai-shan, Clara Cheung and Wong Tin Yan ",
+    "Link": "https://www.theartnewspaper.com/news/pro-democracy",
+    "tags": [
+      "artandpolitics",
+      "hongkong"
+    ]
+  },
+  {
+    "Title": "Tucúman Arde ",
+    "Date": "1968",
+    "Location": "Buenos Aires",
+    "Name": "Ciclo de Arte Explosivo",
+    "Link": "https://vimeo.com/146694527",
+    "tags": [
+      "latino",
+      "corruption",
+      "dictator",
+      "poverty",
+      "oppression",
+      "dictatoship"
+    ]
+  },
+  {
+    "Title": "Push It to No Limits",
+    "Date": "2020",
+    "Location": "Digital ",
+    "Name": "Kandist Mallett",
+    "Link": "https://thenewinquiry.com/push-it-to-no-limits/",
+    "tags": [
+      "police",
+      "kettling",
+      "protest",
+      "disobedience"
     ]
   }
 ]

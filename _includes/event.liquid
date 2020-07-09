@@ -2,8 +2,28 @@
 layout: base
 ---
 
+{% assign articlesFound = false %}
+{% assign referencesFound = false %}
+
 {% assign dateFormat = "%B %d %Y, %H:%M"%}
 {% assign df = "%Y%m%dT%H%M00Z"%}
+
+{% for ref in references %}
+{% for tag in tags %}
+{% if ref.tags contains tag %}
+    {% assign referencesFound = true %}
+{% endif %}
+{% endfor %}
+{% endfor %}
+
+{% for tag in tags %}
+{% assign ps = collections[tag] %}
+{% for post in ps %}
+{% if post.data.tags contains "articles" %}
+    {% assign articlesFound = true %}
+{% endif %}
+{% endfor %}
+{% endfor %}
 
 <a class='section-link' href="/events/">Events</a>
 <article class="event" data-start="{{event.start}}" data-end="{{event.end}}">
@@ -17,7 +37,9 @@ layout: base
             {{event.start | date: dateFormat}}–{{event.end|date:"%H:%M" }}
         </span>
         <span class='addToCalendar'>
-            <a class='btn' target='_blank' href="https://calendar.google.com/calendar/r/eventedit?text={{title | url_encode}}&dates={{event.start | date: df}}/{{event.end | date: df}}&details={{content | url_encode}}">Add to Google Calendar</a>
+            <a class='btn' target='_blank'
+                href="https://calendar.google.com/calendar/r/eventedit?text={{title | url_encode}}&dates={{event.start | date: df}}/{{event.end | date: df}}&details={{content | url_encode}}">Add
+                to Google Calendar</a>
         </span>
         <ul class="post-meta">
             <li>
@@ -32,6 +54,7 @@ layout: base
     </main>
     <footer class="post-footnotes">
     </footer>
+    {% if articlesFound %}
     <footer class="post-related-posts">
         <h3>Related Articles (<a href="/articles/">View All</a>)</h3>
         <main class="post-list">
@@ -45,6 +68,8 @@ layout: base
             {% endfor %}
         </main>
     </footer>
+    {% endif %}
+    {% if referencesFound %}
     <footer class="post-related-references references-container">
         <h3>Related References (<a href="/references/">View All</a>)</h3>
         <table class="references">
@@ -69,4 +94,5 @@ layout: base
             </tbody>
         </table>
     </footer>
+    {% endif %}
 </article>
