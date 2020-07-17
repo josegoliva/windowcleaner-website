@@ -34,6 +34,9 @@
     grid-column: 1 / 13;
 
     @include bp(l) {
+        grid-column: 5 / 13;
+    }
+    @include bp(xl) {
         grid-column: 6 / 13;
     }
 }
@@ -52,15 +55,11 @@
     text-decoration: none;
     font-weight: 800;
     margin-bottom: .1em;
-    line-height: .9;
+    line-height: 1;
     font-size: var(--ms-3);
     @include bp(m){
         font-size: var(--ms-4);
     }
-    @include bp(l){
-        font-size: var(--ms-5);
-    }
-
     a {
         text-decoration: none;
 
@@ -90,9 +89,15 @@
 .post-header {
     grid-column: 1 / 13;
     padding-bottom: 2rem;
+    @include bp(m) {
+        grid-column: 2 / 12;
+    }
     @include bp(l) {
+        grid-column: 5 / 12;
         padding-bottom: 8vh;
-        grid-column: 6 / 13;
+    }
+    @include bp(xl) {
+        grid-column: 6 / 12;
     }
 }
 
@@ -177,9 +182,15 @@
     @include bp(m) {
         grid-column: 2 / 10;
     }
+    @include bp(m) {
+        grid-column: 2 / 10;
+    }
     
     @include bp(l) {
+        grid-column: 5 / 12;
         margin-bottom: 0;
+    }
+    @include bp(xl) {
         grid-column: 6 / 12;
     }
 
@@ -319,7 +330,7 @@
     grid-column: 1 / 13;
     padding-top: 2rem;
     @include bp(l) {
-        grid-column: 6 / 12;
+        grid-column: 3 / 12;
         padding-top: 3rem;
     }
     @include bp(xl) {
@@ -331,5 +342,26 @@
         font-size: var(--ms--1);
         color: var(--black);
         margin-bottom: 1em;
+    }
+}
+
+.tag-list {
+    line-height: 1;
+    .tag {
+        border: 1px solid black;
+        padding: .2em .4em;
+        padding-bottom: .45em;
+        font-weight: 600;
+        margin-right: .5em;
+        margin-bottom: .5em;
+        display: inline-block;
+        text-decoration: none;
+        border-radius: 3px;
+        @include bp(m){
+            font-size: var(--ms-2);
+        }
+        &:hover, &:focus {
+            text-decoration: underline;
+        }
     }
 }

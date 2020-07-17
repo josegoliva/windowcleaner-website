@@ -1,6 +1,6 @@
 <article class="post-card event-card" data-start="{{post.data.event.start}}" data-end="{{post.data.event.end}}">
     {% include event-status %}
-    {% if post.data.thumb %}
+    {% if post.data.thumb != "/assets/" %}
     <img class='post-card-thumb' src="{{post.data.thumb}}" alt="">
     {% endif %}
     <h2 class="post-card-title">

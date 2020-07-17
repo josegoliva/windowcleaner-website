@@ -11,7 +11,7 @@
     "build:eleventy": "eleventy",
     "build": "run-s build:*",
     "watch:webpack": "webpack --watch --mode development",
-    "watch:eleventy": "npx @11ty/eleventy --serve",
+    "watch:eleventy": "npx @11ty/eleventy --serve --quiet",
     "start": "run-p watch:*"
   },
   "author": "Max Kohler",

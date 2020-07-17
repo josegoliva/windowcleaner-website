@@ -96,10 +96,19 @@
     font-size: var(--ms--1);
     font-weight: 600;
     line-height: 1;
+    align-content: center;
     grid-column: span 2;
     margin-bottom: 1rem;
+    display: flex;
     @include bp(l){
         margin-bottom: 0;
+    }
+    svg {
+        margin-left:  .2em;
+        margin-right: .2em;
+        height: 1em;
+        position: relative;
+        top: .1em;
     }
     a {
         &:hover, &:focus {

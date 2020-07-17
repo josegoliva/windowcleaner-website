@@ -2,6 +2,9 @@
     grid-column: 1 / 13;
     margin-bottom: 2em;
     @include bp(l){
+        grid-column: 5 / 13;
+    }
+    @include bp(xl){
         grid-column: 6 / 13;
         margin-bottom: 4em;
     }
