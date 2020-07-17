@@ -96,10 +96,11 @@
     font-size: var(--ms--1);
     font-weight: 600;
     line-height: 1;
-    align-content: center;
+    justify-content: flex-start;
     grid-column: span 2;
     margin-bottom: 1rem;
     display: flex;
+    align-items: flex-start;
     @include bp(l){
         margin-bottom: 0;
     }
