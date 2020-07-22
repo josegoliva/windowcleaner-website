@@ -3,4 +3,15 @@ layout: base
 class: home
 ---
 
-<img class='home-logo' src='/assets/wc-logo.gif'/>
+<img class='home-logo' src='/assets/wc-logo.gif' />
+<section class="home-events"></section>
+<script>
+    const allEvents = [
+    {% for post in collections.events %}
+    {"title": "{{post.data.title}}",
+    "start": "{{post.data.event.start}}",
+    "end": "{{post.data.event.start}}",
+    "url": "{{post.url}}"},
+    {% endfor %}
+    ]
+</script>

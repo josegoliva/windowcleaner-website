@@ -5,13 +5,12 @@ layout: base
 {% assign articlesFound = false %}
 {% assign referencesFound = false %}
 
-{% assign dateFormat = "%B %d %Y, %H:%M"%}
 {% assign df = "%Y%m%dT%H%M00Z"%}
 
 {% for ref in references %}
 {% for tag in tags %}
 {% if ref.tags contains tag %}
-    {% assign referencesFound = true %}
+{% assign referencesFound = true %}
 {% endif %}
 {% endfor %}
 {% endfor %}
@@ -20,7 +19,7 @@ layout: base
 {% assign ps = collections[tag] %}
 {% for post in ps %}
 {% if post.data.tags contains "articles" %}
-    {% assign articlesFound = true %}
+{% assign articlesFound = true %}
 {% endif %}
 {% endfor %}
 {% endfor %}
@@ -33,10 +32,9 @@ layout: base
         <img class='post-thumb' src="{{thumb}}" alt="">
         {% endif %}
         <h2 class="post-title">{{title}}</h2>
-        <span class="event-date">
-            {{event.start | date: dateFormat}}–{{event.end|date:"%H:%M" }}
-        </span>
-        <span class='addToCalendar'>
+            {% include event-date with event %}
+    
+            <span class='addToCalendar'>
             <a class='btn' target='_blank'
                 href="https://calendar.google.com/calendar/r/eventedit?text={{title | url_encode}}&dates={{event.start | date: df}}/{{event.end | date: df}}&details={{content | url_encode}}">Add
                 to Google Calendar</a>
@@ -71,7 +69,7 @@ layout: base
     {% endif %}
     {% if referencesFound %}
     <footer class="post-related-references references-container">
-        <h3>Related References (<a href="/references/">View All</a>)</h3>
+        <h3>Related References     <a class='btn' href="https://docs.google.com/spreadsheets/d/1-QQNlh1FwsTEmwdYni0hfT4HMzutPspM9pTVR4VDZlE/edit?usp=sharing">Add</a></h3>
         <table class="references">
             <thead>
                 <tr>

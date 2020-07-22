@@ -1,10 +1,19 @@
 .event {
     display: contents;
-    color: var(--blue);
+    .post-header {
+        background: var(--blue);
+    }
+    &[data-status="past"] .post-header {
+        background: white;
+        border: 1px solid var(--blue)
+    }
+    &[data-status="past"] .btn {
+        display: none;
+    }
 }
 
 .event-status {
-    font-size: var(--ms--1);
+    font-size: var(--ms-1);
     margin-bottom: .5em;
     span {
         display: none;
@@ -16,7 +25,7 @@
         margin-right: .2em;
     }
     circle {
-        fill: var(--blue)
+        fill: black
     }
 
     [data-status=upcoming] & {
@@ -36,10 +45,8 @@
     }
 }
 .event-date {
-    font-size: var(--ms-2);
-    @include bp(m){
-        font-size: var(--ms-4);
-    }
+    font-size: var(--ms-1);
+    display: block;
     .btn {
         vertical-align: middle;
         position: relative;

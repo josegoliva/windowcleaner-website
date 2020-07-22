@@ -1,0 +1,15 @@
+{% if post %}
+{% assign event = post.data.event %}
+{% endif  %}
+
+{% assign dateFormat = "%B %d %Y, %H:%M"%}
+{% assign d1 = event.start | date: "%B %d "%}
+{% assign d2 = event.end | date: "%B %d "%}
+
+<span class="event-date">
+    {% if d1 == d2 %}
+        {{event.start | date: dateFormat}}–{{ event.end | date:"%H:%M" }}
+    {% else %}
+        {{event.start | date: dateFormat}} – {{event.end|date: dateFormat }}
+    {% endif %}
+</span>

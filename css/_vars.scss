@@ -1,28 +1,22 @@
 
 @mixin bp($point) {
     @if $point==xl {
-        @media (min-width: 110rem) {
+        @media (min-width: 1800px) {
             @content;
         }
     }
     @if $point==l {
-        @media (min-width: 75rem) {
+        @media (min-width: 1400px) {
             @content;
         }
     }
     @else if $point==m {
-        @media (min-width: 65rem) {
+        @media (min-width: 1000px) {
             @content;
         }
     }
-    @else if $point==sm {
-        @media (min-width: 45rem) {
-            @content;
-        }
-    }
-
     @else if $point==s {
-        @media (min-width: 35rem) {
+        @media (min-width: 600px) {
             @content;
         }
     }
@@ -32,11 +26,11 @@
 
 :root {
     --font-text: 'acumin-pro', Helvetica, sans-serif;
-    --acumin-condensed: 'acumin-pro-condensed', Helvetica, sans-serif;
-    --red: rgb(246, 46, 28);
-    --blue: rgb(22, 45, 248);
+    --red: rgb(255, 44, 16);
+    --blue: rgb(54, 131, 255);
+    --yellow: rgb(0, 0, 0);
     --black: rgb(0, 0, 0);
-    --borderRadius: 3px;
+    --border-radius: 8px;
     --ratio: 1.25;
     --ms-0: 1.1rem;
     @include bp(m){

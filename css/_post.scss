@@ -1,17 +1,24 @@
 .post-card {
-    padding: 1rem;
-    color: var(--red);
-    border: 1px solid currentColor;
+    padding: 2rem 1rem;
+    @include bp(l){
+        padding: 3rem;
+    }
+    background: var(--red);
     margin-bottom: 1rem;
-    border-radius: 2px;
+    border-radius: var(--border-radius);
+    text-align: center;
 
     &.event-card {
-        color: var(--blue)
+        background: var(--blue);
+        &[data-status="past"]{
+            border: 1px solid  var(--blue);
+            background: white;
+        }
     }
 }
 
 .post-card-meta {
-    font-size: var(--ms--1);
+    font-size: var(--ms-0);
     margin-top: 1em;
 
     span {
@@ -32,12 +39,11 @@
 
 .post-list {
     grid-column: 1 / 13;
-
-    @include bp(l) {
-        grid-column: 5 / 13;
+    @include bp(m) {
+        grid-column: 2 / 12;
     }
-    @include bp(xl) {
-        grid-column: 6 / 13;
+    @include bp(l) {
+        grid-column: 3 / 10;
     }
 }
 
@@ -53,12 +59,17 @@
 
 .post-card-title {
     text-decoration: none;
-    font-weight: 800;
-    margin-bottom: .1em;
-    line-height: 1;
+    margin-bottom: .5rem;
+    line-height: .9;
     font-size: var(--ms-3);
-    @include bp(m){
+    font-weight: 700;
+    @include bp(s){
         font-size: var(--ms-4);
+    }
+    @include bp(m){
+        line-height: 1;
+        font-weight: 800;
+        font-size: var(--ms-5);
     }
     a {
         text-decoration: none;
@@ -72,7 +83,6 @@
 
 .post {
     display: contents;
-    color: var(--red)
 }
 
 
@@ -80,24 +90,27 @@
     font-size: var(--ms-4);
     font-weight: 900;
     line-height: .9;
+    margin-bottom: 3rem;
     letter-spacing: -.01em;
-    @include bp(l) {
+    @include bp(m) {
         font-size: var(--ms-5);
+    }
+    @include bp(xl) {
+        font-size: var(--ms-6);
     }
 }
 
 .post-header {
+    @extend .post-card;
     grid-column: 1 / 13;
-    padding-bottom: 2rem;
+    margin-bottom: 1rem;
     @include bp(m) {
+        margin-bottom: 3rem;
         grid-column: 2 / 12;
     }
     @include bp(l) {
-        grid-column: 5 / 12;
-        padding-bottom: 8vh;
-    }
-    @include bp(xl) {
-        grid-column: 6 / 12;
+        padding: 5rem 4rem;
+        grid-column: 3 / 10;
     }
 }
 
@@ -181,17 +194,14 @@
     
     @include bp(m) {
         grid-column: 2 / 10;
-    }
-    @include bp(m) {
-        grid-column: 2 / 10;
-    }
-    
+    }   
     @include bp(l) {
-        grid-column: 5 / 12;
+        grid-column: 3 / 10;
         margin-bottom: 0;
     }
     @include bp(xl) {
-        grid-column: 6 / 12;
+        font-size: var(--ms-1);
+        grid-column: 3 / 10;
     }
 
     p+p {
@@ -201,7 +211,7 @@
     .fn {
         font-weight: bold;
         font-size: var(--ms--2);
-        background: var(--red);
+        background: var(--black);
         color: white;
         display: inline-block;
         text-indent: 0;
@@ -268,8 +278,9 @@
     @include bp(l) {
         margin-bottom: 0;
         font-weight: normal;
-        grid-column: 3 / 5;
-        grid-row: 2 / 3;
+        grid-column: 11 / 13;
+        padding-right: 4rem;
+        grid-row: 3 / 4;
         align-self: flex-end;
     }
 }
@@ -303,14 +314,12 @@
     display: flex;
     flex-wrap: wrap;
     padding-top: 1rem;
+    flex-flow: column;
 
     li {
-        font-size: var(--ms--1);
+        font-size: var(--ms-0);
         list-style: none;
         margin-right: 1em;
-    }
-    .post-tags {
-        flex-basis: 20em;
     }
     .tag {
         margin-right: .2em;
@@ -329,19 +338,27 @@
 .post-related-posts {
     grid-column: 1 / 13;
     padding-top: 2rem;
-    @include bp(l) {
-        grid-column: 3 / 12;
+    @include bp(m) {
+        grid-column: 2 / 12;
         padding-top: 3rem;
     }
-    @include bp(xl) {
+    @include bp(l) {
+        grid-column: 3 / 10;
         padding-top: 10rem;
         padding-bottom: 5rem;
     }
     
     h3 {
-        font-size: var(--ms--1);
+        font-size: var(--ms-2);
         color: var(--black);
+        font-weight: bold;
+        margin-top: 2em;
         margin-bottom: 1em;
+        display: flex;
+        align-items: center;
+    }
+    .btn {
+        margin-left: 1rem;
     }
 }
 

@@ -9,10 +9,7 @@
         </a>
     </h2>
     <aside class="post-card-meta">
-        {% assign dateFormat = "%B %d %Y, %H:%M"%}
-        <span class="post-card-date">
-            {{post.data.event.start | date: dateFormat}} – {{post.data.event.end | date: dateFormat }}
-        </span>
+        {% include event-date with post %}                
         <span>{% for tag in post.data.tags %}
             <a href="/tags/{{tag | slug}}/" class='tag'>#{{tag}}</a>
             {% endfor %}</span>
