@@ -129,6 +129,7 @@
     }
     .button {
         border-radius: 0 var(--border-radius) var(--border-radius) 0;
+        appearance: none;
         border-left: 0;
         cursor: pointer;
         background: none;
