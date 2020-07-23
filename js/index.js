@@ -77,7 +77,6 @@ window.addEventListener('DOMContentLoaded', () => {
 
     }
     if (homeEventContainer) {
-        const now = new Date;
         allEvents.forEach(e => {
             const start = dayjs(e.start);
             const now = dayjs()
@@ -99,7 +98,7 @@ window.addEventListener('DOMContentLoaded', () => {
 
                 let date = document.createElement('span')
                 date.classList.add("date")
-                date.textContent = start.format("dddd, MMMM d");
+                date.textContent = start.format("dddd, MMMM DD");
 
                 
                 h2.appendChild(a)

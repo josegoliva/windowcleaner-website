@@ -17,7 +17,6 @@
 
 .home-events {
     grid-column: 1 / 13;
-    display: none;
     @include bp(s){
         grid-column: 2 / 10;
     }

@@ -6,7 +6,7 @@ layout: base
 </header>
 <article class="post">
     <header class="post-header">
-        {% if thumb %}
+        {% if thumb != "/assets" %}
         <img class='post-thumb' src="{{thumb}}" alt="">
         {% endif %}
         <h2 class="post-title">{{title}}</h2>
