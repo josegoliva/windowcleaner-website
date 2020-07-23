@@ -193,14 +193,14 @@
     margin-bottom: 1em;
     
     @include bp(m) {
-        grid-column: 2 / 10;
+        grid-column: 2 / 12;
+        font-size: var(--ms-1);
     }   
     @include bp(l) {
         grid-column: 3 / 10;
         margin-bottom: 0;
     }
     @include bp(xl) {
-        font-size: var(--ms-1);
         grid-column: 3 / 10;
     }
 

@@ -32,12 +32,14 @@ layout: base
         <img class='post-thumb' src="{{thumb}}" alt="">
         {% endif %}
         <h2 class="post-title">{{title}}</h2>
-            {% include event-date with event %}
-    
-            <span class='addToCalendar'>
+        {% include event-date with event %}
+        <span class='addToCalendar'>
             <a class='btn' target='_blank'
                 href="https://calendar.google.com/calendar/r/eventedit?text={{title | url_encode}}&dates={{event.start | date: df}}/{{event.end | date: df}}&details={{content | url_encode}}">Add
                 to Google Calendar</a>
+            {% if register %}
+            <a class='btn' target='_blank' href="{{register}}">Register</a>
+            {% endif %}
         </span>
         <ul class="post-meta">
             <li>
@@ -69,7 +71,9 @@ layout: base
     {% endif %}
     {% if referencesFound %}
     <footer class="post-related-references references-container">
-        <h3>Related References     <a class='btn' href="https://docs.google.com/spreadsheets/d/1-QQNlh1FwsTEmwdYni0hfT4HMzutPspM9pTVR4VDZlE/edit?usp=sharing">Add</a></h3>
+        <h3>Related References <a class='btn'
+                href="https://docs.google.com/spreadsheets/d/1-QQNlh1FwsTEmwdYni0hfT4HMzutPspM9pTVR4VDZlE/edit?usp=sharing">Add</a>
+        </h3>
         <table class="references">
             <thead>
                 <tr>

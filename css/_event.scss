@@ -12,6 +12,15 @@
     }
 }
 
+.addToCalendar {
+    a {
+        font-size: var(--ms-0);
+    }
+    a + a {
+        margin-left: .25rem;
+    }
+}
+
 .event-status {
     font-size: var(--ms-1);
     margin-bottom: .5em;
