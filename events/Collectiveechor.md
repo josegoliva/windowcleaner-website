@@ -11,8 +11,8 @@ date: 2020-07-30
 register: https://www.eventbrite.co.uk/e/rca2020viscom-collective-e-choir-lecture-and-workshop-tickets-113442204688
 thumb: /assets/
 event:
-    start: 2020-07-30 14:00:00+1
-    end:   2020-07-30 16:00:00+1
+    start: 2020-07-30 14:00:00
+    end:   2020-07-30 16:00:00
 ---
 
 In the Finnish vocabulary there is an expression called *Valituskuoro*. It means "Complaints Choir" and it is used to describe situations where a lot of people are complaining simultaneously. Kalleinen and Kochta-Kalleinen thought: "Wouldn´t it be fantastic to take this expression literally and organise a real choir in which people sing about their complaints?"
