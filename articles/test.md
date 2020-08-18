@@ -5,7 +5,7 @@ tags:
     - performance
     - exhibition
 
-title: Latinos are Very Serviceable, and People Here Like That.
+title: Latinos are Very Serviceable, and People Here dont like that
 date: 2020-03-01
 ---
 
