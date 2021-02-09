@@ -9,9 +9,9 @@
         </a>
     </h2>
     <aside class="post-card-meta">
-        {% include event-date with post %}                
-        <span>{% for tag in post.data.tags %}
-            <a href="/tags/{{tag | slug}}/" class='tag'>#{{tag}}</a>
+        {% include event-date with post %}
+        <span class="post-tags">{% for tag in post.data.tags %}
+            <a href="/tags/{{tag | slug}}/" class='tag'>{{tag}}</a>
             {% endfor %}</span>
     </aside>
 </article>

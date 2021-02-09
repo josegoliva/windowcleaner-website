@@ -27,10 +27,10 @@
 :root {
     --font-text: 'acumin-pro', Helvetica, sans-serif;
     --red: rgb(255, 44, 16);
-    --blue: rgb(41, 187, 255);
+    --blue: rgb(41, 159, 255);
     --yellow: rgb(0, 0, 0);
     --black: rgb(0, 0, 0);
-    --border-radius: 8px;
+    --border-radius: 5px;
     --ratio: 1.25;
     --ms-0: 1.1rem;
     @include bp(m){

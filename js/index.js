@@ -1,8 +1,10 @@
 import List from 'list.js';
 import dayjs from 'dayjs'
 import { gra, gri } from './util.js';
+import textBalancer from 'text-balancer';
 
 window.addEventListener('DOMContentLoaded', () => {
+    textBalancer.balanceText('.post-card-title');
     const homeEventContainer = document.querySelector(".home-events")
     const referenceList = document.querySelector(".references-container")
     const logo = document.querySelector(".site-logo")
@@ -84,14 +86,14 @@ window.addEventListener('DOMContentLoaded', () => {
                 let el = document.createElement('article')
                 el.classList.add("post-card")
                 el.classList.add("event-card")
-                
+
                 let h2 = document.createElement('h2')
                 h2.classList.add("post-card-title")
-                
+
                 let a = document.createElement('a')
                 a.setAttribute('href', e.url);
                 a.textContent = e.title;
-                
+
                 let status = document.createElement('span')
                 status.classList.add("status")
                 status.textContent = "Upcoming Event";
@@ -100,7 +102,7 @@ window.addEventListener('DOMContentLoaded', () => {
                 date.classList.add("date")
                 date.textContent = start.format("dddd, MMMM DD");
 
-                
+
                 h2.appendChild(a)
                 el.appendChild(status)
                 el.appendChild(h2)

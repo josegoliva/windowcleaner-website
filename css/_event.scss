@@ -1,65 +1,71 @@
 .event {
-    display: contents;
-    .post-header {
-        background: var(--blue);
-    }
-    &[data-status="past"] .post-header {
-        background: white;
-        border: 1px solid var(--blue)
-    }
-    &[data-status="past"] .btn {
-        display: none;
-    }
+  display: contents;
+  .post-header {
+    background: var(--blue);
+  }
+  &[data-status="past"] .post-header {
+    background: white;
+    border: 1px solid var(--blue);
+  }
+  &[data-status="past"] .btn {
+    display: none;
+  }
 }
 
 .addToCalendar {
-    a {
-        font-size: var(--ms-0);
-    }
-    a + a {
-        margin-left: .25rem;
-    }
+  margin-bottom: 1.5em;
+  margin-top: -.5em;
+  a, button {
+      color: var(--blue);
+  }
+  a {
+    font-size: var(--ms-0);
+  }
+  a + a {
+    margin-left: 0.25rem;
+  }
 }
 
 .event-status {
-    font-size: var(--ms-1);
-    margin-bottom: .5em;
-    span {
-        display: none;
-    }
-    svg {
-        vertical-align: middle;
-        position: relative;
-        top: -.1em;
-        margin-right: .2em;
-    }
-    circle {
-        fill: black
-    }
+  font-size: var(--ms-1);
+  margin-bottom: 0.75em;
+  span {
+    display: none;
+  }
+  svg {
+    vertical-align: middle;
+    position: relative;
+    top: -0.1em;
+    margin-right: 0.2em;
+  }
+  circle {
+    fill: black;
+  }
 
-    [data-status=upcoming] & {
-        .upcoming {
-            display: block;
-        }
+  [data-status="upcoming"] & {
+    .upcoming {
+      display: block;
     }
-    [data-status=ongoing] & {
-        .ongoing {
-            display: block;
-        }
+  }
+  [data-status="ongoing"] & {
+    .ongoing {
+      display: block;
     }
-    [data-status=past] & {
-        .past {
-            display: block;
-        }
+  }
+  [data-status="past"] & {
+    .past {
+      display: block;
     }
+  }
 }
 .event-date {
-    font-size: var(--ms-1);
-    display: block;
-    .btn {
-        vertical-align: middle;
-        position: relative;
-        margin-left: 1em;
-        top: -.2em;
-    }
+  font-size: var(--ms-1);
+  display: block;
+  margin-bottom: 0.5em;
+  .btn {
+    vertical-align: middle;
+    position: relative;
+    margin-left: 1em;
+    top: -0.2em;
+  }
 }

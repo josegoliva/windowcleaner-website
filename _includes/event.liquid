@@ -31,7 +31,7 @@ layout: base
         {% if thumb %}
         <img class='post-thumb' src="{{thumb}}" alt="">
         {% endif %}
-        <h2 class="post-title">{{title}}</h2>
+        <h2 class="post-card-title">{{title}}</h2>
         {% include event-date with event %}
         <span class='addToCalendar'>
             <a class='btn' target='_blank'
@@ -41,10 +41,10 @@ layout: base
             <a class='btn' target='_blank' href="{{register}}">Register</a>
             {% endif %}
         </span>
-        <ul class="post-meta">
+        <ul class="post-tags">
             <li>
                 {% for tag in tags %}
-                <a href="/tags/{{tag | slug}}/" class='tag'>#{{tag}}</a>
+                <a href="/tags/{{tag | slug}}/" class='tag'>{{tag}}</a>
                 {% endfor %}
             </li>
         </ul>

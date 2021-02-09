@@ -9,9 +9,7 @@ title: Latinos are Very Serviceable, and People Here Like That
 date: 2020-03-01
 ---
 
-*To give a bit of context*: My name is Jose Garcia Olivia, and I was born in Caracas, Venezuela. When I came to the RCA, what I realised is that the first contact I had with people from South America in London were the cleaners working at the College (Julian, Jorge and Diego from Colombia – and Javier from Bolivia).
-
-{% bigImage "/assets/lf.jpeg" "Original *WAR IS OVER!* postcard."%}
+**To give a bit of context**: My name is Jose Garcia Olivia, and I was born in Caracas, Venezuela. When I came to the RCA, what I realised is that the first contact I had with people from South America in London were the cleaners working at the College (Julian, Jorge and Diego from Colombia – and Javier from Bolivia).
 
 The first thing I thought was, why are they all South American? Isn't this another portrait of post-colonialism in front of us? South Americans cleaning, Africans guarding, Europeans teaching. I started talking to one of them for hours about types of South American dishes (mainly arguing if arepas are Colombian or Venezuelan), gossiping about people passing by, migration policies, EU settlement, Brexit and so on. Between those conversations, I asked Javier – why do you think you are all from South America? He said: Latinos are very serviceable, and people here like that. Since I heard that answer, I felt ashes of colonialism. One of them said, “Latinos are proud to be working, even in {% inlineImage "/assets/lf.jpeg" "Original *WAR IS OVER!* postcard."%} a hole”.The problem is that a hole will allow them to bury you, and after the hole is covered up, everyone can step on you.
 
