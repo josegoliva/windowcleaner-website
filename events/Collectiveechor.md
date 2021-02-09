@@ -2,7 +2,6 @@
 layout: event
 tags:
     - choir 
-    - collective
     - collaboration
     - musicactivism
 title: Collective e-Choir – RCA2020 with Tellervo Kalleinen & Oliver Kochta-Kallleinen
