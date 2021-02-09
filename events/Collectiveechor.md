@@ -4,6 +4,8 @@ tags:
     - choir 
     - collaboration
     - musicactivism
+    - online
+    - collective
 title: Collective e-Choir – RCA2020 with Tellervo Kalleinen & Oliver Kochta-Kallleinen
 date: 2020-07-30
 register: https://www.eventbrite.co.uk/e/rca2020viscom-collective-e-choir-lecture-and-workshop-tickets-113442204688
