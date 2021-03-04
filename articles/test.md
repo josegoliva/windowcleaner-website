@@ -16,7 +16,7 @@ The purpose of this text is to define the word ‘empathy’ through as many def
 
 &nbsp;
 
-Taking yourself out of your shoes and putting yourself into someone else’s shoes is a very visual definition of empathy. It’s simple and easy to understand. A more academic one is: “the power of mentally identifying oneself with (and so fully comprehending) a person or object of contemplation”. Empathy is a complicated word to define. It lies between scientific, social and philosophical studies. It encompasses a range of meaning and depending on the context the word is being used in it can mean different things.
+Taking yourself out of your shoes and putting yourself into someone else’s shoes{% footnote "Krznaric, Roman, Empathy: Why It Matters, And How To Get It (London: Rider, 2015)p.X" %} is a very visual definition of empathy. It’s simple and easy to understand. A more academic one is: “the power of mentally identifying oneself with (and so fully comprehending) a person or object of contemplation”. Empathy is a complicated word to define. It lies between scientific, social and philosophical studies. It encompasses a range of meaning and depending on the context the word is being used in it can mean different things.
 
 &nbsp;
 
