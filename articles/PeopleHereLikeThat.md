@@ -37,22 +37,22 @@ People Here Like That is a par­tic­i­pa­tive per­for­mance for the WIP at 
 
 &nbsp;
 
-* Who washes your win­dow to al­low you to see out­side?\
-* Who pol­ishes your desk so that you can work?\
-* Who var­nishes the ﬂoor for your cat­walk?\
-* Who ti­dies the class­room for you to at­tend, where you  then speak about “invisible” labour?\
-* Who mops the ﬂoor to clean up your hastily spilt ﬂat white?\
-* Who dusts for you so you can get lost in the li­brary?\
-* Who wipes the iMac screens for you to nav­i­gate the in­ter­net?\
-* Who emp­ties the bins for you to not drown in the sea of your own un­think­ingly printed pa­per?\
-* Who cleans the kitchen for you to eat your take­away?\
-* Who vac­u­ums the ﬂoor to im­prove your air qual­ity?\
-* Who dis­in­fects the han­dles for you amid COVID-19?\
-* Who washes the toi­lets for you to defe­cate?\
-* Who re­ﬁlls the toi­let pa­per for you to wipe your ass?\
-* Who is un­known?\
-* Who do you not see, ever, never look at?\
-* Whose names do you not know?
+*Who washes your win­dow to al­low you to see out­side?*\
+*Who pol­ishes your desk so that you can work?*\
+*Who var­nishes the ﬂoor for your cat­walk?*\
+*Who ti­dies the class­room for you to at­tend, where you  then speak about “invisible” labour?*\
+*Who mops the ﬂoor to clean up your hastily spilt ﬂat white?*\
+*Who dusts for you so you can get lost in the li­brary?*\
+*Who wipes the iMac screens for you to nav­i­gate the in­ter­net?*\
+*Who emp­ties the bins for you to not drown in the sea of your own un­think­ingly printed pa­per?*\
+*Who cleans the kitchen for you to eat your take­away?*\
+*Who vac­u­ums the ﬂoor to im­prove your air qual­ity?*\
+*Who dis­in­fects the han­dles for you amid COVID-19?*\
+*Who washes the toi­lets for you to defe­cate?*\
+*Who re­ﬁlls the toi­let pa­per for you to wipe your ass?*\
+*Who is un­known?*\
+*Who do you not see, ever, never look at?*\
+*Whose names do you not know?*
 
 &nbsp;
 
