@@ -10,12 +10,14 @@ date: 2020-08-28
 ---
 
 **To give a bit of context**: My name is José García Oliva and I was born in Caracas, Venezuela. When I came to the Royal College of Art, I re­alised that the ﬁrst con­tact I had with peo­ple from South America in London were the clean­ers work­ing at the College: Julian, Jorge and Diego from Colombia, and Javier from Bolivia.
-
-&nbsp;
+<br/>
+<br/>
 
 The ﬁrst thing I thought was, why are they all South American? Isn’t this just an­other por­trait of post-colo­nial­ism? South Americans clean­ing, Africans guard­ing, Europeans teach­ing. I started talk­ing to one of them for hours about types of South American food dishes (mainly ar­gu­ing whether arepas are Colombian or Venezuelan), gos­sip­ing about peo­ple pass­ing by in the halls, mi­gra­tion poli­cies, EU set­tle­ment, Brexit, and so on. Between those con­ver­sa­tions, I asked him: Why do you think you are all from South America? He said: “Latinos are very ser­vice­able, and peo­ple here like that.” Since I heard that an­swer, I have tasted the bit­ter­ness of colo­nial­is­m’s ashes, still warm, in my mouth. “Latinos are proud to be work­ing, even in a hole.” The prob­lem is that a hole will al­low them to bury you, and af­ter the hole is cov­ered up, every­one can step on you.{% inlineImage "/assets/lf.jpeg" "Original *WAR IS OVER!* postcard."%} 
 
 &nbsp;
+&nbsp;
+
 
 In an­other con­ver­sa­tion with Jorge he said, “Latinos bow their heads a lot, and when peo­ple look at us like that, they be­gin to abuse us.” It’s a side ef­fect of long-term feel­ings of in­fe­ri­or­ity, im­posed on us by the ones who are and have been served. “The past is never dead; it’s not even past,” as William Faulkner once said. Unconsciously, Latinos are still re­liv­ing their ﬁrst in­ter­ac­tion with the colonis­ers over and over again: On our part –– one of as­ton­ish­ment, a cul­ture shock that seems to mir­ror our ﬁrst glimpse of the con­quis­ta­dors, and for the colonis­ers–– an er­rant mis­trust in our ca­pa­bil­i­ties. The re-en­act­ment of these ab­surd the­atri­cal­i­ties, and the per­ni­cious vi­o­lence they en­gen­der, still per­sist and have even come to seem “natural” —thereby ob­scur­ing the real im­posed hi­er­ar­chy of colonised and coloniser.
 
