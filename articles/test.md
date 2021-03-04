@@ -5,7 +5,7 @@ tags:
     - performance
     - exhibition
 
-title: Latinos are Very Serviceable, and People Here Like That
+title: People Here Like That
 date: 2020-03-01
 ---
 
