@@ -4,7 +4,7 @@ author: betty-brunfaut
 tags:
     - empathy
     
-title: Empathy Together With You
+title: Empathy Together
 date: 2021-03-03
 ---
 
