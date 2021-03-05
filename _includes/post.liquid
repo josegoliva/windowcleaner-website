@@ -31,6 +31,16 @@ layout: base
         <section class="post-footnotes">
         </section>
     </aside>
+    {%assign refsFound = false %}
+    {% for ref in references %}
+    {% for tag in tags %}
+    {% if ref.tags contains tag %}
+        {% assign refsFound = true %}
+    {% endif %}
+    {% endfor %}
+    {% endfor %}
+
+    {% if refsFound %}
     <footer class="post-related-references references-container">
         <h3>Related References <a class='btn'
                 href="https://docs.google.com/spreadsheets/d/1-QQNlh1FwsTEmwdYni0hfT4HMzutPspM9pTVR4VDZlE/edit?usp=sharing">Add</a>
@@ -58,10 +68,10 @@ layout: base
                 </tbody>
             </table>
     </footer>
+    {% endif %}
 </article>
 <figure class="image-modal">
     <img src="" />
     <figcaption></figcaption>
 </figure>
-<aside class="fn-modal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo labore libero beatae perspiciatis
-    tempora molestiae consequuntur dolore assumenda cumque facilis!</aside>
+<aside class="fn-modal"></aside>
