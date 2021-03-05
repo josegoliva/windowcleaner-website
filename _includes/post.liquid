@@ -15,7 +15,7 @@ layout: base
         <aside class="post-card-meta">
             <span class="post-card-author">Words by {% include author with author %}</span>
             <span class="post-card-date">{{date | date: "%B %d, %Y"}}</span>
-            <span>
+            <span class="tags">
                 {% for tag in tags %}
                 <a href="/tags/{{tag | slug}}/" class='tag'>{{tag}}</a>
                 {% endfor %}</span>

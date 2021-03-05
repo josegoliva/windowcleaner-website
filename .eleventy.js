@@ -56,7 +56,11 @@ module.exports = function (eleventyConfig) {
     });
 
     eleventyConfig.addCollection("articles", function (collectionApi) {
-        return collectionApi.getFilteredByGlob(["./articles/*.md"]);
+        return collectionApi.getFilteredByGlob(["./articles/*.md"]).sort(function (a, b) {
+            const da = new Date(a.data.date)
+            const db = new Date(b.data.date)
+            return db - da;
+        });
     });
 
     eleventyConfig.addCollection("events", function (collectionApi) {
