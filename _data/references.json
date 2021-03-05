@@ -282,19 +282,6 @@
     ]
   },
   {
-    "Title": "Tiza (Chalk)",
-    "Date": "1998",
-    "Location": "Lima",
-    "Name": "Jennifer Allora and Guillermo Calzadilla",
-    "Link": "https://www.youtube.com/watch?v=U_mvkkx22Fk",
-    "tags": [
-      "publicintervention",
-      "participatoryperformance",
-      "freedomofspeech",
-      "latino"
-    ]
-  },
-  {
     "Title": "When Faith Moves Mountains",
     "Date": "2002",
     "Location": "Lima",
@@ -876,6 +863,99 @@
       "kettling",
       "protest",
       "disobedience"
+    ]
+  },
+  {
+    "Title": "Tiza (Chalk)",
+    "Date": "1998",
+    "Location": "Lima",
+    "Name": "Jennifer Allora and Guillermo Calzadilla",
+    "Link": "(Link)",
+    "tags": [
+      "publicintervention",
+      "participatory",
+      "performance",
+      "freedomofspeech"
+    ]
+  },
+  {
+    "Title": "Semiotics of the kitchen",
+    "Date": "1975",
+    "Location": "–",
+    "Name": "Martha Rosler",
+    "Link": "–",
+    "tags": [
+      "–"
+    ]
+  },
+  {
+    "Title": "Enemy Kitchen",
+    "Date": "–",
+    "Location": "–",
+    "Name": "Michael Rakowitz",
+    "Link": "–",
+    "tags": [
+      "–"
+    ]
+  },
+  {
+    "Title": "Faules Fundament (Rotten Foundation)",
+    "Date": "1998",
+    "Location": "New York ",
+    "Name": "Urs Fischer",
+    "Link": "http://www.ursfischer.com/images/424358",
+    "tags": [
+      ""
+    ]
+  },
+  {
+    "Title": "Fallen Fruits",
+    "Date": "2013",
+    "Location": "Los Angeles ",
+    "Name": "David Burns and Austin Young",
+    "Link": "http://fallenfruit.org/",
+    "tags": [
+      ""
+    ]
+  },
+  {
+    "Title": "ALKETA XHAFA MRIPA",
+    "Date": "",
+    "Location": "",
+    "Name": "",
+    "Link": "https://www.alketaxhafamripa.com/thinking-of-you?pgid=jobk6h2c-408f0832-8d2b-4c9f-853a-97c4ce1c6616",
+    "tags": [
+      ""
+    ]
+  },
+  {
+    "Title": "Nuria Guell ",
+    "Date": "",
+    "Location": "",
+    "Name": "",
+    "Link": "https://www.nuriaguell.com/",
+    "tags": [
+      ""
+    ]
+  },
+  {
+    "Title": "Jasleen Kaur",
+    "Date": "",
+    "Location": "",
+    "Name": "",
+    "Link": "http://jasleenkaur.co.uk/welcome-mat/",
+    "tags": [
+      ""
+    ]
+  },
+  {
+    "Title": "",
+    "Date": "",
+    "Location": "",
+    "Name": "",
+    "Link": "http://www.studio-orta.com/en/artworks/serie/1/Shelter",
+    "tags": [
+      ""
     ]
   }
 ]
