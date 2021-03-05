@@ -1,8 +1,9 @@
 ---
 layout: base
+title: Articles
 ---
 
-<h2 class="section-link">Articles</h2>
+<h2 class="section-link">{{title}}</h2>
 <main class="post-list">
     {% for post in collections.articles %}
     {% include post-card with post %}
