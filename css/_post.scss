@@ -15,6 +15,9 @@
       background: white;
     }
   }
+  .tags {
+    line-height: 2;
+  }
 }
 
 .tag {
@@ -181,6 +184,10 @@
   }
 }
 
+.post-bio {
+  max-width: 30em;
+}
+
 .post-content {
   grid-column: 1 / 13;
   font-size: var(--ms-0);
@@ -197,21 +204,17 @@
     grid-column: 4 / 10;
   }
 
-  p + p {
-    text-indent: 8.3333vw;
+  p, ul, ol {
+    margin-bottom: .85em;
   }
 
   .fn {
     font-weight: bold;
-    font-size: var(--ms--2);
-    background: var(--black);
-    color: white;
+    font-size: var(--ms--1);
+    color: var(--red);
     display: inline-block;
     text-indent: 0;
-    padding: 0.2em 0.3em;
-    border-radius: 1px;
     vertical-align: middle;
-    line-height: 1;
     font-feature-settings: "tnum";
     cursor: pointer;
   }
@@ -261,23 +264,28 @@
   font-weight: bold;
   margin-bottom: 2rem;
   margin-top: 2rem;
-
   section + section {
     padding-top: 1em;
   }
   @include bp(m) {
-    grid-column: 2 / 7;
-}
-@include bp(l) {
-    grid-column: 4 / 7;
+    grid-column: 2 / 12;
+  }
+  @include bp(l) {
+    grid-column: 4 / 12;
     margin-top: 4em;
   }
 }
 
 .post-footnotes {
+  font-weight: normal;
   ol {
+    padding-top: 2em;
     counter-reset: li;
     padding-left: 1em;
+    column-gap: 4em;
+    @include bp(s){
+      columns: 2;
+    }
   }
 
   a {
@@ -294,8 +302,12 @@
 
     &:before {
       content: counter(li);
+      font-feature-settings: "tnum";
+  
+      text-align: right;
       position: absolute;
-      left: -1em;
+      left: -2.5em;
+      width: 2em;
     }
   }
 }

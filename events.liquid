@@ -1,8 +1,9 @@
 ---
 layout: base
+title: Events
 ---
 
-<h2 class="section-link">Events</h2>
+<h2 class="section-link">{{title}}</h2>
 <main class="post-list events-list">
     {% for post in collections.events %}
     {% include event-card with post %}

@@ -1,0 +1,16 @@
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+{% if class == "home" %}
+<title>Windowcleaner Society</title>
+{% else %}
+<title>{% if title %} {{title}} — {% endif %} Windowcleaner Society</title>
+{% endif %}
+
+<link rel="shortcut icon" href='{{"/assets/favicon.ico" | url }}'>
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+
+<meta name="description" content="Window Cleaner is a society and open platform established at the Royal College of Art in 2019. We aim to disseminate the middle ground between art and activism through our breathing and living collaborative reference list. But also, to have an open space to activate the political art discourses through our published articles and hosted events, such as lectures, exhibitions and workshops. ">
