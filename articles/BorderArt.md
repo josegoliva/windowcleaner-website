@@ -12,55 +12,39 @@ title: A Brief Introduction to Border Art
 date: 2021-03-05
 ---
 
-# **Removing the Curtain**
-
-&nbsp;
+**Removing the Curtain**
 
 In the mid-1980s, when the effects of neoliberalism began to germinate, and in the 1990s with the agreement of the North American Free Trade Agreement (NAFTA), borders were opened from point to point for free trade, but not for the free movement of migrants. As a result, a group of artists located between the south of the United States and northern Mexico, together with the migratory communities there, began to re-activate urban spaces through different artistic interventions on the borders. One of the objectives was to question these contradictory socio-political spaces, in which there was a strong presence of control and surveillance that ended in violent encounters. Another aim was to bring to light the calamities of these spaces and thus raise awareness on both sides of the border. This artistic practice has continued until today, dissecting topics such as territories, emigration, xenophobia, surveillance, identity and patriotism.
-
-&nbsp;
 
 This artistic movement is known as Border Art. In the context of Border Art, we must highlight the presence of BAW / TAF (Border Art Workshop/*Taller de Arte Fronterizo*), one of the pioneering collectives in this context that established a path for other art collectives. An example of these is InSite, an initiative that began in the early '90s, which explored the extraordinary context of Tijuana and San Diego through interventions by different commissioned artists; among these was a performance piece by Venezuelan artist Javier Téllez (2005), an enigmatic work within the history of Border Art. The project was the first time a human cannonball {% inlineImage "/assets/JT01.jpg" "One Flew over the Void (Bala Perdida). Javier Téllez. 2005 Image from: [https://www.rapidrivermagazine.com/wp-content/uploads/2017/08/TELLE21503_web](https://www.rapidrivermagazine.com/wp-content/uploads/2017/08/TELLE21503_web)."%} had been fired across the border with the United States. This happening polemicised the idea of border barriers in the form of "a defiant act that transgresses social and political boundaries literally and figuratively, underscoring the hardships faced by the millions of Mexican and Central American workers who cross the border illegally every year".{% footnote "‘One Flew over the Void (Bala Perdida)’, Guggenheim Collection Online [https://www.guggenheim.org/artwork/33126](https://www.guggenheim.org/artwork/33126) [accessed 20 January 2019]." %}
 
 &nbsp;
 
-**"The main problem people have at the crossing is their feet. Since people are going to try anyway, at least this will make it safer.”** {% footnote "‘Brinco’, LaBoutik, 2019 [https://laboutik.com/blogs/blog/focus-brinco](https://laboutik.com/blogs/blog/focus-brinco)." %}
+>"The main problem people have at the crossing is their feet. Since people are going to try anyway, at least this will make it safer.” {% footnote "‘Brinco’, LaBoutik, 2019 [https://laboutik.com/blogs/blog/focus-brinco](https://laboutik.com/blogs/blog/focus-brinco)." %}
 
 &nbsp;
 
 In 2005, if we look at the data, there were 473{% footnote "Geneviève Jacques and others, Estados Unidos - México Muros, Abusos y Muertos en las fronteras Violaciones flagrantes de los derechos de los migrantes indocumentados en camino a Estados Unidos (International Federation for Human Rights, March 2018), p.7" %} registered deaths of people who tried to cross the border. The deaths that are documented is always less than the actual number, since only the bodies actually found there count. In response to this humanitarian catastrophe, the Argentine artist Judi Werthein based her work on the specificity of the site and the reality of the emigrant. She designed a pair of mountain shoes {% inlineImage "/assets/brinco.jpg" "Brinco. Judi Werthein (2005). Image from: [https://laboutik.com/blogs/blog/focus-brinco](https://laboutik.com/blogs/blog/focus-brinco)"%}, with motifs based on the symbolism and iconography of this dual culture, that intertwines both territories (eagle motifs and an image of St. Toribio Romo{% footnote "Mexican martyr and angel to migrants" %} – the patron saint of migrants). This work functioned as a support for migrants: first, they could have some shoes that would help them in their crossing; second, it provided them with tools – a compass, a flashlight and a mini pocket to hide money and medicine – that were essential during the crossing trip; and third, a map printed on the inner sole with the necessary information about the area. The artist sold these shoes as a limited-edition art object in San Diego for a price of $200, money that would be directed in part to the Tijuana shelter for migrants. The project can be read on several levels: if we look at the shoe itself as an object, it has a duality between leaving a mark – a symbol of presence, history and movement – and highlights the difficulty of the path. Once the work was propagated, as a result a group of people responded to the project with criticism{% footnote "These letters are exhibited in the Tate Modern." %} – together with racist vocabulary – that makes visible the social imbalance and the symptoms of xenophobia.
 
-&nbsp;
-
 Both these works, between site-specific art and the confluence of art and activism, are projects within the movement known as Border Art; something essential to underline here is that in this practice of contemporary art there is no modality in terms of means: the movement is instead focused on communicating and raising awareness. We can see in the following examples some of the various practices that have coexisted in this *frontera* art ecosystem.
 
 &nbsp;
 
-***
-
-&nbsp;
-
-## **Inside WWW**
+**Inside WWW**
 
 &nbsp;
 
 When we think of borders, space itself is of great interest to articulate a work of art, but we must also think about who the audience will be and how it can be democratised for all viewers. In the works that have used an online platform, an example is Tijuana Calling, a group of artists commissioned by InSite_05{% footnote "inSite is committed to the accomplishment of binational collaborative arts partnerships amongst nonprofit and public institutions in the San Diego-Tijuana region" %}, which the artist Mark Tribe curated for this online exhibition. This collective of artists explored the correlation between technology as an interactive art tool and technology as a tool of control – as an essential presence in border surveillance.
 
-&nbsp;
-
 The use of this medium/format has several advantages in having a broad distribution channel to reach a global audience. Also, the characteristic of being immaterial allows freedom of publication without dependence on institutional bureaucracies in the art world. In interview, Mark Tribe stressed that "the net can enable artists to reach audiences that never set foot in a gallery, museum or performance space.”{% footnote "Mark Tribe, ‘Tijuana Calling’, Mark Tribe Studio, 2005 [https://www.marktribe.net/tijuana-calling/](https://www.marktribe.net/tijuana-calling/) [accessed 3 March 2019]." %} He commented that today, there are “more and more significant interactions, transactions and experience happening online, so it is a way to engage with audiences in the public sphere”.{% footnote "Ibid." %}
 
-&nbsp;
-
 The characteristics that Mark Tribe observes can be seen in the online art project Turista Fronterizo, a work that interactively, humorously and with a sequential narrative portrays real-life controversies and abuses of human rights within this bi-cultural context. This work was born from a collaboration between the multimedia and performance artist Coco Fusco and the hacktivist media artist Ricardo Rodriguez. This bilingual, virtual, interactive project has the appearance of a game board {% inlineImage "/assets/cocofusco02.jpg" "Screenshot of the game board: Turista Fronterizo. Coco Fusco y Ricardo Rodriguez (2005). Image from: [http://thing.net/~cocofusco/StartPage.html](http://thing.net/~cocofusco/StartPage.html)"%}, similar to Monopoly, or the Mexican version, Tourism. The difference is that the iconography used – the names of places, colours and folk artefacts – is inspired by the border between Tijuana and San Diego.
-
-&nbsp;
 
 The game is designed in such a way that it is easy to use, designed with basic HTML; therefore it allows all kinds of audiences to interact intuitively. At the beginning, you have an image of the border with a view as if you were looking through a camera – on that plane you can see four individuals {% inlineImage "/assets/cocofusco.png" "Screenshot, choosing your player: Turista Fronterizo Coco Fusco y Ricardo Rodriguez (2005). Image from: [http://thing.net/~cocofusco/StartPage.html](http://thing.net/~cocofusco/StartPage.html)"%}, two Mexicans (“The Junior”, a 25-year-old man, whose profession is “*huevón*”; his means of transport is a Mercedes G500. Then you have “*La Todológa*”{% footnote "It is a mocking way to refer to a person who is willing to work on anything." %}, a 23-year-old woman whose profession is "everything she finds" – her mode of transport is a Combi.) and two Americans (A powerful *gringo*{% footnote "Non-derogatory term used to refer to US citizens." %}, 47 years old – profession: a dual-national businessman; he is transported in his Lexus Sedan. The second character is a 30-year-old "Gringa activist”, a student of anthropology: her means of transport is a VW Beetle). Depending on the role you choose and the language, the experience and perspective you will get through the game will be different. It is not the same experience crossing the border as an American businessman as it is as a Mexican girl in search of work. In the words of Coco Fusco:
 
 &nbsp;
 
-**The more conversant one is in various idioms of the border, the more one can know about all the angles of the game and the more one has access to "insider" information on both sides of the border. The paths of each player allude to actual experiences that are typical of real life regular border crossers, from elderly Americans who go to Tijuana to buy cheaper prescription drugs medicine, to Mexican day laborers who make their way on foot along Route 5 each day and peddle their skills and trades in San Diego's suburbs.**{% footnote "Coco Fusco and Ricardo Dominguez, ‘Turista Fronterizo’, Coco Fusco [https:// www.cocofusco.com/turista-fronterizo](https:// www.cocofusco.com/turista-fronterizo) [accessed 3 March 2019]." %}
+>The more conversant one is in various idioms of the border, the more one can know about all the angles of the game and the more one has access to "insider" information on both sides of the border. The paths of each player allude to actual experiences that are typical of real life regular border crossers, from elderly Americans who go to Tijuana to buy cheaper prescription drugs medicine, to Mexican day laborers who make their way on foot along Route 5 each day and peddle their skills and trades in San Diego's suburbs.{% footnote "Coco Fusco and Ricardo Dominguez, ‘Turista Fronterizo’, Coco Fusco [https:// www.cocofusco.com/turista-fronterizo](https:// www.cocofusco.com/turista-fronterizo) [accessed 3 March 2019]." %}
 
 &nbsp;
 
@@ -68,100 +52,65 @@ From the first moment you start the game, it opens a window on all the prejudice
 
 &nbsp;
 
-***
-
-&nbsp;
-
-## **Inside the White Cube**
+**Inside the White Cube**
 
 &nbsp;
 
 “Mr Hari, a former sheriff’s deputy, claimed to have compassion for people who try to enter the USA illegally, but said that he submitted his designs for patriotic reasons, telling the Chicago Tribune: ‘We would look at the wall as not just a physical barrier to immigration but also as a symbol of the American determination to defend our culture, our language, our heritage, from any outsiders.’”{% footnote "Tim Marshall, Divided: Why We’re Living in an Age of Walls (London: Eliott and Thompson Limited, 2018) p.47" %}
 
-&nbsp;
-
 When this kind of patriotism exists, the consequences of racism exist – when a person emphasises the word ‘our’: "our culture, our language, our heritage", defending it from any outsiders. This the reasoning of this former sheriff, who says that the presence of a physical barrier is necessary to protect all these symbolic elements. If we all thought in this way, then France would need to forge walls with electric gates all around its southern periphery, to defend it from Spaniards who are eager to take away their language, culture and heritage.
-
-&nbsp;
 
 The problem is instead to know how to coexist between cultures, because if you do not want people who speak another language from yours, then starting from that point there are already symptoms of fascism. Crudely, an immigrant is imagined as a poor person, simply because the concept of emigrant or “border crosser” implies a person of low resources. No country wants poor people from abroad to look for work in theirs – this is a reality. The problem is not being an immigrant, but the economic status that the person possesses. Nobody sees Prince Philip as an immigrant – why should this be?
 
-&nbsp;
-
 We can see this type of comment and behaviour reflected more clearly in the work of the Mexican artist Yoshua Okón. In Arizona, in 2014, a group called Arizona Border Protectors (AZBD) held one of the largest demonstrations in the United States against migration; the march took place in a small town called Oracle, prompting Okón to start the project. In addition, the name refers to the Oracle Corporation, a transnational company with strong political ties to the CIA. It is a clear example of the "current geopolitical paradigm.”.{% footnote "Travis Diehl, ‘Yoshua Okón, Oracle, 2015’, Artforum 13 July 2015 [https://www.yoshuaokon.com/assets/84okon_oracleartforum.pdf](https://www.yoshuaokon.com/assets/84okon_oracleartforum.pdf) [accessed 18 January 2019]." %} When we observe the growth of the collusion between government and corporations, we can see a clear reflection of the dominance of private companies over governmental structures that exists, and just as Yoshua tells us in the interview, he is interested in that "enormous contradiction between the global economic system and the nation-state".{% footnote "Yoshua Okón, Personal interview. 11 June 2019. Skype interview." %}
 
-&nbsp;
-
 Okón found this scenario of protesters claiming that there would be an invasion of sixty thousand children from Central America incredibly ironic and contradictory, taking into account the invasions of the United States into Guatemalan territory. This distortion is a portrait of American society that sees only a part of the image. Okón describes this event as "revealing of the nationalist bubble in which most people in the US live. The arrival of these kids to the US is a direct result of the US foreign policy."{% footnote "Travis Diehl, ‘Yoshua Okón, Oracle, 2015’, Artforum 13 July 2015 [https://www.yoshuaokon.com/assets/84okon_oracleartforum.pdf](https://www.yoshuaokon.com/assets/84okon_oracleartforum.pdf) [accessed 18 January 2019]." %}
-
-&nbsp;
 
 This four-channel video installation is accompanied by a group of 9 Guatemalan children singing the US Marines' Hymn in chorus. Okón, maintaining the melodic base, modified the lyrics of the anthem, narrating in the song the invading history of the United States after the monopoly between the United Fruit Company and the CIA that took place in the countries on its southern periphery, while the video reflects the recreation of the protest they held in 2014. “The result is a hybrid of documentary and self-parody.”{% footnote "Pablo de Llano, ‘El artista mexicano Yoshua Okón se adentra en el furor estéril de grupos de civiles que patrullan el desierto de EE UU contra los migrantes’, El País, 2015 [https://www.yoshuaokon.com/assets/86okon_oracleelpais.pdf](https://www.yoshuaokon.com/assets/86okon_oracleelpais.pdf) [accessed 20 January 2019]." %} The recordings document these AZ Border Patrol militiamen with an illusory notion of nationalism, which does not exist today. And ironically, it does not exist because of the same effects of the neoliberal doctrine.
 
 &nbsp;
 
-"What I argue is that nationalism creates a myopic and limited view of the world, and especially limits on issues of migration."{% footnote "Sonia Ávila, ‘Critica miope nacionalismo’, Excelsior, 2015. [https://www.yoshuaokon.com/assets/85okon_oracle_excelsior.pdf](https://www.yoshuaokon.com/assets/85okon_oracle_excelsior.pdf) [accessed 20 January 2019]." %}
+>"What I argue is that nationalism creates a myopic and limited view of the world, and especially limits on issues of migration."{% footnote "Sonia Ávila, ‘Critica miope nacionalismo’, Excelsior, 2015. [https://www.yoshuaokon.com/assets/85okon_oracle_excelsior.pdf](https://www.yoshuaokon.com/assets/85okon_oracle_excelsior.pdf) [accessed 20 January 2019]." %}
 
 &nbsp;
 
 This portrait that Okón provides allows us to see the root causes of the misconceptions we have about migration and transnational policies. Little, or almost nothing, is said about these causes and how they generate as a result of fanaticism: Okón tells us that "they think that is the answer, when in some way nationalism, what they are doing, is exacerbating the problem. To solve it, it is making it more serious, more violent.”{% footnote "Yoshua Okón, Personal interview. 11 June 2019. Skype interview." %} This hybrid documentary shows us how this community is seen as "marginals ignored by the system”, hoping to see the nationalist package that the government has promised them: the American dream is non-existent.
 
-&nbsp;
-
 In the course of the video, we can see an infinity of references that intensify this reading between the surrealist and the paradoxical, almost quixotic. There is a moment when one of the members of this group drives a Ford truck that drives round in the same circle {% inlineImage "/assets/Oracle_01.png" "Screenshot of the video: *Oracle*, 2015. Yoshua Okón. Image from: [https://www.yoshuaokon.com/oracle-video.html](https://www.yoshuaokon.com/oracle-video.html) "%} – an allegory of nationalism – in the middle of the desert, with a huge flag of the United States, and another that says "Don’t tread on me” {% inlineImage "/assets/Oracle_02.png" "Screenshot of the video: *Oracle*, 2015. Yoshua Okón. Image from: [https://www.yoshuaokon.com/oracle-video.html](https://www.yoshuaokon.com/oracle-video.html) "%}. This scene, accompanied by bullets to the vacuum-between machine guns and pistols, the sounds of horns and the cry of a retired cowboy’s yee-ha!, demonstrates the absurdity of their struggle. These actions "do not influence anything, but at least they raise dust".{% footnote "Pablo de Llano, [accessed 20 January 2019]." %}
-
-&nbsp;
 
 Another scene full of metaphor is the analogy that Okón makes between hoisting the flag in the battle of Iwo Jima, and the raising of the flag with some awkwardness of movement by a group of ex-military in a desert area, giving the impression that they need to plant their identity obsessively, on every stone of US territory, to highlight their patriotic fanaticism. This visual composition, after the buzzing of a fly, turns the scene into a caricatured (involuntary) portrait of this extremist group.
 
-&nbsp;
-
 Both the work and the chorus of Guatemalan children were presented for the first time at the Arizona State University Art Museum in Tempe in 2015. This makes it possible to engage an audience that can see the actions of its neighbours in a mirror. One of the questions in the interview with the artist was about the reasons for using these sterile spaces of galleries/art museums to present a project, and what kind of audience is interested in it. Okón says:
-
-&nbsp;
 
 Arts spaces are environments typically occupied by the privileged, and it is these people that interest me. This public, in general, does not understand the root causes of migration. The privileged are usually the most conditioned by official narratives, which are totally distorted. Somehow, my goal is to create a short circuit in all your notions, and through my works make people rethink their ideas about reality, and the world, as ideas to subvert from within. For example: I have nothing to explain to the migrants; they already live it day by day, right?{% footnote "Yoshua Okón, Personal interview. 11 June 2019. Skype interview." %}
 
 &nbsp;
 
-***
+**Inside the Site**
 
 &nbsp;
 
-# **Inside the Site**
-
-&nbsp;
-
-“Make art great again.”{% footnote "‘PROTOTYPES’, MAGA, 2018 [http://maga.co.com](http://maga.co.com) [accessed 12 February 2019]." %}
-
-&nbsp;
+>“Make art great again.”{% footnote "‘PROTOTYPES’, MAGA, 2018 [http://maga.co.com](http://maga.co.com) [accessed 12 February 2019]." %}
 
 In contrast to the two previous projects – online project and gallery / museum-based project – in this project, however, the border space is used as the setting for the work. In this highly sensitive place, Christoph Büchel provokes a polemic, which raises a question about the physicality of national monuments and how such monuments in specific spaces reflect ideologies, beliefs and historical events-whether cruel or not.
 
-&nbsp;
-
 The particular point about this project is that the artist does not create a work in situ, but rather creates a guided tour (for $ 25) to the prototypes {% inlineImage "/assets/USAWallprototype.png" "Some of the prototype walls. PROTOTYPES. MAGA. Image from: [http://maga.co.com](http://maga.co.com) "%} erected by Trump and his followers. The site-specificity is of great importance as they face the wall, which already exists between USA / Mexico, precisely in Otay Mesa, San Diego, California. This data puts in doubt the border reinforcement when a border already exists {% inlineImage "/assets/oldwall.png" "The current border. PROTOTYPES. MAGA Image from: [https://www.borderwallprototypes.org/gallery](https://www.borderwallprototypes.org/gallery) "%}. This parallel space shows the desire to alienate the 'illegal' immigrant. It also emphasises the ineffectiveness of border barriers.
-
-&nbsp;
 
 Büchel - under the aegis of a group called MAGA - names these eight artefacts as "conceptual" sculptures with Land Art qualities, which have a "significant cultural value" in the words of the artist. PROTOTYPES consists of a petition to denominate the eight border wall to a national monument, according to the Antiquities Act of 1906: "legislation that protects natural, cultural, or scientific features on Federal land."{% footnote "‘MAGA ANNOUNCES “PROTOTYPES” LAND ART EXHIBITION’, PROTOTYPES [https://www.borderwallprototypes.org/pressrelease](https://www.borderwallprototypes.org/pressrelease) [accessed 18 February 2019]." %} The artist clearly demonstrates his intention, preserved and protected from demolition for "all future generations of people."
 
-&nbsp;
-
 From the beginning, and at the time of being published, the first visits to PROTOTYPES generated a revolt both at the media level and in the art world. A number of artists started a boycott against Büchel's project and both Büchel's gallery and the international powerhouse, Hauser & Wirth. This group of people named this project as irresponsible and insensitive regarding the suffering of the most vulnerable, who attempt to cross the border. The director of the Leslie-Lohman Museum in New York, Gonzalo Casals comments that PROTOTYPES project:
 
-&nbsp;
-
-
 Fails to present a more human and nuanced understanding of the reason those prototypes were created. At this point, as the conversations about the need of a wall are still happening, we need to create platforms for artworks that celebrate the contributions of immigrants to this country, and shed light on the real issues behind the creation of the wall.{% footnote "Maximilíano Durón, ‘Artists, Curators Respond to Christoph Büchel’s Border Wall Project’, Artnews, 2 July 2018 [http://www.artnews.com/2018/02/07/artists-curators-respond-christoph-buchels-border-wall-project/](http://www.artnews.com/2018/02/07/artists-curators-respond-christoph-buchels-border-wall-project/) [accessed 20 February 2019]" %}
-
-&nbsp;
 
 It is true that this guided tour does not demonstrate the cultural, economic, social, and otherwise significant contributions that immigrants bring to the United States, but it is crucial that we acknowledge that this is because the appreciation of other cultures cannot, and will not be valued until the mental walls have crumbled. It is essential to awaken our conscience and see the monumental absurdity of these prototypes: "monolithic, corporate, severe".{% footnote "Jerry Saltz, ‘Trump’s Border-Wall Prototypes: A Kind of National Monument to American Nativism’, Vulture, 17 January 2018 [https://www.vulture.com/2018/01/the-border-wall-is-a-national-monument-to-trumps-nativism.html](https://www.vulture.com/2018/01/the-border-wall-is-a-national-monument-to-trumps-nativism.html) [accessed 20 March 2019]." %} In this moment (the 21st century) we must question: What has been the progress from the walls of the Middle Ages to the present? We have invented the meaning of these eight walls ourselves: If these fictions we have created of territorial appropriation and complex political ideologies did not exist then these eight excessively expensive {% inlineImage "/assets/walltypedescriptions.png" "The eight prototypes under consideration. PROTOTYPES. MAGA. Image from: [https://www.borderwallprototypes.org/gallery](https://www.borderwallprototypes.org/gallery) "%}, theatrical, authoritarian, and fetishistic walls will be only a reminder in the middle of a desert of the constant struggle we have between "us" and "us". The art critic, Jerry Saltz, dissects it in this way:
 
 These prototypes will be a perfect memorial to how close the United States came to giving in to the ghosts of racism, xenophobia, nativism, white nationalism, mediocrity, and a cosmic fear of the other. And this Trumpian monument will stand for this last gasp of the mythical infatuation with race. They will stand as a reminder of how D.H. Lawrence saw America reflected in Moby-Dick: “A mad ship, under a mad captain, in a mad, fanatic’s hunt” afraid of its “white abstract end.”{% footnote "*Ibid*" %}
 
 &nbsp;
+
+
+
+
 
 
 
