@@ -128,8 +128,6 @@ Arts spaces are environments typically occupied by the privileged, and it is the
 
 &nbsp;
 
-&nbsp;
-
 # **Inside the Site**
 
 &nbsp;
@@ -160,8 +158,6 @@ Fails to present a more human and nuanced understanding of the reason those prot
 &nbsp;
 
 It is true that this guided tour does not demonstrate the cultural, economic, social, and otherwise significant contributions that immigrants bring to the United States, but it is crucial that we acknowledge that this is because the appreciation of other cultures cannot, and will not be valued until the mental walls have crumbled. It is essential to awaken our conscience and see the monumental absurdity of these prototypes: "monolithic, corporate, severe".{% footnote "Jerry Saltz, ‘Trump’s Border-Wall Prototypes: A Kind of National Monument to American Nativism’, Vulture, 17 January 2018 [https://www.vulture.com/2018/01/the-border-wall-is-a-national-monument-to-trumps-nativism.html](https://www.vulture.com/2018/01/the-border-wall-is-a-national-monument-to-trumps-nativism.html) [accessed 20 March 2019]." %} In this moment (the 21st century) we must question: What has been the progress from the walls of the Middle Ages to the present? We have invented the meaning of these eight walls ourselves: If these fictions we have created of territorial appropriation and complex political ideologies did not exist then these eight excessively expensive {% inlineImage "/assets/walltypedescriptions.png" "The eight prototypes under consideration. PROTOTYPES. MAGA. Image from: [https://www.borderwallprototypes.org/gallery](https://www.borderwallprototypes.org/gallery) "%}, theatrical, authoritarian, and fetishistic walls will be only a reminder in the middle of a desert of the constant struggle we have between "us" and "us". The art critic, Jerry Saltz, dissects it in this way:
-
-&nbsp;
 
 These prototypes will be a perfect memorial to how close the United States came to giving in to the ghosts of racism, xenophobia, nativism, white nationalism, mediocrity, and a cosmic fear of the other. And this Trumpian monument will stand for this last gasp of the mythical infatuation with race. They will stand as a reminder of how D.H. Lawrence saw America reflected in Moby-Dick: “A mad ship, under a mad captain, in a mad, fanatic’s hunt” afraid of its “white abstract end.”{% footnote "*Ibid*" %}
 
