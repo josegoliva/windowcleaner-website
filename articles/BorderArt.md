@@ -20,7 +20,7 @@ This artistic movement is known as Border Art. In the context of Border Art, we 
 
 &nbsp;
 
-**"The main problem people have at the crossing is their feet. Since people are going to try anyway, at least this will make it safer.”** {% footnote "‘Brinco’, LaBoutik, 2019 [https://laboutik.com/blogs/blog/focus-brinco](https://laboutik.com/blogs/blog/focus-brinco)." %}
+>"The main problem people have at the crossing is their feet. Since people are going to try anyway, at least this will make it safer.” {% footnote "‘Brinco’, LaBoutik, 2019 [https://laboutik.com/blogs/blog/focus-brinco](https://laboutik.com/blogs/blog/focus-brinco)." %}
 
 &nbsp;
 
@@ -44,7 +44,7 @@ The game is designed in such a way that it is easy to use, designed with basic H
 
 &nbsp;
 
-**The more conversant one is in various idioms of the border, the more one can know about all the angles of the game and the more one has access to "insider" information on both sides of the border. The paths of each player allude to actual experiences that are typical of real life regular border crossers, from elderly Americans who go to Tijuana to buy cheaper prescription drugs medicine, to Mexican day laborers who make their way on foot along Route 5 each day and peddle their skills and trades in San Diego's suburbs.**{% footnote "Coco Fusco and Ricardo Dominguez, ‘Turista Fronterizo’, Coco Fusco [https:// www.cocofusco.com/turista-fronterizo](https:// www.cocofusco.com/turista-fronterizo) [accessed 3 March 2019]." %}
+>The more conversant one is in various idioms of the border, the more one can know about all the angles of the game and the more one has access to "insider" information on both sides of the border. The paths of each player allude to actual experiences that are typical of real life regular border crossers, from elderly Americans who go to Tijuana to buy cheaper prescription drugs medicine, to Mexican day laborers who make their way on foot along Route 5 each day and peddle their skills and trades in San Diego's suburbs.{% footnote "Coco Fusco and Ricardo Dominguez, ‘Turista Fronterizo’, Coco Fusco [https:// www.cocofusco.com/turista-fronterizo](https:// www.cocofusco.com/turista-fronterizo) [accessed 3 March 2019]." %}
 
 &nbsp;
 
@@ -70,7 +70,7 @@ This four-channel video installation is accompanied by a group of 9 Guatemalan c
 
 &nbsp;
 
-**"What I argue is that nationalism creates a myopic and limited view of the world, and especially limits on issues of migration."**{% footnote "Sonia Ávila, ‘Critica miope nacionalismo’, Excelsior, 2015. [https://www.yoshuaokon.com/assets/85okon_oracle_excelsior.pdf](https://www.yoshuaokon.com/assets/85okon_oracle_excelsior.pdf) [accessed 20 January 2019]." %}
+>"What I argue is that nationalism creates a myopic and limited view of the world, and especially limits on issues of migration."{% footnote "Sonia Ávila, ‘Critica miope nacionalismo’, Excelsior, 2015. [https://www.yoshuaokon.com/assets/85okon_oracle_excelsior.pdf](https://www.yoshuaokon.com/assets/85okon_oracle_excelsior.pdf) [accessed 20 January 2019]." %}
 
 &nbsp;
 
@@ -90,7 +90,7 @@ Arts spaces are environments typically occupied by the privileged, and it is the
 
 &nbsp;
 
-“Make art great again.”{% footnote "‘PROTOTYPES’, MAGA, 2018 [http://maga.co.com](http://maga.co.com) [accessed 12 February 2019]." %}
+>“Make art great again.”{% footnote "‘PROTOTYPES’, MAGA, 2018 [http://maga.co.com](http://maga.co.com) [accessed 12 February 2019]." %}
 
 In contrast to the two previous projects – online project and gallery / museum-based project – in this project, however, the border space is used as the setting for the work. In this highly sensitive place, Christoph Büchel provokes a polemic, which raises a question about the physicality of national monuments and how such monuments in specific spaces reflect ideologies, beliefs and historical events-whether cruel or not.
 
