@@ -2,7 +2,7 @@
 layout: base
 ---
 
-<h2 class="section-link">Tags</h2>
+<h2 class="section-link">Tags ({{referenceTags | size}})</h2>
 <main class="post-list tag-list">
     {% for tag in referenceTags %}
         <a href="/tags/{{ tag | slug}}" class="tag">{{ tag }}</a>
