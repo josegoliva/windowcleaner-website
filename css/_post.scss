@@ -1,5 +1,5 @@
 .post-card {
-  padding: 2rem 1rem;
+  padding: 2rem;
   @include bp(l) {
     padding: 3rem;
   }
@@ -34,9 +34,19 @@
   }
 }
 
+.post-card-date {
+  white-space: nowrap;
+}
 .post-card-meta {
   font-size: var(--ms-0);
   margin-top: 1em;
+  .tags {
+    padding-top: .5em;
+    display: block;
+    @include bp(m){
+     padding-top: 1em;
+   } 
+  }
 
   span {
     margin-right: 1em;
@@ -74,10 +84,11 @@
   text-decoration: none;
   margin: 0 auto;
   margin-bottom: 0.5rem;
-  line-height: 0.9;
   font-size: var(--ms-3);
   font-weight: 700;
+  line-height: 1;
   @include bp(s) {
+    line-height: 0.9;
     font-size: var(--ms-4);
   }
   @include bp(m) {
@@ -103,14 +114,22 @@
 .post-header {
   @extend .post-card;
   grid-column: 1 / 13;
+  margin: 0 auto;
+  width: 100%;
   margin-bottom: 1rem;
   @include bp(m) {
     margin-bottom: 2rem;
     grid-column: 2 / 12;
+    .post-card-title {
+      font-size: var(--ms-6);
+    }
   }
   @include bp(l) {
     margin-bottom: 6rem;
     grid-column: 3 / 11;
+    .post-card-title {
+      font-size: var(--ms-7);
+    }
   }
 }
 
@@ -182,6 +201,10 @@
     opacity: 1;
     cursor: pointer;
   }
+  figcaption {
+    padding-top: 0.5em;
+    font-size: var(--ms-0);
+  }
 }
 
 .post-bio {
@@ -190,6 +213,8 @@
 
 .post-content {
   grid-column: 1 / 13;
+  max-width: 55rem;
+  margin: 0 auto;
   font-size: var(--ms-0);
   hyphens: auto;
   letter-spacing: 0.01em;
@@ -204,8 +229,10 @@
     grid-column: 4 / 10;
   }
 
-  p, ul, ol {
-    margin-bottom: .85em;
+  p,
+  ul,
+  ol {
+    margin-bottom: 0.85em;
   }
 
   .fn {
@@ -282,7 +309,7 @@
     counter-reset: li;
     padding-left: 1em;
     column-gap: 4em;
-    @include bp(s){
+    @include bp(s) {
       columns: 2;
     }
   }
@@ -302,7 +329,7 @@
     &:before {
       content: counter(li);
       font-feature-settings: "tnum";
-  
+
       text-align: right;
       position: absolute;
       left: -2.5em;
