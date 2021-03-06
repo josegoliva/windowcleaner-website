@@ -8,8 +8,8 @@ layout: base
 ---
 
 <h2 class="section-link"><a href="/tags">Tags</a> <svg viewBox="0 0 24 24">
-    <path fill="currentColor" d="M4,11V13H16L10.5,18.5L11.92,19.92L19.84,12L11.92,4.08L10.5,5.5L16,11H4Z" />
-</svg> {{ tag }}</h2>
+        <path fill="currentColor" d="M4,11V13H16L10.5,18.5L11.92,19.92L19.84,12L11.92,4.08L10.5,5.5L16,11H4Z" />
+    </svg> {{ tag }}</h2>
 
 <section class="archive-section">
     <h2 class="archive-section-title">Articles</h2>
@@ -27,7 +27,7 @@ layout: base
         <span class='emptyState'>
             No articles found.
         </span>
-    {% endif %}
+        {% endif %}
     </main>
 </section>
 
@@ -38,14 +38,14 @@ layout: base
     <main class="events-list">
         {% for post in ps %}
         {% if post.data.tags contains tag %}
-            {% include event-card with post %}
-            {% assign eventsFound = true %}
+        {% include event-card with post %}
+        {% assign eventsFound = true %}
         {% endif %}
         {% endfor %}
         {% if eventsFound == false %}
-            <span class='emptyState'>
-                No events found.
-            </span>
+        <span class='emptyState'>
+            No events found.
+        </span>
         {% endif %}
     </main>
 </section>
@@ -53,20 +53,37 @@ layout: base
 {% assign referenceFound = false %}
 <section class="archive-section">
     <h2 class="archive-section-title">References</h2>
+
+    {% for ref in references %}
+    {% if ref.tags contains tag %}
+    {% assign referenceFound = true %}
+    {% endif %}
+    {% endfor %}
+
     <section class="references-container">
         <table class="references">
+            {% if referenceFound == true %}
+            <thead>
+                <tr>
+                    <th><button class='sort' data-sort='reference-title'>Title</button></th>
+                    <th><button class='sort' data-sort='reference-date'>Year</button></th>
+                    <th><button class='sort' data-sort='reference-location'>Location</button></th>
+                    <th><button class='sort' data-sort='reference-name'>Artist</button></th>
+                    <th>Link</th>
+                    <th>Tags</th>
+                </tr>
+            </thead>
             <tbody class="list">
                 {% for ref in references %}
                 {% if ref.tags contains tag %}
                 {% include reference-row with ref %}
-                {% assign referenceFound = true %}
                 {% endif %}
                 {% endfor %}
             </tbody>
         </table>
-        {% if referenceFound == false %}
-            <span class="emptyState">No references found.<br>
-                <a class='btn' href="https://docs.google.com/spreadsheets/d/1-QQNlh1FwsTEmwdYni0hfT4HMzutPspM9pTVR4VDZlE/edit?usp=sharing">Add a Reference</a>
+        {% else %}
+        <span class="emptyState">No references found.<br>
+            <a class='btn' href="https://docs.google.com/spreadsheets/d/1-QQNlh1FwsTEmwdYni0hfT4HMzutPspM9pTVR4VDZlE/edit?usp=sharing">Add a Reference</a>
         {% endif %}
     </section>
 </section>
