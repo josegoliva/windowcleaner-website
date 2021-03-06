@@ -19,6 +19,10 @@ module.exports = function (eleventyConfig) {
         );
     });
 
+    eleventyConfig.addFilter("renderMarkdown", function (value) {
+        return md.render(value);
+    });
+
     eleventyConfig.addShortcode("inlineImage", function (url, caption) {
         if (!caption) { caption = '' }
         return (
