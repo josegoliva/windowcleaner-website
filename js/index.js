@@ -8,8 +8,8 @@ window.addEventListener('DOMContentLoaded', () => {
     const homeEventContainer = document.querySelector(".home-events")
     const referenceList = document.querySelector(".references-container")
     const logo = document.querySelector(".site-logo")
-    logo.style.right = `${gri(0, 30)}%`
-    logo.style.top = `${gri(30, 80)}%`
+    logo.style.left = `${gri(0, 60)}%`
+    logo.style.top = `${gri(30, 50)}%`
     logo.setAttribute('src', `/assets/logo-${gri(0, 3)}.png`)
     const options = {
 
@@ -64,7 +64,6 @@ window.addEventListener('DOMContentLoaded', () => {
 
         inlineImages.forEach(img => {
             img.addEventListener('mouseover', () => {
-                console.log('hi')
                 imageModal.classList.add('active')
                 const imgEl = imageModal.querySelector('img')
                 const imgCaption = imageModal.querySelector('figcaption')
@@ -81,7 +80,9 @@ window.addEventListener('DOMContentLoaded', () => {
     if (homeEventContainer) {
         allEvents.forEach(e => {
             const start = dayjs(e.start);
+            const end = dayjs(e.end);
             const now = dayjs()
+            console.log(end)
             if (start.isAfter(now)) {
                 let el = document.createElement('article')
                 el.classList.add("post-card")
@@ -100,8 +101,33 @@ window.addEventListener('DOMContentLoaded', () => {
 
                 let date = document.createElement('span')
                 date.classList.add("date")
-                date.textContent = start.format("dddd, MMMM DD");
+                date.textContent = start.format("MMMM DD, YYYY");
 
+                h2.appendChild(a)
+                el.appendChild(status)
+                el.appendChild(h2)
+                el.appendChild(date)
+                homeEventContainer.appendChild(el)
+            } else if (start.isBefore(now) && end.isAfter(now)){
+                console.log("ongoing")
+                let el = document.createElement('article')
+                el.classList.add("post-card")
+                el.classList.add("event-card")
+
+                let h2 = document.createElement('h2')
+                h2.classList.add("post-card-title")
+
+                let a = document.createElement('a')
+                a.setAttribute('href', e.url);
+                a.textContent = e.title;
+
+                let status = document.createElement('span')
+                status.classList.add("status")
+                status.textContent = "Ongoing Event";
+
+                let date = document.createElement('span')
+                date.classList.add("date")
+                date.textContent = "Ends " + end.format("MMMM DD, YYYY");
 
                 h2.appendChild(a)
                 el.appendChild(status)

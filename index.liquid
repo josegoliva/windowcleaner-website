@@ -10,7 +10,7 @@ class: home
     {% for post in collections.events %}
     {"title": "{{post.data.title}}",
     "start": "{{post.data.event.start}}",
-    "end": "{{post.data.event.start}}",
+    "end": "{{post.data.event.end}}",
     "url": "{{post.url}}"},
     {% endfor %}
     ]
