@@ -8,8 +8,8 @@ window.addEventListener('DOMContentLoaded', () => {
     const homeEventContainer = document.querySelector(".home-events")
     const referenceList = document.querySelector(".references-container")
     const logo = document.querySelector(".site-logo")
-    logo.style.left = `${gri(0, 60)}%`
-    logo.style.top = `${gri(30, 50)}%`
+    logo.style.left = `${gri(0, 30)}%`
+    logo.style.top = `${gri(25, 50)}%`
     logo.setAttribute('src', `/assets/logo-${gri(0, 3)}.png`)
     const options = {
 
