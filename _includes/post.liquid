@@ -59,9 +59,11 @@ layout: base
                 </thead>
                 <tbody class="list">
                     {% for ref in references %}
+                    {% assign found = false%}
                     {% for tag in tags %}
-                    {% if ref.tags contains tag %}
+                    {% if ref.tags contains tag and found == false %}
                     {% include reference-row with ref %}
+                    {% assign found = true %}
                     {% endif %}
                     {% endfor %}
                     {% endfor %}
