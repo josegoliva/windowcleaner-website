@@ -65,10 +65,10 @@
 }
 
 .site-footer {
-  grid-column: 1 / 13;
   @include bp(l) {
     grid-column: 1 / 4;
   }
+  grid-column: 1 / 13;
   line-height: 1.2;
   align-self: flex-end;
   margin-top: 10vh;

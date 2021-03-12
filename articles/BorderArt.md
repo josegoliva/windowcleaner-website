@@ -12,7 +12,7 @@ title: A Brief Introduction to Border Art
 date: 2021-03-05
 ---
 
-**Removing the Curtain**
+## Removing the Curtain
 
 In the mid-1980s, when the effects of neoliberalism began to germinate, and in the 1990s with the agreement of the North American Free Trade Agreement (NAFTA), borders were opened from point to point for free trade, but not for the free movement of migrants. As a result, a group of artists located between the south of the United States and northern Mexico, together with the migratory communities there, began to re-activate urban spaces through different artistic interventions on the borders. One of the objectives was to question these contradictory socio-political spaces, in which there was a strong presence of control and surveillance that ended in violent encounters. Another aim was to bring to light the calamities of these spaces and thus raise awareness on both sides of the border. This artistic practice has continued until today, dissecting topics such as territories, emigration, xenophobia, surveillance, identity and patriotism.
 
@@ -28,11 +28,7 @@ In 2005, if we look at the data, there were 473{% footnote "Geneviève Jacques a
 
 Both these works, between site-specific art and the confluence of art and activism, are projects within the movement known as Border Art; something essential to underline here is that in this practice of contemporary art there is no modality in terms of means: the movement is instead focused on communicating and raising awareness. We can see in the following examples some of the various practices that have coexisted in this *frontera* art ecosystem.
 
-&nbsp;
-
-**Inside WWW**
-
-&nbsp;
+## Inside WWW
 
 When we think of borders, space itself is of great interest to articulate a work of art, but we must also think about who the audience will be and how it can be democratised for all viewers. In the works that have used an online platform, an example is Tijuana Calling, a group of artists commissioned by *InSite_05*{% footnote "inSite is committed to the accomplishment of binational collaborative arts partnerships amongst nonprofit and public institutions in the San Diego-Tijuana region" %}, which the artist Mark Tribe curated for this online exhibition. This collective of artists explored the correlation between technology as an interactive art tool and technology as a tool of control – as an essential presence in border surveillance.
 
@@ -50,11 +46,7 @@ The game is designed in such a way that it is easy to use, designed with basic H
 
 From the first moment you start the game, it opens a window on all the prejudices that exist in the communities that inhabit both sides of the border. Using humour and empathy with the viewer of the work, it creates an awareness of the different life experiences, economic status and difficulties or benefits that each player has. With the simplicity of a game, it allows us to analyse and observe from a cultural and social perspective the humanitarian situation that exists in this specific border. In addition, taking into account the particular limitations of interaction and choice of game, together with the uncertainty of a given, it raises the idea of control, and of geopolitical laws (metaphorically) that end up being a portrait of the lives of these characters. It reminds us of the old saying: life is a gamble.
 
-&nbsp;
-
-**Inside the White Cube**
-
-&nbsp;
+## Inside the White Cube
 
 “Mr Hari, a former sheriff’s deputy, claimed to have compassion for people who try to enter the USA illegally, but said that he submitted his designs for patriotic reasons, telling the Chicago Tribune: ‘We would look at the wall as not just a physical barrier to immigration but also as a symbol of the American determination to defend our culture, our language, our heritage, from any outsiders.;'”{% footnote "Tim Marshall, Divided: Why We’re Living in an Age of Walls (London: Eliott and Thompson Limited, 2018) p.47" %}
 
@@ -84,11 +76,7 @@ Both the work and the chorus of Guatemalan children were presented for the first
 
 Arts spaces are environments typically occupied by the privileged, and it is these people that interest me. This public, in general, does not understand the root causes of migration. The privileged are usually the most conditioned by official narratives, which are totally distorted. Somehow, my goal is to create a short circuit in all your notions, and through my works make people rethink their ideas about reality, and the world, as ideas to subvert from within. For example: I have nothing to explain to the migrants; they already live it day by day, right?{% footnote "Yoshua Okón, Personal interview. 11 June 2019. Skype interview." %}
 
-&nbsp;
-
-**Inside the Site**
-
-&nbsp;
+## Inside the Site
 
 >“Make art great again.”{% footnote "‘PROTOTYPES’, MAGA, 2018 [http://maga.co.com](http://maga.co.com) [accessed 12 February 2019]." %}
 
