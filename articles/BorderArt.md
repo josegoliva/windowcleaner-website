@@ -3,9 +3,9 @@ layout: post
 author: jose-olivia
 tags:
     - migration
-    - borderart
+    - border
     - online
-    - borders
+    - insitu
     
 
 title: A Brief Introduction to Border Art
