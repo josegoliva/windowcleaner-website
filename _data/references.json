@@ -305,7 +305,6 @@
       "socialservice",
       "community",
       "arteutil",
-      "immigrant",
       "migration",
       "language"
     ]
@@ -348,8 +347,7 @@
       "anti-racism",
       "politicalparty",
       "refugee",
-      "migration",
-      "immigrant"
+      "migration"
     ]
   },
   {
@@ -392,13 +390,12 @@
       "usmex",
       "crossingborders",
       "migration",
-      "immigrant",
       "refugee",
       "latino"
     ]
   },
   {
-    "Title": "One Million Finnish Passport",
+    "Title": "One Million Finnish Passports",
     "Date": "1995",
     "Location": "Helsinki",
     "Name": "Alfredo Jaar",
@@ -432,7 +429,6 @@
     "tags": [
       "refugee",
       "migration",
-      "immigrant",
       "crossingborders",
       "borders",
       "monument"
@@ -870,7 +866,7 @@
     "Date": "1998",
     "Location": "Lima",
     "Name": "Jennifer Allora and Guillermo Calzadilla",
-    "Link": "(Link)",
+    "Link": "h",
     "tags": [
       "publicintervention",
       "participatory",
@@ -881,21 +877,21 @@
   {
     "Title": "Semiotics of the kitchen",
     "Date": "1975",
-    "Location": "–",
+    "Location": "h",
     "Name": "Martha Rosler",
-    "Link": "–",
+    "Link": "h",
     "tags": [
-      "–"
+      "h"
     ]
   },
   {
     "Title": "Enemy Kitchen",
-    "Date": "–",
-    "Location": "–",
+    "Date": "h",
+    "Location": "h",
     "Name": "Michael Rakowitz",
-    "Link": "–",
+    "Link": "h",
     "tags": [
-      "–"
+      "h"
     ]
   },
   {
@@ -905,7 +901,7 @@
     "Name": "Urs Fischer",
     "Link": "http://www.ursfischer.com/images/424358",
     "tags": [
-      ""
+      "h"
     ]
   },
   {
@@ -915,47 +911,147 @@
     "Name": "David Burns and Austin Young",
     "Link": "http://fallenfruit.org/",
     "tags": [
-      ""
+      "h"
     ]
   },
   {
     "Title": "ALKETA XHAFA MRIPA",
-    "Date": "",
-    "Location": "",
-    "Name": "",
+    "Date": "h",
+    "Location": "h",
+    "Name": "h",
     "Link": "https://www.alketaxhafamripa.com/thinking-of-you?pgid=jobk6h2c-408f0832-8d2b-4c9f-853a-97c4ce1c6616",
     "tags": [
-      ""
+      "h"
     ]
   },
   {
-    "Title": "Nuria Guell ",
-    "Date": "",
-    "Location": "",
-    "Name": "",
-    "Link": "https://www.nuriaguell.com/",
+    "Title": "Humanitarian Aid",
+    "Date": "2008",
+    "Location": "Cuba Spain",
+    "Name": "Nuria Guell",
+    "Link": "https://www.nuriaguell.com/portfolio/ayuda-humanitaria/",
     "tags": [
-      ""
+      "marriage",
+      "migration",
+      "nationality",
+      "citizenship"
     ]
   },
   {
-    "Title": "Jasleen Kaur",
-    "Date": "",
-    "Location": "",
-    "Name": "",
-    "Link": "http://jasleenkaur.co.uk/welcome-mat/",
+    "Title": "Everyday Resistence",
+    "Date": "2019",
+    "Location": "London",
+    "Name": "Jasleen Kaur",
+    "Link": "http://jasleenkaur.co.uk/everyday-resistance/",
     "tags": [
-      ""
+      "cooking",
+      "community",
+      "culturalexchange"
     ]
   },
   {
-    "Title": "",
-    "Date": "",
-    "Location": "",
-    "Name": "",
+    "Title": "Singing Alone",
+    "Date": "2014",
+    "Location": "Online",
+    "Name": "Levi Orta",
     "Link": "http://www.studio-orta.com/en/artworks/serie/1/Shelter",
     "tags": [
-      ""
+      "singing",
+      "music",
+      "politicians"
+    ]
+  },
+  {
+    "Title": "The Flower Fair",
+    "Date": "2015",
+    "Location": "Medellin",
+    "Name": "Núria Güell",
+    "Link": "https://www.nuriaguell.com/portfolio/la-feria-de-las-flores/",
+    "tags": [
+      "minors",
+      "explotation",
+      "sex",
+      "children",
+      "tourism"
+    ]
+  },
+  {
+    "Title": "Offside",
+    "Date": "2009",
+    "Location": "Girona ",
+    "Name": "Núria Güell",
+    "Link": "https://www.nuriaguell.com/portfolio/fuera_de_juego/",
+    "tags": [
+      "refugee",
+      "games",
+      "migration"
+    ]
+  },
+  {
+    "Title": "Reflections About A Souvenir",
+    "Date": "2012",
+    "Location": "Berlin / Habana",
+    "Name": "Levi Orta",
+    "Link": "http://ortalevi.blogspot.com",
+    "tags": [
+      "borders",
+      "berlinwall",
+      "souvenir"
+    ]
+  },
+  {
+    "Title": "54 mm",
+    "Date": "2012",
+    "Location": "Vidreres",
+    "Name": "Núria Güell & Levi Orta",
+    "Link": "https://www.nuriaguell.com/portfolio/54-mm/",
+    "tags": [
+      "protest",
+      "police",
+      "publicspace",
+      "policebrutality"
+    ]
+  },
+  {
+    "Title": "h",
+    "Date": "h",
+    "Location": "h",
+    "Name": "h",
+    "Link": "https://www.studio-orta.com/en/artwork/3/refuge-wear-habitent",
+    "tags": [
+      "clothing",
+      "migration",
+      "refugee",
+      "shelter",
+      "homelessness"
+    ]
+  },
+  {
+    "Title": "Nexus Architecture",
+    "Date": "1995",
+    "Location": "Various countries",
+    "Name": "Lucy Orta & Jorge Orta",
+    "Link": "https://www.studio-orta.com/en/artwork/103/nexus-architecture-x-50-intervention-koeln",
+    "tags": [
+      "connectivity",
+      "community",
+      "collectivity",
+      "collaboration",
+      "solidarity",
+      "performance"
+    ]
+  },
+  {
+    "Title": "Laundry of Sorrows",
+    "Date": "1982",
+    "Location": "Boissy le Châtel",
+    "Name": "Lucy Orta & Jorge Orta",
+    "Link": "https://www.studio-orta.com/en/artwork/578/laundry-of-sorrows-1982",
+    "tags": [
+      "cleaning",
+      "dictatorship",
+      "performance",
+      "war"
     ]
   }
 ]
