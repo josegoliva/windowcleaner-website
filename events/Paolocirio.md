@@ -3,7 +3,7 @@ layout: event
 tags:
     - hacktivism 
     - data
-    - onlineplatform
+    - online platform
     - webinar
     - online
 title: Washing the Screen – RCA2020 with Paolo Cirio

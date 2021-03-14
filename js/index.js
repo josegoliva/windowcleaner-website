@@ -12,7 +12,6 @@ window.addEventListener('DOMContentLoaded', () => {
     logo.style.top = `${gri(25, 50)}%`
     logo.setAttribute('src', `/assets/logo-${gri(0, 3)}.png`)
     const options = {
-
         valueNames: [
             'reference-title',
             'reference-date',
@@ -21,8 +20,9 @@ window.addEventListener('DOMContentLoaded', () => {
             'tags-hidden'
         ]
     };
-    let sortableList = new List(referenceList, options);
-
+    if (referenceList) {
+        let sortableList = new List(referenceList, options);
+    }
     const events = document.querySelectorAll('.event, .event-card')
 
     events.forEach(event => {
@@ -42,7 +42,6 @@ window.addEventListener('DOMContentLoaded', () => {
     const fnModal = document.querySelector(".fn-modal")
 
     if (fnModal) {
-
         footnotes.forEach(fn => {
             fn.addEventListener('mouseover', () => {
                 const box = fn.getBoundingClientRect();
@@ -61,7 +60,6 @@ window.addEventListener('DOMContentLoaded', () => {
     const inlineImages = document.querySelectorAll(".inline-image")
     const imageModal = document.querySelector(".image-modal")
     if (imageModal) {
-
         inlineImages.forEach(img => {
             img.addEventListener('mouseover', () => {
                 imageModal.classList.add('active')
@@ -108,7 +106,7 @@ window.addEventListener('DOMContentLoaded', () => {
                 el.appendChild(h2)
                 el.appendChild(date)
                 homeEventContainer.appendChild(el)
-            } else if (start.isBefore(now) && end.isAfter(now)){
+            } else if (start.isBefore(now) && end.isAfter(now)) {
                 console.log("ongoing")
                 let el = document.createElement('article')
                 el.classList.add("post-card")

@@ -22,6 +22,9 @@ module.exports = function (eleventyConfig) {
     eleventyConfig.addFilter("renderMarkdown", function (value) {
         return md.render(value);
     });
+    eleventyConfig.addFilter("slug", function (s) {
+        return s.replace(/ /g, "-").replace("'", "").toLowerCase();
+    });
 
     eleventyConfig.addShortcode("inlineImage", function (url, caption) {
         if (!caption) { caption = '' }

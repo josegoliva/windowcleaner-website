@@ -3,7 +3,7 @@ layout: event
 tags:
     - community
     - participation
-    - publichousing
+    - public housing
     - redevelopment
 title: Is This Community Art? – Jessie Brennan
 date: 2019-10-16

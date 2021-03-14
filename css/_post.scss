@@ -379,26 +379,3 @@
   font-size: var(--ms--1);
   list-style: none;
 }
-
-.tag-list {
-  line-height: 1;
-  grid-column: 1 / 13;
-  .tag {
-    padding: 0.1em 0.6em;
-    padding-bottom: 0.28em;
-    font-weight: 600;
-    margin-right: 0.25em;
-    margin-bottom: 0.4em;
-    display: inline-block;
-    text-decoration: none;
-    text-transform: capitalize;
-    border-radius: 1em;
-    @include bp(m) {
-      font-size: var(--ms-2);
-    }
-    &:hover,
-    &:focus {
-      text-decoration: underline;
-    }
-  }
-}

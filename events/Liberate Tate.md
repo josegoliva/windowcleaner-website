@@ -1,11 +1,11 @@
 ---
 layout: event
 tags:
-    - climatechange
+    - climate change
     - institution
     - participatory
     - collective
-    - creativedisobedience
+    - creative disobedience
 title: Creative Interventions For Social Change – Liberate Tate
 date: 2020-06-18
 thumb: /assets/
