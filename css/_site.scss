@@ -30,6 +30,11 @@
       font-size: var(--ms-1);
     }
   }
+  @include bp(l) {
+    .home & {
+      font-size: var(--ms-2);
+    }
+  }
 
   a {
     text-decoration: underline;

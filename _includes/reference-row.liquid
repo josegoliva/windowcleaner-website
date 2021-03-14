@@ -18,7 +18,7 @@
     <td class='reference-tags'>
         {% if ref.tags[1] %}
         {% for tag in ref.tags %}
-            <a href='/tags/{{tag}}' class="reference-tag">{{tag}}</a>
+            <a href='/tags/{{tag | slug}}' class="reference-tag">{{tag}}</a>
         {% endfor %}
         {% endif %}
     </td>

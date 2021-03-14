@@ -2,12 +2,10 @@
 layout: post
 author: jose-olivia
 tags:
-    - participatoryperformance
+    - participatory performance
     - labour
     - participation
     - latino
-    
-
 title: Latinos Are Very Serviceable and People Here Like That
 date: 2020-08-28
 ---

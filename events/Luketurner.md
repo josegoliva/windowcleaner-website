@@ -2,8 +2,8 @@
 layout: event
 tags:
     - performance
-    - participatoryperformance
-    - socialmedia
+    - participatory performance
+    - social media
     - internet
 title: Actions Speak Louder – Luke Turner
 date: 2020-06-25

@@ -1,9 +1,9 @@
 ---
 layout: event
 tags:
-    - publicsphere
+    - public sphere
     - participation
-    - sociallyengagedart
+    - socially engaged art
     - collective
 title: Is This Public Sphere? – Dr Melanie Jordan (Freee Art Collective)
 date: 2019-11-20

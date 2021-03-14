@@ -9,7 +9,7 @@ fetch(sheetURL)
         parse(body, { columns: true }, function (err, data) {
             console.log(`${data.length} references found.`)
             data.forEach(row => {
-                row.tags = row.tags.split(" ")
+                row.tags = row.tags.split(";")
             })
             fs.writeFileSync('./_data/references.json', JSON.stringify(data, null, '  '))
         })
