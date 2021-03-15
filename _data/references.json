@@ -189,7 +189,7 @@
       "public intervention",
       "performance",
       "collective",
-      "radicalart"
+      "radical art"
     ]
   },
   {
@@ -302,7 +302,7 @@
     "Name": "Tania Bruguera ",
     "Link": "http://www.taniabruguera.com/cms/486-0-Immigrant+Movement+International.htm",
     "tags": [
-      "socials ervice",
+      "social service",
       "community",
       "arteutil",
       "migration",
@@ -345,7 +345,7 @@
     "tags": [
       "racism",
       "anti-racism",
-      "politicalparty",
+      "political party",
       "refugee",
       "migration"
     ]
@@ -375,7 +375,7 @@
     "tags": [
       "women's rights",
       "abortion",
-      "socials ervice",
+      "social service",
       "borders"
     ]
   },
@@ -441,7 +441,7 @@
     "Name": "Freee ",
     "Link": "https://www.freee.org.uk/works/the-economic-function-of-public-art-is-to-increase-the-value-of-private-property/",
     "tags": [
-      "publicart",
+      "public art",
       "art market",
       "gentrification",
       "collective"
@@ -467,9 +467,9 @@
     "Name": "Extinction Rebellion's member",
     "Link": "https://hyperallergic.com/528091/extinction-rebellion-sends-a-sinking-home-along-the-river-thames-warning-of-climate-disaster/",
     "tags": [
-      "climatechange",
+      "climate change",
       "public intervention",
-      "climateinaction",
+      "climate inaction",
       "flood"
     ]
   },
@@ -507,7 +507,7 @@
     "Link": "http://theilluminator.org/what-does-student-debt-mean-to-you/",
     "tags": [
       "video projection",
-      "lightintervention",
+      "light intervention",
       "collective",
       "projection intervention",
       "text-based"
@@ -554,7 +554,7 @@
       "borders",
       "usmex",
       "community",
-      "mentalhealth",
+      "mental health",
       "latino"
     ]
   },
@@ -567,8 +567,7 @@
     "tags": [
       "cleaning",
       "participatory performance",
-      "collective",
-      ""
+      "collective"
     ]
   },
   {
@@ -747,7 +746,7 @@
     "Link": "http://labeoufronkkoturner.com/projects/hewillnotdivideus/",
     "tags": [
       "anti-racism",
-      "publicinstallation",
+      "public installation",
       "moving image",
       "flag",
       "union"
@@ -829,8 +828,8 @@
     "Name": "Wai-shan, Clara Cheung and Wong Tin Yan ",
     "Link": "https://www.theartnewspaper.com/news/pro-democracy",
     "tags": [
-      "artandpolitics",
-      "hongkong"
+      "art and politics",
+      "hong kong"
     ]
   },
   {
@@ -845,7 +844,7 @@
       "dictator",
       "poverty",
       "oppression",
-      "dictatoship"
+      "dictatorship"
     ]
   },
   {
@@ -969,7 +968,7 @@
     "Link": "https://www.nuriaguell.com/portfolio/la-feria-de-las-flores/",
     "tags": [
       "minors",
-      "explotation",
+      "exploitation",
       "sex",
       "children",
       "tourism"
@@ -1008,12 +1007,12 @@
     "tags": [
       "protest",
       "police",
-      "publicspace",
-      "policebrutality"
+      "public space",
+      "police brutality"
     ]
   },
   {
-    "Title": "h",
+    "Title": "",
     "Date": "",
     "Location": "",
     "Name": "",
@@ -1035,7 +1034,7 @@
     "tags": [
       "connectivity",
       "community",
-      "collectivity",
+      "collective",
       "collaboration",
       "solidarity",
       "performance"
@@ -1052,6 +1051,19 @@
       "dictatorship",
       "performance",
       "war"
+    ]
+  },
+  {
+    "Title": "Conflict Kitchen ",
+    "Date": "2010",
+    "Location": "Pittsburgh",
+    "Name": "Jon Rubin ",
+    "Link": "https://www.conflictkitchen.org",
+    "tags": [
+      "cooking",
+      "conflict",
+      "culture exchange",
+      "cuisine"
     ]
   }
 ]

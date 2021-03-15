@@ -21,6 +21,7 @@
   hyphens: auto;
   grid-column: 1 / 13;
   margin-bottom: 1rem;
+  hyphens: none;
   @include bp(m) {
     margin-bottom: 6rem;
     font-size: var(--ms-0);
