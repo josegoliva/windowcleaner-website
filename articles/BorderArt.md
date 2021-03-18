@@ -9,7 +9,7 @@ tags:
     - border
     
 
-title: A Brief Introduction to Border Art
+title: A Brief Introduction to Border Interventions
 date: 2021-03-05
 ---
 
@@ -95,7 +95,17 @@ It is true that this guided tour does not demonstrate the cultural, economic, so
 
 These prototypes will be a perfect memorial to how close the United States came to giving in to the ghosts of racism, xenophobia, nativism, white nationalism, mediocrity, and a cosmic fear of the other. And this Trumpian monument will stand for this last gasp of the mythical infatuation with race. They will stand as a reminder of how D.H. Lawrence saw America reflected in Moby-Dick: “A mad ship, under a mad captain, in a mad, fanatic’s hunt” afraid of its “white abstract end.”{% footnote "*Ibid*" %}
 
-&nbsp;
+## Conclusion. Did a Brick Fall Off?
+
+There is no measurement of impact, nor of effectiveness, on which we can base our assessments to compare and conclude which of these works - *Turista Fronterizo*; *Oracle* or *PROTOTYPES* - had more significant repercussion in this notion of borders. Cuco Fusco was right when she told me by e-mail that: "Art cannot be measured by impact as if it were an earthquake. It often takes years to understand what it means and how it affects the development of art and people.”{% footnote "Coco Fusco "Re: Physicality of Alterity" Received by Jose Oliva, 02 Jun 2019. Email Interview." %}
+
+If we must contrast these three works, we can see how Yoshua Okón's work is more about observation and analysis, for instance, in the behaviour of the protagonists of this video installation: Therefore the audience is passive, unlike the work of Cuco Fusco and Ricardo Dominguez, and in the work of Büchel, in which the audience is active. One merits interaction to be able to unfold the different narratives of the work and in the other, the presence of the audience reinforces the manifesto. While reading critical reviews and articles of the work *PROTOTYPES*, I found a photo of one of the visits {% inlineImage "/assets/borderwalltour.png" "People visiting the prototypes. PROTOTYPES. MAGA. Image from: [https://www.borderwallprototypes.org](https://www.borderwallprototypes.org) "%}, which seemed to me in itself an allusion to what Büchel - consciously or unconsciously - wanted to show. If we look at the picture, we see a somewhat raw reality, a certain senselessness. An environment of visible poverty, in front of these monstrous, almost unreal, walls. Visitors with an attitude of tourists. And what most caught my attention, is a man with burlesque laughter, climbing parodically, and on one side a woman (perhaps his mother) making a photo of his occurrence. After seeing this image, I understood that the wall that does not allow us to see beyond is not physical but mental.
+
+In this thesis, I do not seek to compare the formats used in art, but I do look through the specific, vibrant context of the border between the United States and Mexico, and how these three artists, using these different media, have together sounded the alarm to highlight the issue of migration from different perspectives. Mark Tribe told me: “It is not a question of which art project is more effective than the other: Each one of those are small drops in the ocean, making together an ecosystem of resistance.”{% footnote "Mark Tribe, Personal interview. 13 June 2019. Skype interview." %} Tribe explained to me with a simple analogy, that it is "like a forest that has a great variety of types of trees-the big old trees, the new little sprouts, trees with and without flowers, trees beside the river and trees that makes a nice sound in the wind.”{% footnote "Mark Tribe, Personal interview. 13 June 2019. Skype interview." %} It is the same between these different works: Together, they reinforce these questions and make one have an active and critical position.
+
+In a moment of the interview I had with Yoshua Okón, I asked him if art had the power to break down a border wall? He told me: "We all have a notion of reality that is mostly constructed by the mass media, say official narratives, and art allows us to re-think and question these stories and formulate our own narratives, and this can have an effect on the reality, it can affect the world."{% footnote "Yoshua Okón, Personal interview. 11 June 2019. Skype interview." %}
+
+With this response, I call on artists and visual communicators to dare to plant trees in this ecosystem of resistance. Visual language has the potential to empathise and reconstruct a universal narrative, on issues that have to be confronted urgently. Currently migration is one of the critical issues that deserve greater attention at the level of government and across the international community. We are in a moment where the violations of human rights have increased the number of migrants dying in their attempts to cross borders to devastating levels (in the USA; in Ceuta/Melilla, Spain and throughout the Mediterranean, to name just a few examples). Visual communication, as we have seen in these three case studies, can raise controversy. It does not matter that they speak well or badly; the important thing is that they speak, and in the end give space to debate, and therefore to progress.
 
 
 
