@@ -12,7 +12,9 @@ title: Complaint Choir
 date: 2021-03-05
 ---
 
-## Singing with glitch
+## Singing With Glitches
+
+{% bigImage "/assets/complaintchoir.jpg" "Social media post to invite students to join. Jose Garcia Oliva"%}
 
 One, two, one, two, three, four. Since always, music has shaken ideologies. This prehistoric channel of expression has given us a stage to amplify our voices through melody, harmony, rhythm, timbre and tempo. Most social movements have hymns that portrait their fight. Music can be provocative and stimulating; therefore, it has been a cultural and political threat historically in some cases. It goes hand to hand; if one can freely express oneself, one can be censored{% footnote " 20 Banned songs [https://www.theguardian.com/music/2019/feb/14/the-greatest-banned-songs-of-all-time-ranked](https://www.theguardian.com/music/2019/feb/14/the-greatest-banned-songs-of-all-time-ranked)." %}. Nowadays, music with socio-political aims is widely labelled as protest songs. 
 
