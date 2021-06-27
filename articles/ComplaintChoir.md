@@ -57,7 +57,7 @@ All these discontents built up energy of collective action against the instituti
 4. We looked for a music student to compose the melody of the song.
 5. Once we got a large number of written complaints, we organised a workshop to write the lyrics collectively.
 6. We rehearsed several times. 
-7. We sang live during the RCA final show 2020 and recorded performance.
+7. We sang live during the RCA final show 2020 and recorded the performance.
 8. No further editing was made, except adding the subtitles. 
 
 <!-- blank line -->
