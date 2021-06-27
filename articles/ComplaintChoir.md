@@ -62,6 +62,6 @@ All these discontents built up energy of collective action against the instituti
 
 <!-- blank line -->
 <figure class="video_container">
-  <iframe src="https://www.youtube.com/embed/enMumwvLAug" frameborder="0" allowfullscreen="true"> </iframe>
+  <iframe src="https://player.vimeo.com/video/568033297" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 </figure>
 <!-- blank line -->
