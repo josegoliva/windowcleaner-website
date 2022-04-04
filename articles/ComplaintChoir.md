@@ -8,7 +8,7 @@ tags:
     - music
     
 
-title: Complaint Choir everyone
+title: Complaint Choir
 date: 2021-06-26
 ---
 {% bigImage "/assets/complaintchoir.jpg" ""%}
