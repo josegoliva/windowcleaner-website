@@ -22,7 +22,7 @@
     "csv-parse": "^4.10.1",
     "dayjs": "^1.8.28",
     "eleventy-plugin-sass": "*",
-    "jsdom": "^16.2.2",
+    "jsdom": "^16.5.0",
     "list.js": "^1.5.0",
     "modaal": "^0.4.4",
     "node-fetch": "^2.6.0",
